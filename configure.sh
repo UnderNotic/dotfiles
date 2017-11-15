@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# make git to remember credentials for 60minutes
+git config --global credential.helper 'cache --timeout=3600'
+
 # Update pkg lists
 echo "Updating package lists..."
 sudo apt-get update
@@ -47,12 +50,19 @@ echo "Now installing powerlevel9k..."
 echo ''
 git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k
 
-#nerd fonts for powerline install
+#fonts for powerline install
 echo ''
-echo "Now installing nerd-fonts..."
+echo "Now installing fonts..."
 echo ''
-mkdir -p ~/.local/share/fonts
-cd ~/.local/share/fonts && curl -fLo "Droid Sans Mono for Powerline Nerd Font Complete.otf" https://github.com/ryanoasis/nerd-fonts/raw/master/patched-fonts/DroidSansMono/complete/Droid%20Sans%20Mono%20Nerd%20Font%20Complete.otf
+# clone
+git clone https://github.com/powerline/fonts.git --depth=1
+# install
+cd fonts
+./install.sh
+# clean-up a bit
+cd ..
+rm -rf fonts
+sudo fc-cache -fv
 
 # Midnight commander install
 echo ''
@@ -123,6 +133,31 @@ else
     echo "You chose not to install Azure CLI. Exiting now."
 fi
 
+echo ''
+echo 'Installing nvm'
+echo ''
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.6/install.sh | bash
+
+source ~/.bashrc
+
+echo ''
+echo 'Installing nodejs'
+echo ''
+
+sudo . $NVM_DIR/nvm.sh && nvm install node
+sudo . $NVM_DIR/nvm.sh && nvm use node
+
+echo ''
+echo 'Installing ruby'
+echo ''
+sudo apt-get install ruby ruby-dev
+
+echo ''
+echo 'Installing Jekyll'
+echo ''
+sudo gem install jekyll
+
+
 # Set default shell to zsh
 echo ''
 read -p "Do you want to change your default shell? y/n" -n 1 -r
@@ -141,27 +176,5 @@ else
     echo "You chose not to install Azure CLI. Exiting now..."
 fi
 echo ''
-
-
-echo ''
-echo 'Installing nvm'
-echo ''
-curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.6/install.sh | bash
-
-echo ''
-echo 'Installing nodejs'
-echo ''
-nvm install node
-nvm use node
-
-echo ''
-echo 'Installing ruby'
-echo ''
-sudo apt-get install ruby
-
-echo ''
-echo 'Installing Jekyll'
-echo ''
-gem install jekyll
 
 echo '	Badass Setup is ready!'
