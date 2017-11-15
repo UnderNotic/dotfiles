@@ -1,0 +1,5 @@
+[user]
+        name = undernotic
+        email = undernotic@gmail.com
+[credential]
+        helper = GIT_CREDENTIAL_HELPER
