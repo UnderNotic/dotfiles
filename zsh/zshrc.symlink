@@ -54,7 +54,7 @@ export ZSH=$HOME/.dotfiles
 ZSH_THEME="powerlevel9k/powerlevel9k"
 POWERLEVEL9K_MODE='nerdfont-complete'
 
-plugins=(… zsh-completions zsh-autosuggestions zsh-syntax-highlighting)
+plugins=(git bundler dotenv node zsh-completions zsh-autosuggestions zsh-syntax-highlighting)
 
 
 autoload -U compinit && compinit
