@@ -84,13 +84,13 @@ then
 	echo "Now configuring symlinks..." && $HOME/.dotfiles/script/bootstrap
     if [[ $? -eq 0 ]]
     then
-        echo "Successfully configured your environment with jldeen's dotfiles..."
+        echo "Successfully configured your environment with undernotic dotfiles..."
     else
-        echo "jldeen's dotfiles were not applied successfully..." >&2
+        echo "undernotic dotfiles were not applied successfully..." >&2
 fi
 else 
 	echo ''
-    echo "You chose not to apply jldeen's dotfiles. You will need to configure your environment manually..."
+    echo "You chose not to apply undernotic dotfiles. You will need to configure your environment manually..."
 	echo ''
 	echo "Setting defaults for .zshrc and .bashrc..."
 	echo ''
