@@ -11,7 +11,7 @@ sudo apt-get update
 echo ''
 echo "Now installing zsh..."
 echo ''
-sudo apt install zsh -y
+sudo apt-get install zsh -y
 
 # Installing git completion
 echo ''
@@ -34,7 +34,6 @@ echo "Now installing oh-my-zsh..."
 echo ''
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
-
 # oh-my-zsh plugin install
 echo ''
 echo "Now installing oh-my-zsh plugins..."
@@ -43,25 +42,18 @@ git clone https://github.com/zsh-users/zsh-completions ~/.oh-my-zsh/custom/plugi
 git clone git://github.com/zsh-users/zsh-autosuggestions ~/.zsh/zsh-autosuggestions
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.zsh/zsh-syntax-highlighting
 
-
 # powerlevel9k install
 echo ''
 echo "Now installing powerlevel9k..."
 echo ''
 git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k
 
-#fonts for powerline install
+#nerd fonts for powerline install
 echo ''
-echo "Now installing fonts..."
+echo "Now installing nerd-fonts..."
 echo ''
-# clone
-git clone https://github.com/powerline/fonts.git --depth=1
-# install
-cd fonts
-./install.sh
-# clean-up a bit
-cd ..
-rm -rf fonts
+mkdir -p ~/.local/share/fonts
+cd ~/.local/share/fonts && curl -fLo "Droid Sans Mono for Powerline Nerd Font Complete.otf" https://github.com/ryanoasis/nerd-fonts/raw/master/patched-fonts/DroidSansMono/complete/Droid%20Sans%20Mono%20Nerd%20Font%20Complete.otf
 sudo fc-cache -fv
 
 # Midnight commander install
@@ -150,7 +142,7 @@ sudo . $NVM_DIR/nvm.sh && nvm use node
 echo ''
 echo 'Installing ruby'
 echo ''
-sudo apt-get install ruby ruby-dev
+sudo apt-get install ruby ruby-dev -y
 
 echo ''
 echo 'Installing Jekyll'
@@ -178,3 +170,9 @@ fi
 echo ''
 
 echo '	Badass Setup is ready!'
+
+echo ''
+echo 'Now installing additional tools'
+echo ''
+
+sudo apt-get install qnapi -y
