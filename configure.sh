@@ -7,6 +7,12 @@ git config --global credential.helper 'cache --timeout=3600'
 echo "Updating package lists..."
 sudo apt-get update
 
+# ruby install
+echo ''
+echo 'Installing ruby'
+echo ''
+sudo apt-get install ruby ruby-dev -y
+
 # zsh install
 echo ''
 echo "Now installing zsh..."
@@ -138,11 +144,6 @@ echo ''
 
 sudo . $NVM_DIR/nvm.sh && nvm install node
 sudo . $NVM_DIR/nvm.sh && nvm use node
-
-echo ''
-echo 'Installing ruby'
-echo ''
-sudo apt-get install ruby ruby-dev -y
 
 echo ''
 echo 'Installing Jekyll'
