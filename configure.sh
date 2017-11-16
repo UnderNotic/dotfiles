@@ -7,11 +7,31 @@ git config --global credential.helper 'cache --timeout=3600'
 echo "Updating package lists..."
 sudo apt-get update
 
+# nvm install
+echo ''
+echo 'Installing nvm'
+echo ''
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.6/install.sh | bash
+
+source ~/.bashrc
+
+# node install
+echo ''
+echo 'Installing nodejs'
+echo ''
+. $NVM_DIR/nvm.sh && nvm install node
+. $NVM_DIR/nvm.sh && nvm use node
+
 # ruby install
 echo ''
 echo 'Installing ruby'
 echo ''
 sudo apt-get install ruby ruby-dev -y
+
+echo ''
+echo 'Installing Jekyll'
+echo ''
+sudo gem install jekyll
 
 # zsh install
 echo ''
@@ -130,25 +150,6 @@ fi
 else 
     echo "You chose not to install Azure CLI. Exiting now."
 fi
-
-echo ''
-echo 'Installing nvm'
-echo ''
-curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.6/install.sh | bash
-
-source ~/.bashrc
-
-echo ''
-echo 'Installing nodejs'
-echo ''
-
-sudo . $NVM_DIR/nvm.sh && nvm install node
-sudo . $NVM_DIR/nvm.sh && nvm use node
-
-echo ''
-echo 'Installing Jekyll'
-echo ''
-sudo gem install jekyll
 
 
 # Set default shell to zsh
