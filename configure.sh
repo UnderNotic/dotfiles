@@ -7,32 +7,6 @@ git config --global credential.helper 'cache --timeout=3600'
 echo "Updating package lists..."
 sudo apt-get update
 
-# nvm install
-echo ''
-echo 'Installing nvm'
-echo ''
-curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.6/install.sh | bash
-
-source ~/.bashrc
-
-# node install
-echo ''
-echo 'Installing nodejs'
-echo ''
-. $NVM_DIR/nvm.sh && nvm install node
-. $NVM_DIR/nvm.sh && nvm use node
-
-# ruby install
-echo ''
-echo 'Installing ruby'
-echo ''
-sudo apt-get install ruby ruby-dev -y
-
-echo ''
-echo 'Installing Jekyll'
-echo ''
-sudo gem install jekyll
-
 # zsh install
 echo ''
 echo "Now installing zsh..."
@@ -82,6 +56,33 @@ mkdir -p ~/.local/share/fonts
 cd ~/.local/share/fonts && curl -fLo "Droid Sans Mono for Powerline Nerd Font Complete.otf" https://github.com/ryanoasis/nerd-fonts/raw/master/patched-fonts/DroidSansMono/complete/Droid%20Sans%20Mono%20Nerd%20Font%20Complete.otf
 sudo fc-cache -fv
 
+# nvm install
+echo ''
+echo 'Installing nvm'
+echo ''
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.6/install.sh | bash
+
+source ~/.bashrc
+
+# node install
+echo ''
+echo 'Installing nodejs'
+echo ''
+. $NVM_DIR/nvm.sh && nvm install node
+. $NVM_DIR/nvm.sh && nvm use node
+
+# ruby install
+echo ''
+echo 'Installing ruby'
+echo ''
+sudo apt-get install ruby ruby-dev -y
+
+# jekyll install
+echo ''
+echo 'Installing Jekyll'
+echo ''
+sudo gem install jekyll
+
 # Midnight commander install
 echo ''
 echo "Now installing Midnight commander..."
@@ -129,7 +130,6 @@ else
 	echo "source $HOME/.git-completion.bash" >> ${ZDOTDIR:-$HOME}/.bashrc && echo "added git-completion to .bashrc..."
 	
 fi
-
 
 # Setup and configure az cli
 echo ''
