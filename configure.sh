@@ -7,6 +7,12 @@ git config --global credential.helper 'cache --timeout=3600'
 echo "Updating package lists..."
 sudo apt-get update
 
+#grc install
+echo ''
+echo "Now installing grc..."
+echo ''
+sudo apt-get install grc -y
+
 # zsh install
 echo ''
 echo "Now installing zsh..."
@@ -21,10 +27,10 @@ sudo apt-get install git bash-completion -y
 echo ''
 echo "Now configuring git-completion..."
 GIT_VERSION=`git --version | awk '{print $3}'`
-URL="https://raw.github.com/git/git/v$GIT_VERSION/contrib/completion/git-completion.bash"
+URL="https://raw.githubusercontent.com/git/git/v$GIT_VERSION/contrib/completion/git-completion.zsh"
 echo ''
 echo "Downloading git-completion for git version: $GIT_VERSION..."
-if ! curl "$URL" --silent --output "$HOME/.git-completion.bash"; then
+if ! curl "$URL" --silent --output "$HOME/.git-completion.zsh"; then
 	echo "ERROR: Couldn't download completion script. Make sure you have a working internet connection." && exit 1
 fi
 
@@ -112,6 +118,7 @@ then
 	echo "Checking out master branch..." && git checkout master
 	echo ''
 	echo "Now configuring symlinks..." && $HOME/.dotfiles/script/bootstrap
+	echo "Now installing..." && $HOME/.dotfiles/script/install
     if [[ $? -eq 0 ]]
     then
         echo "Successfully configured your environment with undernotic dotfiles..."
@@ -127,9 +134,6 @@ else
 	echo "source $HOME/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> ${ZDOTDIR:-$HOME}/.zshrc && echo "added zsh-syntax-highlighting to .zshrc..."
 	echo ''
 	echo "source $HOME/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh" >> ${ZDOTDIR:-$HOME}/.zshrc && echo "added zsh-autosuggestions to .zshrc..."
-	echo ''
-	echo "source $HOME/.git-completion.bash" >> ${ZDOTDIR:-$HOME}/.bashrc && echo "added git-completion to .bashrc..."
-	
 fi
 
 # Setup and configure az cli
