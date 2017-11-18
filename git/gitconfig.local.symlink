@@ -2,7 +2,7 @@
         name = undernotic
         email = undernotic@gmail.com
 [credential]
-        helper = GIT_CREDENTIAL_HELPER
+        helper = cache
 [credential "https://github.com"]
         username = undernotic     
-        helper = GIT_CREDENTIAL_HELPER      
+        helper = cache
