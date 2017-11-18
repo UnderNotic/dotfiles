@@ -1,3 +1,9 @@
+# Installation
+
+``` bash
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/undernotic/dotfiles/master/configure.sh)"
+```
+
 # holman does dotfiles
 
 Your dotfiles are how you personalize your system. These are mine.
