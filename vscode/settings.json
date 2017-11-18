@@ -1,0 +1,32 @@
+// Place your settings in this file to overwrite the default settings
+{
+    "workbench.editor.showTabs": false,
+    "files.autoSave": "onFocusChange",
+    "editor.formatOnSave": false,
+    "files.exclude": {
+        "**/.git": true,
+        "**/.DS_Store": true,
+        "node_modules": true,
+        "jspm_packages": true,
+        "bower_component": true,
+        ".github": true,
+        "typings": true
+    },
+    "search.exclude": {
+        "dist": true,
+        "build": true
+    },
+    "eslint.enable": true,
+    "sync.gist": "c9cff432fe93163a635b505d4f53bab8",
+    "sync.quietSync": false,
+    "sync.lastUpload": "2017-11-02T12:17:01.658Z",
+    "sync.autoDownload": false,
+    "sync.autoUpload": false,
+    "sync.lastDownload": "",
+    "sync.forceDownload": false,
+    "sync.anonymousGist": false,
+    "sync.host": "",
+    "sync.pathPrefix": "",
+    "sync.askGistName": false,
+    "window.zoomLevel": 0
+}
