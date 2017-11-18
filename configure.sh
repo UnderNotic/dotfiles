@@ -68,8 +68,9 @@ source ~/.bashrc
 echo ''
 echo 'Installing nodejs'
 echo ''
-bash $NVM_DIR/nvm.sh && nvm install node
-bash $NVM_DIR/nvm.sh && nvm use node
+source ~/.nvm/nvm.sh
+nvm install node
+nvm use node
 
 # ruby install
 echo ''
