@@ -1,4 +1,6 @@
 # your project folder that we can `c [tab]` to
 export PROJECTS=~/workspace/projects
+export P=~/workspace/projects
+export W=~/workspace
 
 export EDITOR="code"
