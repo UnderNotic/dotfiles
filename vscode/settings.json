@@ -28,5 +28,6 @@
     "sync.host": "",
     "sync.pathPrefix": "",
     "sync.askGistName": false,
-    "window.zoomLevel": 0
+    "window.zoomLevel": 0,
+    "terminal.integrated.fontFamily": "'SourceCodePro+Powerline+Awesome Regular'"
 }
