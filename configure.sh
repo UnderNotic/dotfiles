@@ -62,22 +62,6 @@ mkdir -p ~/.local/share/fonts
 yes | cp -f ./fonts/SourceCodePro+Powerline+Awesome+Regular.ttf ~/.local/share/fonts
 sudo fc-cache -fv
 
-# nvm install
-echo ''
-echo 'Installing nvm'
-echo ''
-curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.6/install.sh | bash
-
-source ~/.bashrc
-
-# node install
-echo ''
-echo 'Installing nodejs'
-echo ''
-source ~/.nvm/nvm.sh
-nvm install node
-nvm use node
-
 # ruby install
 echo ''
 echo 'Installing ruby'
