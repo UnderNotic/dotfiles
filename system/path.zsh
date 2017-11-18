@@ -1,1 +1,0 @@
-export PROJECTS="~/workspace/projects"
