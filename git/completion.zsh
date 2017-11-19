@@ -1,2 +1,2 @@
 
-source ~/.git-completion.zsh
+zstyle ':completion:*:*:git:*' script ~/.git-completion.zsh
