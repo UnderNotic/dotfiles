@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# mouse sensivity on pc 1000dpi mouse
+#xinput --set-prop 10 299 3
+
 # make git to remember credentials for 60minutes
 git config --global credential.helper 'cache --timeout=3600'
 
