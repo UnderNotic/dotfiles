@@ -7,8 +7,15 @@
 git config --global credential.helper 'cache --timeout=3600'
 
 # Update pkg lists
+echo ''
 echo "Updating package lists..."
+echo ''
 sudo apt-get update
+
+echo ''
+echo "Installing dev essentials"
+echo ''
+sudo apt-get install build-essential g++
 
 #grc install
 echo ''
