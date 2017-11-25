@@ -1,7 +1,8 @@
 #!/bin/bash
 
 # mouse sensivity on pc 1000dpi mouse
-#xinput --set-prop 10 299 2
+# should be runned on startup to do so add below line to: sudo nano /etc/rc.local
+# xinput --set-prop 10 299 2
 
 # make git to remember credentials for 60minutes
 git config --global credential.helper 'cache --timeout=3600'
