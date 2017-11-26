@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # mouse sensivity on pc 1000dpi mouse
-# should be runned on startup to do so add below line to: sudo nano /etc/rc.local
+# should be runned on startup to do so add below line to: sudo nano /etc/rc.local and enabled by sudo systemctl enable rc-local.service
 # xinput --set-prop 10 299 2
 
 # make git to remember credentials for 60minutes
