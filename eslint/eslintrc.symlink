@@ -1,0 +1,30 @@
+{
+	/* See all the pre-defined configs here: https://www.npmjs.com/package/eslint-config-defaults */
+	"extends": [
+		"eslint:recommended",
+		"plugin:react/recommended"
+	],
+	"rules": {
+		"no-console": "off"
+	},
+	"parserOptions": {
+		"ecmaVersion": 8,
+		"sourceType": "module",
+		"ecmaFeatures": {
+			"jsx": true
+		}
+	},
+	"plugins": [
+		"react",
+		"jest"
+	],
+	"env": {
+		"amd": true,
+		"browser": true,
+		"jquery": true,
+		"node": true,
+		"es6": true,
+		"worker": true,
+		"jest/globals": true
+	}
+}
