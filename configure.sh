@@ -65,7 +65,7 @@ echo "Now installing powerlevel9k..."
 echo ''
 git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k
 
-#nerd fonts for powerline install
+#fonts for powerline install
 echo ''
 echo "Now installing nerd-fonts..."
 echo ''
