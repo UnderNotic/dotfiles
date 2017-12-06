@@ -71,6 +71,10 @@ echo "Now installing nerd-fonts..."
 echo ''
 mkdir -p ~/.local/share/fonts
 yes | cp -f ./fonts/SourceCodePro+Powerline+Awesome+Regular.ttf ~/.local/share/fonts
+yes | cp -f ./fonts/Ubuntu+Mono+Nerd+Font+Complete+Mono Windows+Compatible.ttf ~/.local/share/fonts
+yes | cp -f ./fonts/Sauce+Code+Pro+Nerd+Font+Complete+Windows+Compatible.ttf ~/.local/share/fonts
+yes | cp -f ./fonts/Sauce+Code+Pro+Nerd+Font+Complete Mono.ttf ~/.local/share/fonts
+yes | cp -f ./fonts/Sauce+Code+Pro+Nerd+Font+Complete.ttf ~/.local/share/fonts
 sudo fc-cache -fv
 
 # ruby install
