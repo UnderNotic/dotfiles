@@ -23,6 +23,12 @@
 [difftool "default-difftool"]
     cmd = code --wait --diff $LOCAL $REMOTE
 
+[merge]
+    tool = vscode
+    
+[mergetool "vscode"]
+    cmd = code --wait $MERGED
+
 [apply]
         whitespace = nowarn
 
