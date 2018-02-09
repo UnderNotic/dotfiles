@@ -90,6 +90,12 @@ echo ''
 sudo gem install bundler
 sudo gem install jekyll
 
+# travss install
+echo ''
+echo 'Installing Jekyll'
+echo ''
+gem install travis
+
 # Midnight commander install
 echo ''
 echo "Now installing Midnight commander..."
