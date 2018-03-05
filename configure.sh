@@ -4,8 +4,9 @@
 # should be runned on startup to do so add below line to: sudo nano /etc/rc.local and enabled by sudo systemctl enable rc-local.service
 # xinput --set-prop 10 299 2
 
-# make git to remember credentials for 60minutes
-git config --global credential.helper 'cache --timeout=3600'
+# Add all needed PPA's
+# TODO
+# FOR QNAPI sudo add-apt-repository ppa:krzemin/qnapi
 
 # Update pkg lists
 echo ''
