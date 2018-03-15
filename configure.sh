@@ -13,11 +13,12 @@ echo ''
 echo "Updating package lists..."
 echo ''
 sudo apt-get update
+sudo apt -y upgrade
 
 echo ''
 echo "Installing dev essentials"
 echo ''
-sudo apt-get install build-essential g++ -y
+sudo apt-get install software-properties-common wget curl git build-essential g++ libssl-dev apt-transport-https ca-certificates -y
 
 #grc install
 echo ''
@@ -31,10 +32,10 @@ echo "Now installing zsh..."
 echo ''
 sudo apt-get install zsh -y
 
-# Installing git completion
+# Installing git autocomplete
 echo ''
 echo "Now installing git and bash-completion..."
-sudo apt-get install git bash-completion -y
+sudo apt-get install bash-completion -y
 
 echo ''
 echo "Now configuring git-completion..."
@@ -93,7 +94,7 @@ sudo gem install jekyll
 
 # travss install
 echo ''
-echo 'Installing Jekyll'
+echo 'Installing Travis secrets generator'
 echo ''
 gem install travis
 
@@ -109,6 +110,31 @@ echo "Now installing solarized dark WSL color scheme..."
 echo ''
 wget https://raw.githubusercontent.com/seebi/dircolors-solarized/master/dircolors.256dark
 mv dircolors.256dark .dircolors
+
+# Nautilus addons
+echo ''
+echo "Now installing Nautilus addons..."
+echo ''
+sudo apt-get install nautilus-image-converter nautilus-compare nautilus-wipe -y
+
+# Httpie
+echo ''
+echo "Now installing Httpie..."
+echo ''
+sudo apt-get install httpie -y
+
+# MySql
+# echo ''
+# echo "Now installing mysql..."
+# echo ''
+# sudo apt install mysql-server -y
+# sudo apt install mysql-workbench -y
+
+# Postgres
+# echo ''
+# echo "Now installing postgres..."
+# echo ''
+# sudo apt install postgresql postgresql-contrib pgadmin3 -y	
 
 # Pull down personal dotfiles
 echo ''
