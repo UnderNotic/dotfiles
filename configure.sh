@@ -17,7 +17,7 @@ sudo apt-get update
 echo ''
 echo "Installing dev essentials"
 echo ''
-sudo apt-get install build-essential g++
+sudo apt-get install build-essential g++ -y
 
 #grc install
 echo ''
