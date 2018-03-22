@@ -216,3 +216,5 @@ echo 'Now installing additional tools'
 echo ''
 
 sudo apt-get install qnapi -y
+
+sudo apt -y autoremove
