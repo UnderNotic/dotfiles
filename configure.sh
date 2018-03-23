@@ -67,10 +67,12 @@ echo "Now installing powerlevel9k..."
 echo ''
 git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k
 
-#fonts for powerline install
+# fonts for powerline install
 echo ''
 echo "Now installing nerd-fonts..."
 echo ''
+
+# for ubuntu 'sudo mkdir -p /usr/share/fonts/added'
 mkdir -p ~/.local/share/fonts
 yes | cp -f ./fonts/SourceCodePro+Powerline+Awesome+Regular.ttf ~/.local/share/fonts
 yes | cp -f ./fonts/Ubuntu+Mono+Nerd+Font+Complete+Mono Windows+Compatible.ttf ~/.local/share/fonts
