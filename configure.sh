@@ -56,11 +56,13 @@ if ! curl "$URL" --silent --output "$HOME/.git-completion.zsh"; then
 	echo "ERROR: Couldn't download completion script. Make sure you have a working internet connection." && exit 1
 fi
 
-# oh-my-zsh install
+# oh-my-zsh install (type exit once installed to continue this script)
 echo ''
 echo "Now installing oh-my-zsh..."
 echo ''
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+echo "You will have to type 'exit' to continue this script"
+
 
 # oh-my-zsh plugin install
 echo ''
@@ -133,6 +135,13 @@ echo ''
 echo "Now installing Httpie..."
 echo ''
 sudo apt-get install httpie -y
+
+# Drivers for usb smart card reader
+echo ''
+echo "Smart card reader..."
+echo ''
+sudo apt-get install pcscd 
+sudo apt-get install pcsc-tools
 
 # MySql
 # echo ''
