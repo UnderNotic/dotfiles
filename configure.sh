@@ -8,6 +8,15 @@
 # TODO
 # FOR QNAPI sudo add-apt-repository ppa:krzemin/qnapi
 
+
+# Creating project structure
+echo ''
+echo "Creating project structure..."
+echo ''
+mkdir -p ~/workspace/projects
+mkdir -p ~/workspace/101
+mkdir -p ~/workspace/open_source
+
 # Update pkg lists
 echo ''
 echo "Updating package lists..."
