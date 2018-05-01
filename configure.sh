@@ -27,7 +27,7 @@ sudo apt -y upgrade
 echo ''
 echo "Installing dev essentials"
 echo ''
-sudo apt-get install software-properties-common wget curl git kdiff3 build-essential g++ libssl-dev apt-transport-https ca-certificates -y
+sudo apt-get install software-properties-common wget curl git kdiff3 build-essential g++ libssl-dev apt-transport-https ca-certificates zlib1g-dev -y
 
 #grc install
 echo ''
