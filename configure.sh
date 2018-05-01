@@ -143,6 +143,16 @@ echo ''
 sudo apt-get install pcscd 
 sudo apt-get install pcsc-tools
 
+# Qnapi
+echo ''
+echo 'Now installing qnapi'
+echo ''
+sudo apt-get install qnapi -y
+
+
+sudo apt -y autoremove
+
+
 # MySql
 # echo ''
 # echo "Now installing mysql..."
@@ -231,10 +241,3 @@ echo ''
 
 echo '	Badass Setup is ready!'
 
-echo ''
-echo 'Now installing additional tools'
-echo ''
-
-sudo apt-get install qnapi -y
-
-sudo apt -y autoremove
