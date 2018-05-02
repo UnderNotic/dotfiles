@@ -4,6 +4,8 @@
 # should be runned on startup to do so add below line to: sudo nano /etc/rc.local and enabled by sudo systemctl enable rc-local.service
 # xinput --set-prop 10 299 2
 
+# for ubuntu gnome install 'Alt-Tab Switcher Popup Delay Removal' from ubuntu software center
+
 # Add all needed PPA's
 # TODO
 # FOR QNAPI sudo add-apt-repository ppa:krzemin/qnapi
