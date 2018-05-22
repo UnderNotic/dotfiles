@@ -31,7 +31,13 @@ echo "Installing dev essentials"
 echo ''
 sudo apt-get install software-properties-common wget curl git kdiff3 build-essential g++ libssl-dev apt-transport-https ca-certificates zlib1g-dev -y
 
-#grc install
+echo ''
+echo "Installing netstat etc."
+echo ''
+# netstat install
+sudo apt-get install net-tools -y
+
+# grc install
 echo ''
 echo "Now installing grc..."
 echo ''
@@ -141,8 +147,8 @@ sudo apt-get install httpie -y
 echo ''
 echo "Smart card reader..."
 echo ''
-sudo apt-get install pcscd 
-sudo apt-get install pcsc-tools
+sudo apt-get install pcscd  -y
+sudo apt-get install pcsc-tools -y
 
 # Qnapi
 echo ''
