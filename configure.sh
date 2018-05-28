@@ -154,8 +154,15 @@ sudo apt-get install pcsc-tools -y
 echo ''
 echo 'Now installing qnapi'
 echo ''
+sudo add-apt-repository ppa:krzemin/qnapi -y
 sudo apt-get install qnapi -y
 
+# Peek for gif screen recording
+echo ''
+echo 'Now installing peek'
+echo ''
+sudo add-apt-repository ppa:peek-developers/stable  -y
+sudo apt-get install peek -y
 
 sudo apt -y autoremove
 
