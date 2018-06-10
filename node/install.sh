@@ -15,4 +15,4 @@ source ~/.nvm/nvm.sh
 nvm install node
 nvm use node
 
-npm install -g nodemon create-react-app jest eslint babel-eslint eslint-config-defaults eslint-plugin-react eslint-plugin-jest forever http-server pm2 tldr typescript webpack webpack-dev-server artillery markdown-to-medium testcafe yarn
+npm install -g nodemon create-react-app jest eslint babel-eslint eslint-config-defaults eslint-plugin-react eslint-plugin-jest forever http-server pm2 tldr typescript webpack webpack-dev-server artillery markdown-to-medium testcafe yarn gifski
