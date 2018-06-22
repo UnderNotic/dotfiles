@@ -10,6 +10,11 @@
 # TODO
 # FOR QNAPI sudo add-apt-repository ppa:krzemin/qnapi
 
+#Use hardware local time
+echo ''
+echo "Use hardware local time..."
+echo ''
+timedatectl set-local-rtc 1
 
 # Configuring max file watches
 echo ''
