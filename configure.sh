@@ -11,6 +11,12 @@
 # FOR QNAPI sudo add-apt-repository ppa:krzemin/qnapi
 
 
+# Configuring max file watches
+echo ''
+echo "Configuring max file watches..."
+echo ''
+echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p
+
 # Creating project structure
 echo ''
 echo "Creating project structure..."
