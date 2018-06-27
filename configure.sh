@@ -177,6 +177,11 @@ sudo apt-get install peek -y
 
 sudo apt -y autoremove
 
+# Glances for monitoring, task manager
+echo ''
+echo 'Now installing glances'
+echo ''
+curl -L https://bit.ly/glances | /bin/bash
 
 # MySql
 # echo ''
