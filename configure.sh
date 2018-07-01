@@ -183,6 +183,22 @@ echo 'Now installing glances'
 echo ''
 curl -L https://bit.ly/glances | /bin/bash
 
+echo ''
+read -p "Do you want to install battery management tools (usefull for notebooks)? y/n" -n 1 -r
+echo    # (optional) move to a new line
+if [[ $REPLY =~ ^[Yy]$ ]]
+then
+echo ''
+echo 'Now installing tlp'
+echo ''
+sudo apt install tlp tlp-rdw  #linux power management for laptops
+sudo tlp start
+fi
+
+# usual suspects for devops stuff
+# sudo apt install postgresql-client docker.io sqlite3
+# sudo usermod -aG docker $USER
+
 # MySql
 # echo ''
 # echo "Now installing mysql..."
@@ -268,6 +284,18 @@ else
     echo "You chose not to install Azure CLI. Exiting now..."
 fi
 echo ''
+
+echo ''
+echo 'Now installing ripgrep and fzf'
+echo ''
+#Fzf and ripgrep for files fuzzy searching
+git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
+~/.fzf/install
+
+curl -LO https://github.com/BurntSushi/ripgrep/releases/download/0.8.1/ripgrep_0.8.1_amd64.deb
+sudo dpkg -i ripgrep_0.8.1_amd64.deb
+rm ripgrep_0.8.1_amd64.deb
+
 
 echo '	Badass Setup is ready!'
 
