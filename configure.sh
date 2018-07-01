@@ -305,6 +305,15 @@ curl -LO https://github.com/BurntSushi/ripgrep/releases/download/0.8.1/ripgrep_0
 sudo dpkg -i ripgrep_0.8.1_amd64.deb
 rm ripgrep_0.8.1_amd64.deb
 
+echo ''
+echo 'Now installing themes, papirus icons'
+echo ''
+#Papirus icons
+sudo add-apt-repository ppa:papirus/papirus -y
+sudo apt-get install papirus-icon-theme -y
+sudo apt install variety -y
+sudo apt install arc-theme -y
+sudo apt install materia-gtk-theme -y
 
 echo '	Badass Setup is ready!'
 
