@@ -101,7 +101,7 @@ git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/theme
 echo ''
 echo "Now installing nerd-fonts..."
 echo ''
-
+# change terminal to use sourcecodepro-powerline-awesome-regular font
 sudo mkdir -p /usr/share/fonts/added
 yes | sudo cp -f ./fonts/SourceCodePro+Powerline+Awesome+Regular.ttf /usr/share/fonts/added
 yes | sudo cp -f ./fonts/Ubuntu+Mono+Nerd+Font+Complete+Mono+Windows+Compatible.ttf /usr/share/fonts/added
