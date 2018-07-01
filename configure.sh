@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# to check https://github.com/clvv/fasd
+
 # mouse sensivity on pc 1000dpi mouse
 # should be runned on startup to do so add below line to: sudo nano /etc/rc.local and enabled by sudo systemctl enable rc-local.service
 # xinput --set-prop 10 299 2
@@ -109,6 +111,7 @@ yes | sudo cp -f ./fonts/Sauce+Code+Pro+Nerd+Font+Complete+Windows+Compatible.tt
 yes | sudo cp -f ./fonts/Sauce+Code+Pro+Nerd+Font+Complete+Mono.ttf /usr/share/fonts/added
 yes | sudo cp -f ./fonts/Sauce+Code+Pro+Nerd+Font+Complete.ttf /usr/share/fonts/added
 sudo fc-cache -fv
+sudo apt install fonts-robot
 
 # ruby install
 echo ''
@@ -123,11 +126,17 @@ echo ''
 sudo gem install bundler
 sudo gem install jekyll
 
-# travss install
+# travis install
 echo ''
 echo 'Installing Travis secrets generator'
 echo ''
 gem install travis
+
+# jq json query tool install
+echo ''
+echo 'Installing jq'
+echo ''
+sudo apt install jq
 
 # Midnight commander install
 echo ''
