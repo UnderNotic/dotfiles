@@ -311,7 +311,7 @@ echo ''
 #Papirus icons
 sudo add-apt-repository ppa:papirus/papirus -y
 sudo apt-get install papirus-icon-theme -y
-sudo apt install variety -y
+# sudo apt install variety -y
 sudo apt install arc-theme -y
 sudo apt install materia-gtk-theme -y
 sudo apt install conky
