@@ -329,6 +329,11 @@ sudo apt install materia-gtk-theme -y
 sudo apt install conky -y
 
 echo ''
+echo 'Installing clamav antivirus'
+echo ''
+sudo apt install clamav -y
+
+echo ''
 echo 'Cleaning apt packages'
 echo ''
 sudo apt autoremove -y
