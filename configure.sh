@@ -42,7 +42,7 @@ sudo apt -y upgrade
 echo ''
 echo "Installing dev essentials"
 echo ''
-sudo apt-get install software-properties-common wget curl git kdiff3 build-essential g++ libssl-dev apt-transport-https ca-certificates zlib1g-dev -y
+sudo apt-get install software-properties-common wget curl git kdiff3 build-essential g++ gcc libssl-dev apt-transport-https ca-certificates zlib1g-dev -y
 
 echo ''
 echo "Installing netstat etc."
@@ -108,6 +108,25 @@ sudo mkdir -p /usr/share/fonts/added
 yes | sudo cp -rf ./fonts/* /usr/share/fonts/added
 sudo apt install fonts-robot -y
 sudo fc-cache -fv
+
+# dotnet core install
+echo ''
+echo 'Installing dotnet core'
+echo ''
+wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > microsoft.asc.gpg
+sudo mv microsoft.asc.gpg /etc/apt/trusted.gpg.d/
+wget -q https://packages.microsoft.com/config/ubuntu/18.04/prod.list 
+sudo mv prod.list /etc/apt/sources.list.d/microsoft-prod.list
+sudo chown root:root /etc/apt/trusted.gpg.d/microsoft.asc.gpg
+sudo chown root:root /etc/apt/sources.list.d/microsoft-prod.list
+sudo apt-get update
+sudo apt-get install dotnet-sdk-2.1
+
+# python install
+echo ''
+echo 'Installing python'
+echo ''
+sudo apt install python python-dev python-pip python-setuptools -y
 
 # ruby install
 echo ''
@@ -255,7 +274,7 @@ echo ''
 if [[ $REPLY =~ ^[Yy]$ ]]
 then
 	echo "Now installing az cli..."
-    sudo apt-get install python libssl-dev libffi-dev python-dev build-essential -y
+    sudo apt-get install libssl-dev libffi-dev -y
 	curl -L https://aka.ms/InstallAzureCli | bash
 	exec -l $SHELL
     if [[ $? -eq 0 ]]
