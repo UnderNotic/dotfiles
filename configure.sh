@@ -184,8 +184,6 @@ echo ''
 sudo add-apt-repository ppa:peek-developers/stable  -y
 sudo apt-get install peek -y
 
-sudo apt -y autoremove
-
 # Glances for monitoring, task manager
 echo ''
 echo 'Now installing glances'
@@ -315,6 +313,12 @@ sudo apt-get install papirus-icon-theme -y
 sudo apt install arc-theme -y
 sudo apt install materia-gtk-theme -y
 sudo apt install conky -y
+
+echo ''
+echo 'Cleaning apt packages'
+echo ''
+sudo apt autoremove -y
+sudo apt autoclean -y
 
 echo '	Badass Setup is ready!'
 
