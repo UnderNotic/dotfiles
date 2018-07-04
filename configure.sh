@@ -42,7 +42,7 @@ sudo apt -y upgrade
 echo ''
 echo "Installing dev essentials"
 echo ''
-sudo apt-get install software-properties-common wget curl git kdiff3 build-essential g++ gcc libssl-dev apt-transport-https ca-certificates zlib1g-dev -y
+sudo apt-get install software-properties-common wget curl file git kdiff3 build-essential g++ gcc libssl-dev apt-transport-https ca-certificates zlib1g-dev -y
 
 echo ''
 echo "Installing netstat etc."
@@ -120,7 +120,7 @@ sudo mv prod.list /etc/apt/sources.list.d/microsoft-prod.list
 sudo chown root:root /etc/apt/trusted.gpg.d/microsoft.asc.gpg
 sudo chown root:root /etc/apt/sources.list.d/microsoft-prod.list
 sudo apt-get update
-sudo apt-get install dotnet-sdk-2.1
+sudo apt-get install dotnet-sdk-2.1 -y
 
 # python install
 echo ''
@@ -323,7 +323,7 @@ echo ''
 #Papirus icons
 sudo add-apt-repository ppa:papirus/papirus -y
 sudo apt-get install papirus-icon-theme -y
-# sudo apt install variety -y
+# sudo apt install variety -y #dynamic wallpaper change
 sudo apt install arc-theme -y
 sudo apt install materia-gtk-theme -y
 sudo apt install conky -y
@@ -339,5 +339,6 @@ echo ''
 sudo apt autoremove -y
 sudo apt autoclean -y
 
-echo '	Badass Setup is ready!'
-
+echo '######################'
+echo 'Badass Setup is ready!'
+echo '######################'
