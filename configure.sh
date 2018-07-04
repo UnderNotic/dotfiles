@@ -151,11 +151,11 @@ echo ''
 wget https://raw.githubusercontent.com/seebi/dircolors-solarized/master/dircolors.256dark
 mv dircolors.256dark .dircolors
 
-# Nautilus addons
-echo ''
-echo "Now installing Nautilus addons..."
-echo ''
-sudo apt-get install nautilus-image-converter nautilus-compare nautilus-wipe -y
+# Nautilus addons (Ubuntu)
+# echo ''
+# echo "Now installing Nautilus addons..."
+# echo ''
+# sudo apt-get install nautilus-image-converter nautilus-compare nautilus-wipe -y
 
 # Httpie
 echo ''
@@ -172,7 +172,7 @@ sudo apt-get install pcsc-tools -y
 
 # Qnapi
 echo ''
-echo 'Now installing qnapi'
+echo 'Now installing if [[ $REPLY =~ ^[Yy]$ ]]if [[ $REPLY =~ ^[Yy]$ ]]i'
 echo ''
 sudo add-apt-repository ppa:krzemin/qnapi -y
 sudo apt-get install qnapi -y
