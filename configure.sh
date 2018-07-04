@@ -105,13 +105,9 @@ echo "Now installing nerd-fonts..."
 echo ''
 # change terminal to use sourcecodepro-powerline-awesome-regular font
 sudo mkdir -p /usr/share/fonts/added
-yes | sudo cp -f ./fonts/SourceCodePro+Powerline+Awesome+Regular.ttf /usr/share/fonts/added
-yes | sudo cp -f ./fonts/Ubuntu+Mono+Nerd+Font+Complete+Mono+Windows+Compatible.ttf /usr/share/fonts/added
-yes | sudo cp -f ./fonts/Sauce+Code+Pro+Nerd+Font+Complete+Windows+Compatible.ttf /usr/share/fonts/added
-yes | sudo cp -f ./fonts/Sauce+Code+Pro+Nerd+Font+Complete+Mono.ttf /usr/share/fonts/added
-yes | sudo cp -f ./fonts/Sauce+Code+Pro+Nerd+Font+Complete.ttf /usr/share/fonts/added
-sudo fc-cache -fv
+yes | sudo cp -rf ./fonts/* /usr/share/fonts/added
 sudo apt install fonts-robot -y
+sudo fc-cache -fv
 
 # ruby install
 echo ''
@@ -151,11 +147,11 @@ echo ''
 wget https://raw.githubusercontent.com/seebi/dircolors-solarized/master/dircolors.256dark
 mv dircolors.256dark .dircolors
 
-# Nautilus addons (Ubuntu)
-# echo ''
-# echo "Now installing Nautilus addons..."
-# echo ''
-# sudo apt-get install nautilus-image-converter nautilus-compare nautilus-wipe -y
+# Nautilus addons
+echo ''
+echo "Now installing Nautilus addons..."
+echo ''
+sudo apt-get install nautilus-image-converter nautilus-compare nautilus-wipe -y
 
 # Httpie
 echo ''
@@ -271,7 +267,6 @@ fi
 else 
     echo "You chose not to install Azure CLI. Exiting now."
 fi
-
 
 # Set default shell to zsh
 echo ''
