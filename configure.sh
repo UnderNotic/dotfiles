@@ -18,11 +18,11 @@ echo "Use hardware local time..."
 echo ''
 timedatectl set-local-rtc 1
 
-# Configuring max file watches
-echo ''
-echo "Configuring max file watches..."
-echo ''
-echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p
+# Configuring max file watches (needed only for ubuntu)
+# echo ''
+# echo "Configuring max file watches..."
+# echo ''
+# echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p
 
 # Creating project structure
 echo ''
@@ -111,7 +111,7 @@ yes | sudo cp -f ./fonts/Sauce+Code+Pro+Nerd+Font+Complete+Windows+Compatible.tt
 yes | sudo cp -f ./fonts/Sauce+Code+Pro+Nerd+Font+Complete+Mono.ttf /usr/share/fonts/added
 yes | sudo cp -f ./fonts/Sauce+Code+Pro+Nerd+Font+Complete.ttf /usr/share/fonts/added
 sudo fc-cache -fv
-sudo apt install fonts-robot
+sudo apt install fonts-robot -y
 
 # ruby install
 echo ''
@@ -130,13 +130,13 @@ sudo gem install jekyll
 echo ''
 echo 'Installing Travis secrets generator'
 echo ''
-gem install travis
+sudo gem install travis
 
 # jq json query tool install
 echo ''
 echo 'Installing jq'
 echo ''
-sudo apt install jq
+sudo apt install jq -y
 
 # Midnight commander install
 echo ''
@@ -197,11 +197,11 @@ read -p "Do you want to install battery management tools (usefull for notebooks)
 echo    # (optional) move to a new line
 if [[ $REPLY =~ ^[Yy]$ ]]
 then
-echo ''
-echo 'Now installing tlp'
-echo ''
-sudo apt install tlp tlp-rdw  #linux power management for laptops
-sudo tlp start
+    echo ''
+    echo 'Now installing tlp'
+    echo ''
+    sudo apt install tlp tlp-rdw  -y #linux power management for laptops
+    sudo tlp start
 fi
 
 # usual suspects for devops stuff
@@ -314,7 +314,7 @@ sudo apt-get install papirus-icon-theme -y
 # sudo apt install variety -y
 sudo apt install arc-theme -y
 sudo apt install materia-gtk-theme -y
-sudo apt install conky
+sudo apt install conky -y
 
 echo '	Badass Setup is ready!'
 
