@@ -1,7 +1,5 @@
 #!/usr/bin/env zsh
 
-sudo add-apt-repository ppa:aacebedo/fasd
-sudo apt-get update
 sudo apt-get install fasd
 
 echo 'plugins=(fasd)' >> ~/.zshrc
