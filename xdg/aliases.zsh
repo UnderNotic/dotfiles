@@ -1,1 +1,0 @@
-alias xd='xdg-open'
