@@ -294,17 +294,13 @@ echo ''
 if [[ $REPLY =~ ^[Yy]$ ]]
 then
 	echo "Now setting default shell..."
-    chsh -s $(which zsh); exit 0
+    chsh -s $(which zsh)
     if [[ $? -eq 0 ]]
     then
         echo "Successfully set your default shell to zsh..."
     else
         echo "Default shell not set successfully..." >&2
 fi
-else 
-    echo "You chose not to install Azure CLI. Exiting now..."
-fi
-echo ''
 
 echo ''
 echo 'Now installing ripgrep and fzf'
