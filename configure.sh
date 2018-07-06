@@ -282,7 +282,7 @@ then
         echo "Successfully installed Azure CLI 2.0."
     else
         echo "Azure CLI not installed successfully." >&2
-fi
+    fi
 else 
     echo "You chose not to install Azure CLI. Exiting now."
 fi
@@ -300,6 +300,7 @@ then
         echo "Successfully set your default shell to zsh..."
     else
         echo "Default shell not set successfully..." >&2
+    fi
 fi
 
 echo ''
