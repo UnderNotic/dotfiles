@@ -187,7 +187,7 @@ sudo apt-get install pcsc-tools -y
 
 # Qnapi
 echo ''
-echo 'Now installing if [[ $REPLY =~ ^[Yy]$ ]]if [[ $REPLY =~ ^[Yy]$ ]]i'
+echo 'Now installing qnapi'
 echo ''
 sudo add-apt-repository ppa:krzemin/qnapi -y
 sudo apt-get install qnapi -y
