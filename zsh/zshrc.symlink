@@ -1,7 +1,3 @@
-#include z
-. ~/.z.sh
-alias xd='xdg-open'
-
 # To use sudo with zsh
 alias sudo='sudo env "PATH=$PATH"'
 
@@ -83,7 +79,7 @@ DEFAULT_USER="undernotic"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(sudo git node npm history docker zsh-autosuggestions zsh-completions zsh-syntax-highlighting)
+plugins=(sudo git node npm history docker zsh-autosuggestions zsh-completions zsh-syntax-highlighting fasd)
 
 source $ZSH/oh-my-zsh.sh
 source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
