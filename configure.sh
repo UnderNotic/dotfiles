@@ -51,12 +51,6 @@ echo ''
 # netstat install
 sudo apt-get install net-tools -y
 
-# grc install
-echo ''
-echo "Now installing grc..."
-echo ''
-sudo apt-get install grc -y
-
 # zsh install
 echo ''
 echo "Now installing zsh..."

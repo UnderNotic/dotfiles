@@ -2,4 +2,17 @@
 
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/Linuxbrew/install/master/install.sh)"
 
+# add linuxbrew to path to use it without shell restart
+PATH="/home/linuxbrew/.linuxbrew/bin:$PATH"
+
 brew install exa
+# grc install
+echo ''
+echo "Now installing exa..."
+echo ''
+
+# grc install
+echo ''
+echo "Now installing grc..."
+echo ''
+brew install grc
