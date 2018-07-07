@@ -7,3 +7,8 @@ export W=~/workspace
 export w=~/workspace
 
 export EDITOR="code"
+
+export ZSH=~/.oh-my-zsh
+export PATH=$PATH:~/bin
+export DOTFILES=$HOME/.dotfiles
+export PATH="$HOME/.dotfiles/bin:$PATH"

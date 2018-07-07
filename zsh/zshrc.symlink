@@ -4,9 +4,6 @@ alias sudo='sudo env "PATH=$PATH"'
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
-# Path to your oh-my-zsh installation.
-export ZSH=~/.oh-my-zsh
-
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
@@ -118,10 +115,6 @@ source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 #repository_root="$HOME/Library/Python/2.7/lib/python/site-packages"
 #. $repository_root/powerline/bindings/zsh/powerline.zsh
-
-export PATH=$PATH:~/bin
-
-export DOTFILES=$HOME/.dotfiles
 
 # all of our zsh files
 typeset -U config_files
