@@ -13,6 +13,12 @@
 # echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p
 
 
+# SSD https://sites.google.com/site/easylinuxtipsproject/ssd
+echo ''
+echo "Set low swappiness for ssd drive"
+echo ''
+echo 'vm.swappiness=1' | sudo tee --append /etc/sysctl.conf > /dev/null
+
 #Use hardware local time
 echo ''
 echo "Use hardware local time..."
