@@ -1,6 +1,7 @@
 // Place your settings in this file to overwrite the default settings
 {
     "workbench.editor.showTabs": false,
+    "workbench.iconTheme": "vscode-icons",
     "files.autoSave": "onFocusChange",
     "editor.formatOnSave": false,
     "files.exclude": {
@@ -28,6 +29,8 @@
     "sync.host": "",
     "sync.pathPrefix": "",
     "sync.askGistName": false,
+    "sync.removeExtensions": true,
+    "sync.syncExtensions": true,
     "window.zoomLevel": 0,
     "explorer.openEditors.visible": 0,    
     "git.autofetch": true,    
