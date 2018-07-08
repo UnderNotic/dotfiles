@@ -1,3 +1,6 @@
 #!/usr/bin/env zsh
 
-sudo apt-get install fasd
+echo ''
+echo "Now installing fasd..."
+echo ''
+sudo apt install fasd
