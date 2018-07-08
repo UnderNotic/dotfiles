@@ -66,7 +66,9 @@ DEFAULT_USER="undernotic"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(sudo git node npm httpie history docker zsh-completions)
+plugins=(sudo git node npm httpie history docker fasd zsh-completions)
 source $ZSH/oh-my-zsh.sh
 source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+alias o='f -e xdg-open'
