@@ -1,4 +1,5 @@
-# Postgres
+#!/bin/bash
+
 echo ''
 echo "Now installing conky..."
 echo ''

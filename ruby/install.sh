@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # ruby install
 echo ''
 echo 'Installing ruby'

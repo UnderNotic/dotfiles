@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # fonts for powerline install (change terminal to use sourcecodepro-powerline-awesome-regular font)
 echo ''
 echo "Now installing fonts..."

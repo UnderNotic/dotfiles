@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # python install
 echo ''
 echo 'Installing python'
