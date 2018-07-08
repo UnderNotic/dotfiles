@@ -5,6 +5,6 @@ echo ''
 echo "Now installing fonts..."
 echo ''
 sudo mkdir -p /usr/share/fonts/added
-yes | sudo cp -rf ./file/* /usr/share/fonts/added
-sudo apt install fonts-robot -y
+yes | sudo cp -rf ./fonts/files/* /usr/share/fonts/added
+sudo apt install fonts-roboto -y
 sudo fc-cache -fv
