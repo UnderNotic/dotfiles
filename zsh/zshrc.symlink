@@ -46,6 +46,6 @@ export FZF_DEFAULT_COMMAND='rg --files --hidden --follow -g "!{**/.git,**/node_m
 export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
 #probably use fd or custom find for it
 #export FZF_ALT_C_COMMAND='rg --files --hidden --follow -g "!{**/.git,**/node_modules}/*" --null | xargs -0 dirname | uniq'
-export FZF_ALT_C_COMMAND='find . -type d -not \( -path "**/node_modules/*" -o -path "**/.git/*" \)'
+export FZF_ALT_C_COMMAND='fd -t d --hidden --follow --exclude .git'
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh

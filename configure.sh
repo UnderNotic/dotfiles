@@ -49,6 +49,11 @@ echo "Installing netstat etc."
 echo ''
 sudo apt install net-tools -y
 
+echo ''
+echo "Installing ncdu (disk space usage tool)"
+echo ''
+sudo apt install ncdu -y
+
 # jq json query tool install
 echo ''
 echo 'Installing jq'
@@ -96,7 +101,7 @@ sudo add-apt-repository ppa:peek-developers/stable  -y
 sudo apt install peek -y
 
 echo ''
-echo 'Now installing ripgrep and fzf'
+echo 'Now installing ripgrep, fd and fzf'
 echo ''
 #Fzf and ripgrep for files fuzzy searching
 git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
@@ -104,6 +109,9 @@ git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 curl -LO https://github.com/BurntSushi/ripgrep/releases/download/0.8.1/ripgrep_0.8.1_amd64.deb
 sudo dpkg -i ripgrep_0.8.1_amd64.deb
 rm ripgrep_0.8.1_amd64.deb
+curl -LO https://github.com/sharkdp/fd/releases/download/v7.0.0/fd-musl_7.0.0_amd64.deb
+sudo dpkg -i fd-musl_7.0.0_amd64.deb
+rm fd-musl_7.0.0_amd64.deb
 
 echo ''
 echo 'Installing clamav antivirus'
