@@ -1,9 +1,0 @@
-[Unit]
-Description=Conky
-[Service]
-ExecStart=/usr/bin/conky -d
-Type=oneshot
-RemainAfterExit=yes
-
-[Install]
-WantedBy=multi-user.target
