@@ -70,7 +70,7 @@ plugins=(sudo git node npm httpie history docker fasd zsh-completions)
 source $ZSH/oh-my-zsh.sh
 source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-# source ~/.zsh/fzf-fasd/fzf-fasd.plugin.zsh
+source ~/.zsh/fzf-fasd/fzf-fasd.plugin.zsh
 source ~/.zsh/fzf-z/fzf-z.plugin.zsh
 
 alias o='f -e xdg-open'
