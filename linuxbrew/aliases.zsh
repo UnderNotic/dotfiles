@@ -1,5 +1,9 @@
 alias ll='exa -la --group-directories-first'
 
-function tree() {
-    exa --tree --level=$1
+function t() {
+    if [ -z "$1" ];
+    then
+        set -- "1"
+    fi
+    tree -L $1
 }
