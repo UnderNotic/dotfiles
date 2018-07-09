@@ -11,7 +11,7 @@ __fzf_fasd_zsh_completion() {
   cmd=${args[1]}
 
   # triggered only at the command 'z'; fallback to default
-  if [[ "$cmd" != "z" ]]; then
+  if [[ "$cmd" != "z" ]] && [[ "$cmd" != "e" ]]; then
     zle ${__fzf_fasd_default_completion:-expand-or-complete}
     return
   fi
@@ -41,7 +41,7 @@ __fzf_fasd_zsh_completion() {
   # return completion result with $selected
   if [[ -n "$selected" ]]; then
     selected=$(printf %q "$selected")
-    if [[ "$selected" != */ ]]; then
+    if [[ "$selected" != */ ]] && [[ "$cmd" == "z" ]]; then
       selected="${selected}/"
     fi
     LBUFFER="$cmd $selected"
@@ -54,7 +54,11 @@ __fzf_fasd_zsh_completion() {
 __fzf_fasd_generate_matches() {
   # currently only 'z' (fasd -d) is supported; list all dirs (without score)
   # -R: make entries with higher score comes earlier
-  fasd -d -l -R "$@"
+  if [[ "$cmd" == "z" ]]; then
+    fasd -d -l -R "$@"
+  else 
+    fasd -f -l -R "$@"
+  fi
 }
 
 [ -z "$__fzf_fasd_default_completion" ] && {
