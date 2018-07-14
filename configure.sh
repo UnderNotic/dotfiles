@@ -114,6 +114,12 @@ sudo dpkg -i fd-musl_7.0.0_amd64.deb
 rm fd-musl_7.0.0_amd64.deb
 
 echo ''
+echo 'Installing unetbootin'
+echo ''
+sudo add-apt-repository ppa:gezakovacs -y
+sudo apt install unetbootin -y
+
+echo ''
 echo 'Installing clamav antivirus'
 echo ''
 sudo apt install clamav -y
