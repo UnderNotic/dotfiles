@@ -98,6 +98,7 @@ echo ''
 echo 'Now installing peek'
 echo ''
 sudo add-apt-repository ppa:peek-developers/stable  -y
+sudo apt update
 sudo apt install peek -y
 
 echo ''
@@ -117,6 +118,7 @@ echo ''
 echo 'Installing unetbootin'
 echo ''
 sudo add-apt-repository ppa:gezakovacs -y
+sudo apt update
 sudo apt install unetbootin -y
 
 echo ''
