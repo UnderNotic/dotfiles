@@ -115,11 +115,12 @@ sudo dpkg -i fd-musl_7.0.0_amd64.deb
 rm fd-musl_7.0.0_amd64.deb
 
 echo ''
-echo 'Installing unetbootin'
+echo 'Installing etcher live usb maker'
 echo ''
-sudo add-apt-repository ppa:gezakovacs -y
+echo "deb https://dl.bintray.com/resin-io/debian stable etcher" | sudo tee /etc/apt/sources.list.d/etcher.list
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 379CE192D401AB61
 sudo apt update
-sudo apt install unetbootin -y
+sudo apt install etcher-electron -y
 
 echo ''
 echo 'Installing clamav antivirus'
