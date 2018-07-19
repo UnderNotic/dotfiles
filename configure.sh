@@ -1,5 +1,11 @@
 #!/bin/bash
 
+# Dual boot setup
+# Use rufus for windows usb creation
+# Disable secure boot and reset uefi keys to default
+# During linux install create 2 ext4 partitions one for / and second for /home, setting device for bootloader installation is not important.
+# In case of grub failures grup-repair can be used in live linux usb.
+
 # for ubuntu gnome install 'Alt-Tab Switcher Popup Delay Removal' from ubuntu software center
 
 # mouse sensivity on pc 1000dpi mouse
