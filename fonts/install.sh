@@ -18,6 +18,7 @@ sudo apt install gnome-tweaks -y
 echo ''
 echo 'Now setting default terminal font'
 echo ''
-PROFILE=`dconf list /org/gnome/terminal/legacy/profiles:/ | sed -n 2p`
+PROFILE=`dconf list /org/gnome/terminal/legacy/profiles:/ | grep -m 1 :`
 KEY="/org/gnome/terminal/legacy/profiles:/${PROFILE}font"
+
 dconf write $KEY "'SauceCodePro Nerd Font 13'"
