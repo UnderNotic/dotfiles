@@ -12,4 +12,12 @@ sudo fc-cache -fv
 echo ''
 echo 'Now installing gnome tweaks'
 echo ''
-sudp apt install gnome-tweaks -y
+sudo apt install gnome-tweaks -y
+
+# Set terminal custom font programatically
+echo ''
+echo 'Now setting default terminal font'
+echo ''
+PROFILE=`dconf list /org/gnome/terminal/legacy/profiles:/ | sed -n 2p`
+KEY="/org/gnome/terminal/legacy/profiles:/${PROFILE}font"
+dconf write $KEY "'SauceCodePro Nerd Font 13'"
