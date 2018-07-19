@@ -1,6 +1,6 @@
-POWERLEVEL9K_MODE='awesome-fontconfig'
-#POWERLEVEL9K_MODE='awesome-patched'
-#POWERLEVEL9K_MODE="nerdfont-complete"
+# POWERLEVEL9K_MODE='awesome-fontconfig'
+# POWERLEVEL9K_MODE='awesome-patched'
+POWERLEVEL9K_MODE="nerdfont-complete"
 ZSH_THEME="powerlevel9k/powerlevel9k"
 
 # POWERLEVEL9K_IP_INTERFACE='en0'
