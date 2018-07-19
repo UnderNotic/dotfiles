@@ -1,5 +1,11 @@
 #!/bin/bash
 
+# Dual boot setup
+# Use rufus for windows usb creation
+# Disable secure boot and reset uefi keys to default
+# During linux install create 2 ext4 partitions one for / and second for /home, setting device for bootloader installation is not important.
+# In case of grub failures grup-repair can be used in live linux usb.
+
 # for ubuntu gnome install 'Alt-Tab Switcher Popup Delay Removal' from ubuntu software center
 
 # mouse sensivity on pc 1000dpi mouse
@@ -98,7 +104,23 @@ echo ''
 echo 'Now installing peek'
 echo ''
 sudo add-apt-repository ppa:peek-developers/stable  -y
+sudo apt update
 sudo apt install peek -y
+
+# Chrome
+echo ''
+echo 'Now installing chrome'
+echo ''
+sudo sh -c 'echo "deb http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google.list'
+wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
+sudo apt update
+sudo apt install google-chrome-stable -y
+
+# Vlc
+echo ''
+echo 'Now installing vlc'
+echo ''
+sudo apt install vlc -y
 
 echo ''
 echo 'Now installing ripgrep, fd and fzf'
@@ -112,6 +134,14 @@ rm ripgrep_0.8.1_amd64.deb
 curl -LO https://github.com/sharkdp/fd/releases/download/v7.0.0/fd-musl_7.0.0_amd64.deb
 sudo dpkg -i fd-musl_7.0.0_amd64.deb
 rm fd-musl_7.0.0_amd64.deb
+
+echo ''
+echo 'Installing etcher live usb maker'
+echo ''
+echo "deb https://dl.bintray.com/resin-io/debian stable etcher" | sudo tee /etc/apt/sources.list.d/etcher.list
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 379CE192D401AB61
+sudo apt update
+sudo apt install etcher-electron -y
 
 echo ''
 echo 'Installing clamav antivirus'
