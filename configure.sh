@@ -116,6 +116,12 @@ wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-ke
 sudo apt update
 sudo apt install google-chrome-stable -y
 
+# Vlc
+echo ''
+echo 'Now installing vlc'
+echo ''
+sudo apt install vlc -y
+
 echo ''
 echo 'Now installing ripgrep, fd and fzf'
 echo ''
