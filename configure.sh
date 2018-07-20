@@ -107,6 +107,15 @@ sudo add-apt-repository ppa:peek-developers/stable  -y
 sudo apt update
 sudo apt install peek -y
 
+# Spotify
+echo ''
+echo 'Now intalling spotify'
+echo ''
+sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 931FF8E79F0876134EDDBDCCA87FF9DF48BF1C90
+echo deb http://repository.spotify.com stable non-free | sudo tee /etc/apt/sources.list.d/spotify.list
+sudo apt update
+sudo apt install spotify-client -y
+
 # Chrome
 echo ''
 echo 'Now installing chrome'
