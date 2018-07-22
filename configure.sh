@@ -217,6 +217,8 @@ then
     echo ''
     sudo apt install tlp tlp-rdw  -y #linux power management for laptops
     sudo tlp start
+    # sudo apt install powertop
+    # sudo powertop --auto-tune
 fi
 ``
 # Pull down personal dotfiles
