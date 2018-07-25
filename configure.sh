@@ -56,6 +56,11 @@ echo ''
 sudo apt install net-tools -y
 
 echo ''
+echo "Installing htop"
+echo ''
+sudo apt install htop -y
+
+echo ''
 echo "Installing ncdu (disk space usage tool)"
 echo ''
 sudo apt install ncdu -y
