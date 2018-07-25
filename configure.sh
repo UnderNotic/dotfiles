@@ -101,11 +101,12 @@ sudo apt install qnapi -y
 
 # Peek for gif screen recording
 echo ''
-echo 'Now installing peek'
+echo 'Now installing peek and simplescreenrecorder'
 echo ''
 sudo add-apt-repository ppa:peek-developers/stable  -y
 sudo apt update
 sudo apt install peek -y
+sudo apt install simplescreenrecorder -y 
 
 # Spotify
 echo ''
