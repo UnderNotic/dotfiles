@@ -56,9 +56,17 @@ echo ''
 sudo apt install net-tools -y
 
 echo ''
-echo "Installing htop"
+echo 'Installing htop'
 echo ''
 sudo apt install htop -y
+
+echo ''
+echo 'Installing lazygit'
+echo ''
+
+sudo add-apt-repository ppa:lazygit-team/daily -y
+sudo apt-get update
+sudo apt-get install lazygit -y
 
 echo ''
 echo "Installing ncdu (disk space usage tool)"
