@@ -2,7 +2,7 @@
         name = undernotic
         email = undernotic@gmail.com
 [credential]
-	helper = cache --timeout=3600
+	helper = cache --timeout=7200
 [credential "https://github.com"]
         username = undernotic     
-        helper = cache --timeout=3600
+        helper = cache --timeout=7200
