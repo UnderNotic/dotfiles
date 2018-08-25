@@ -5,12 +5,12 @@ alias sudo='sudo env "PATH=$PATH"'
 alias reload!='. ~/.zshrc'
 alias cls='clear' # Good 'ol Clear Screen command
 
+alias nemo='nemo 2>&1 > /dev/null'
 alias xd='xdg-open'
 
 alias l='ls -lah --group-directories-first'
 alias ll='ls -lh --group-directories-first'
 alias lsa='ls -FGlAhp' 
-
 
 alias ..='cd ../'                           								# Go back 1 directory level
 alias ...='cd ../../'                       								# Go back 2 directory levels

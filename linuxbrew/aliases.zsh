@@ -1,4 +1,4 @@
-alias lse='exa -la --group-directories-first'
+alias lle='exa -la --group-directories-first'
 
 function t() {
     if [ -z "$1" ];
