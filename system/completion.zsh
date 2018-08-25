@@ -6,7 +6,7 @@ alias reload!='. ~/.zshrc'
 alias cls='clear' # Good 'ol Clear Screen command
 
 alias nemo='nemo 2>&1 > /dev/null'
-alias xd='xdg-open'
+alias xd='xdg-open 2>&1 > /dev/null'
 
 alias l='ls -lah --group-directories-first'
 alias ll='ls -lh --group-directories-first'
