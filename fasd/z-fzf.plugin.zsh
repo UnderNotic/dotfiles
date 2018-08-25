@@ -22,7 +22,7 @@ FZFZ_UNIQUIFIER="awk '!seen[\$0]++'"
 
 if type fd &>/dev/null; then
     FIND_PREFIX="fd --color=never --hidden . "
-    FIND_POSTFIX=" --type directory"
+    FIND_POSTFIX=" --type directory --exclude .git --exclude node_modules"
 else
     FIND_PREFIX="find "
     FIND_POSTFIX=" -type d"
@@ -51,7 +51,7 @@ __fzfz() {
     LIMIT_LENGTH="head -n $(($FZFZ_SUBDIR_LIMIT+1))"
 
     SUBDIRS="{ $FIND_PREFIX $PWD $FIND_POSTFIX | $EXCLUDER | $LIMIT_LENGTH | $REMOVE_FIRST }"
-    RECENTLY_USED_DIRS="{ z -l | $REVERSER | sed 's/^[[:digit:].]*[[:space:]]*//' }"
+    RECENTLY_USED_DIRS="{ z | $REVERSER | sed 's/^[[:digit:].]*[[:space:]]*//' }"
 
     FZF_COMMAND="fzf --height ${FZF_TMUX_HEIGHT:-40%} ${FZFZ_EXTRA_OPTS} --tiebreak=end,index -m --preview='$PREVIEW_COMMAND | head -\$LINES'"
 
