@@ -71,4 +71,5 @@ source $ZSH/oh-my-zsh.sh
 source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
-alias o='f -e xdg-open'
+alias o='f -e xdg-open' #this for fasd
+ 

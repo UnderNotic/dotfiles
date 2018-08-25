@@ -1,3 +1,5 @@
+# this called completion.zsh only to load after source $ZSH/oh-my-zsh.sh so it override it's aliases
+
 # To use sudo with zsh
 alias sudo='sudo env "PATH=$PATH"'
 alias reload!='. ~/.zshrc'
@@ -5,9 +7,10 @@ alias cls='clear' # Good 'ol Clear Screen command
 
 alias xd='xdg-open'
 
-alias l='ls -lh --group-directories-first'
-alias ll='ls -lah --group-directories-first'
-alias lls='ls -FGlAhp' 
+alias l='ls -lah --group-directories-first'
+alias ll='ls -lh --group-directories-first'
+alias lsa='ls -FGlAhp' 
+
 
 alias ..='cd ../'                           								# Go back 1 directory level
 alias ...='cd ../../'                       								# Go back 2 directory levels

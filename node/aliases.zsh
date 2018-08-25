@@ -1,1 +1,1 @@
-alias cb=clipboard
+alias cb='clipboard'
