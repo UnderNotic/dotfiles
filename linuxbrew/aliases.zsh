@@ -1,4 +1,4 @@
-alias ll='exa -la --group-directories-first'
+alias lse='exa -la --group-directories-first'
 
 function t() {
     if [ -z "$1" ];
@@ -7,3 +7,5 @@ function t() {
     fi
     tree -L $1
 }
+
+alias cat='bat'

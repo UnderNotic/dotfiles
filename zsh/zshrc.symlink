@@ -45,5 +45,6 @@ export NVM_DIR="$HOME/.nvm"
 export FZF_DEFAULT_COMMAND='rg --files --hidden --follow -g "!{**/.git,**/node_modules}/*" 2> /dev/null'
 export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
 export FZF_ALT_C_COMMAND='fd -t d --hidden --follow --exclude .git'
+export FZF_DEFAULT_OPTS="--bind='ctrl-o:execute(code {})+abort'"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh

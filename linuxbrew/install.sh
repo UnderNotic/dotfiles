@@ -16,3 +16,15 @@ echo ''
 echo "Now installing grc..."
 echo ''
 brew install grc
+
+# bat install
+echo ''
+echo "Now installing bat..."
+echo ''
+brew install bat
+
+# diff-so-fancy install
+echo ''
+echo "Now installing diff-so-fancy..."
+echo ''
+brew install diff-so-fancy
