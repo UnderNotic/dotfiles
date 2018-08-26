@@ -22,6 +22,7 @@
 * `fd` &nbsp; better find
 * `rg` &nbsp; regex utils
 * `regexgen [strings]` &nbsp; generate regex from give strings
+* `extract` &nbsp; extract all-in-one tool
 
 ## MC
 * `ALT + S` &nbsp; find by string in current dir

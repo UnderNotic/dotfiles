@@ -16,8 +16,8 @@ done
 
 # initialize autocomplete here, otherwise functions won't be loaded
 # this is commented because its executed by oh-my-zsh.sh anyway
-autoload -U compinit
-compinit
+# autoload -U compinit
+# compinit
 
 # load every completion after autocomplete loads
 for file in ${(M)config_files:#*/completion.zsh}
@@ -27,6 +27,13 @@ done
 
 unset config_files
 
+# plugins=(sudo git node npm httpie history docker fasd zsh-completions)
+plugins=(git node httpie fasd zsh-completions)
+
+source $ZSH/oh-my-zsh.sh
+source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
+source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+alias o='a -e xdg-open 2>&1 > /dev/null' #this for fasd
 
 # Better history
 # Credits to https://coderwall.com/p/jpj_6q/zsh-better-history-searching-with-arrow-keys
