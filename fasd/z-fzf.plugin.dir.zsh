@@ -3,36 +3,24 @@
 # Based on https://github.com/junegunn/fzf/blob/master/shell/key-bindings.zsh
 # (MIT licensed, as of 2016-05-05).
 
+command -v tree >/dev/null 2>&1
+if [ $? -eq 0 ]; then
+    __DIR_PREVIEW_COMMAND='tree -L 2 -x --noreport --dirsfirst {}'
+else
+    __DIR_PREVIEW_COMMAND='ls -1 -R {}'
+fi
 
+if type fd &>/dev/null; then
+    __DIR_FIND_PREFIX="fd --color=never --hidden . "
+    __DIR_FIND_POSTFIX=" --type directory --exclude .git --exclude node_modules"
+else
+    __DIR_FIND_PREFIX="find "
+    __DIR_FIND_POSTFIX=" -type d"
+fi
 
 __fzfz_dir() {
-    if [[ $OSTYPE == darwin* ]]; then
-        local REVERSER='tail -r'
-    else
-        local REVERSER='tac'
-    fi
-
-    command -v tree >/dev/null 2>&1
-    if [ $? -eq 0 ]; then
-        local PREVIEW_COMMAND='tree -L 2 -x --noreport --dirsfirst {}'
-    else
-        local PREVIEW_COMMAND='ls -1 -R {}'
-    fi
-
-    local FZFZ_EXCLUDE_PATTERN=${FZFZ_EXCLUDE_PATTERN:="\/.git"}
-    local FZFZ_EXTRA_OPTS=${FZFZ_EXTRA_OPTS:=""}
-    local FZFZ_UNIQUIFIER="awk '!seen[\$0]++'"
-
-    if type fd &>/dev/null; then
-        local FIND_PREFIX="fd --color=never --hidden . "
-        local FIND_POSTFIX=" --type directory --exclude .git --exclude node_modules"
-    else
-        local FIND_PREFIX="find "
-        local FIND_POSTFIX=" -type d"
-    fi
-
-    if (($+FZFZ_EXCLUDE_PATTERN)); then
-        local EXCLUDER="egrep -v '$FZFZ_EXCLUDE_PATTERN'"
+    if (($+__FZFZ_EXCLUDE_PATTERN)); then
+        local EXCLUDER="egrep -v '$__FZFZ_EXCLUDE_PATTERN'"
     else
         local EXCLUDER="cat"
     fi
@@ -42,7 +30,7 @@ __fzfz_dir() {
     # FZFZ_SUBDIR_LIMIT is applied on the post-excluded list.
 
     if (($+FZFZ_EXTRA_DIRS)); then
-        local EXTRA_DIRS="{ $FIND_PREFIX $FZFZ_EXTRA_DIRS $FIND_POSTFIX 2> /dev/null | $EXCLUDER }"
+        local EXTRA_DIRS="{ $__DIR_FIND_PREFIX $FZFZ_EXTRA_DIRS $__DIR_FIND_POSTFIX 2> /dev/null | $EXCLUDER }"
     else
         local EXTRA_DIRS="{ true }"
     fi
@@ -52,12 +40,12 @@ __fzfz_dir() {
     local REMOVE_FIRST="tail -n +2"
     local LIMIT_LENGTH="head -n $(($FZFZ_SUBDIR_LIMIT+1))"
 
-    local SUBDIRS="{ $FIND_PREFIX $PWD $FIND_POSTFIX | $EXCLUDER | $LIMIT_LENGTH | $REMOVE_FIRST }"
-    local RECENTLY_USED_DIRS="{ z | $REVERSER | sed 's/^[[:digit:].]*[[:space:]]*//' }"
+    local SUBDIRS="{ $__DIR_FIND_PREFIX $PWD $__DIR_FIND_POSTFIX | $EXCLUDER | $LIMIT_LENGTH | $REMOVE_FIRST }"
+    local RECENTLY_USED_DIRS="{ z | $__REVERSER | sed 's/^[[:digit:].]*[[:space:]]*//' }"
 
-    local FZF_COMMAND="fzf --height 40% ${FZFZ_EXTRA_OPTS} --tiebreak=end,index -m --preview='$PREVIEW_COMMAND | head -\$LINES'"
+    local FZF_COMMAND="fzf --height 40% ${__FZFZ_EXTRA_OPTS} --tiebreak=end,index -m --preview='$__DIR_PREVIEW_COMMAND | head -\$LINES'"
 
-    local COMMAND="{ $RECENTLY_USED_DIRS ; $EXTRA_DIRS; } | $FZFZ_UNIQUIFIER | $FZF_COMMAND"
+    local COMMAND="{ $RECENTLY_USED_DIRS ; $EXTRA_DIRS; } | $__FZFZ_UNIQUIFIER | $FZF_COMMAND"
 
     eval "$COMMAND" | while read item; do
         printf '%q ' "$item"
