@@ -54,6 +54,12 @@ echo "Installing netstat etc."
 echo ''
 sudo apt install net-tools -y
 
+# grc install
+echo ''
+echo "Installing grc..."
+echo ''
+sudo apt install grc
+
 echo ''
 echo 'Installing htop'
 echo ''
