@@ -20,3 +20,4 @@ alias .5='cd ../../../../../'               								# Go back 5 directory levels
 alias .6='cd ../../../../../../'     
 
 alias path='echo -e ${PATH//:/\\n}'
+
