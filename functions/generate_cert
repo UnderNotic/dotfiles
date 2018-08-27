@@ -1,0 +1,11 @@
+#!/bin/bash
+generate_cert(){
+    mkdir -p $w/ssl
+    sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout $w/ssl/localhost.key -out $w/ssl/localhost.crt -config $DOTFILES/functions/localhost.conf -passin pass:YourSecurePassword
+    sudo openssl pkcs12 -export -out $w/ssl/localhost.pfx -inkey $w/ssl/localhost.key -in $w/ssl/localhost.crt
+    echo "copied certs to $w/ssl"
+
+    sudo cp $w/ssl/localhost.crt /usr/local/share/ca-certificates/
+    sudo update-ca-certificates
+    echo "added cert to trusted list"
+}

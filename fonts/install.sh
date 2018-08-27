@@ -1,10 +1,11 @@
 #!/bin/bash
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null && pwd )"
 
 echo ''
 echo "Now installing fonts..."
 echo ''
 sudo mkdir -p /usr/share/fonts/added
-yes | sudo cp -rf ./fonts/files/* /usr/share/fonts/added
+yes | sudo cp -rf $DIR/files/* /usr/share/fonts/added
 sudo apt install fonts-roboto -y
 sudo fc-cache -fv
 
