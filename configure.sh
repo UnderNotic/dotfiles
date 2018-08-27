@@ -13,10 +13,10 @@
 # xinput --set-prop 10 299 2
 
 # Configuring max file watches (needed only for ubuntu)
-# echo ''
-# echo "Configuring max file watches..."
-# echo ''
-# echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p
+echo ''
+echo "Configuring max file watches..."
+echo ''
+echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p
 
 
 # SSD https://sites.google.com/site/easylinuxtipsproject/ssd
