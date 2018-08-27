@@ -18,7 +18,6 @@ echo "Configuring max file watches..."
 echo ''
 echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p
 
-
 # SSD https://sites.google.com/site/easylinuxtipsproject/ssd
 echo ''
 echo "Set low swappiness for ssd drive"
