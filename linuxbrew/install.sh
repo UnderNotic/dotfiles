@@ -17,6 +17,12 @@ echo "Now installing bat..."
 echo ''
 brew install bat
 
+# peco install
+echo ''
+echo "Now installing peco..."
+echo ''
+brew install peco
+
 # diff-so-fancy install
 echo ''
 echo "Now installing diff-so-fancy..."
