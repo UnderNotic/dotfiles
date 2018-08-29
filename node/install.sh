@@ -19,7 +19,7 @@ nvm use node
 echo ''
 echo 'Installing npm global packages'
 echo ''
-npm install -g nodemon create-react-app jest forever http-server pm2 typescript webpack webpack-dev-server artillery testcafe yarn gatsby-cli
+npm install -g nodemon create-react-app jest forever http-server pm2 webpack webpack-dev-server artillery testcafe yarn gatsby-cli
 npm install -g regexgen clipboard-cli tldr markdown-to-medium gifski
-npm install -g eslint babel-eslint eslint-config-defaults eslint-config-standard eslint-config-standard-react eslint-plugin-standard eslint-plugin-promise eslint-plugin-jest eslint-plugin-import eslint-plugin-node eslint-plugin-react
+npm install -g eslint babel-eslint eslint-config-defaults eslint-config-standard eslint-config-standard-react eslint-plugin-standard eslint-plugin-promise eslint-plugin-jest eslint-plugin-import eslint-plugin-node eslint-plugin-react tslint typescript
 # npm install -g ndb
