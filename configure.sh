@@ -90,6 +90,12 @@ echo "Now installing Midnight commander..."
 echo ''
 sudo apt install mc -y
 
+#Terminator install
+echo ''
+echo 'Now installing terminator...'
+echo ''
+sudo apt install terminator -y
+
 # Bash color scheme
 echo ''
 echo "Now installing solarized dark WSL color scheme..."
