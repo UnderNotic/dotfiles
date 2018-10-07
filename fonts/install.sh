@@ -23,3 +23,5 @@ PROFILE=`dconf list /org/gnome/terminal/legacy/profiles:/ | grep -m 1 :`
 KEY="/org/gnome/terminal/legacy/profiles:/${PROFILE}font"
 
 dconf write $KEY "'SauceCodePro Nerd Font 13'"
+
+gsettings set org.gnome.desktop.interface monospace-font-name 'SauceCodePro Nerd Font 13'
