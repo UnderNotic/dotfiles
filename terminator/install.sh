@@ -10,5 +10,5 @@ yes | cp -f ~/.dotfiles/terminator/config ~/.config/terminator/config
 gsettings set org.gnome.desktop.default-applications.terminal exec /usr/bin/terminator
 gsettings set org.gnome.desktop.default-applications.terminal exec-arg "-b -f -l 2split"
 
-gsettings set org.cinnamon.desktop.default-applications.terminal exec /usr/bin/terminator
+gsettings set org.cinnamon.desktop.default-applications.terminal exec '/usr/bin/terminator -b -f -l 2split'
 gsettings set org.cinnamon.desktop.default-applications.terminal exec-arg "-b -f -l 2split"
