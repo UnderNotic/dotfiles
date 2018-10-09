@@ -1,0 +1,50 @@
+[global_config]
+  suppress_multiple_term_dialog = True
+[keybindings]
+[layouts]
+  [[default]]
+    [[[child1]]]
+      parent = window0
+      profile = default
+      type = Terminal
+    [[[window0]]]
+      parent = ""
+      type = Window
+  [[2split]]
+    [[[child0]]]
+      fullscreen = True
+      last_active_term = 64b50c33-cabe-4af9-bdab-2ee546035f2e
+      last_active_window = True
+      maximised = False
+      order = 0
+      parent = ""
+      position = 0:0
+      size = 1920, 1080
+      title = undernotic@undernotic-X470-AORUS-ULTRA-GAMING: ~
+      type = Window
+    [[[child1]]]
+      order = 0
+      parent = child0
+      position = 958
+      ratio = 0.500261096606
+      type = HPaned
+    [[[terminal2]]]
+      order = 0
+      parent = child1
+      profile = default
+      type = Terminal
+      uuid = 64b50c33-cabe-4af9-bdab-2ee546035f2e
+    [[[terminal3]]]
+      order = 1
+      parent = child1
+      profile = default
+      type = Terminal
+      uuid = 59a9e911-1a85-4c32-8adb-28fd08df96a1
+[plugins]
+[profiles]
+  [[default]]
+    background_color = "#002b36"
+    cursor_color = "#aaaaaa"
+    foreground_color = "#839496"
+    scrollbar_position = hidden
+    show_titlebar = False

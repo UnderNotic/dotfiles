@@ -24,4 +24,8 @@ KEY="/org/gnome/terminal/legacy/profiles:/${PROFILE}font"
 
 dconf write $KEY "'SauceCodePro Nerd Font 13'"
 
+# Set system default monospace font programatically
+echo ''
+echo 'Now setting system default monospace font'
+echo ''
 gsettings set org.gnome.desktop.interface monospace-font-name 'SauceCodePro Nerd Font 13'
