@@ -12,34 +12,29 @@
       type = Window
   [[2split]]
     [[[child0]]]
-      fullscreen = True
-      last_active_term = 64b50c33-cabe-4af9-bdab-2ee546035f2e
+      fullscreen = False
+      last_active_term = 153cbee9-1680-4391-9242-52593a0f5d66
       last_active_window = True
-      maximised = False
+      maximised = True
       order = 0
       parent = ""
-      position = 0:0
-      size = 1920, 1080
-      title = undernotic@undernotic-X470-AORUS-ULTRA-GAMING: ~
       type = Window
     [[[child1]]]
       order = 0
       parent = child0
-      position = 958
-      ratio = 0.500261096606
       type = HPaned
     [[[terminal2]]]
       order = 0
       parent = child1
       profile = default
       type = Terminal
-      uuid = 64b50c33-cabe-4af9-bdab-2ee546035f2e
+      uuid = 59a9e911-1a85-4c32-8adb-28fd08df96a1
     [[[terminal3]]]
       order = 1
       parent = child1
       profile = default
       type = Terminal
-      uuid = 59a9e911-1a85-4c32-8adb-28fd08df96a1
+      uuid = 153cbee9-1680-4391-9242-52593a0f5d66
 [plugins]
 [profiles]
   [[default]]
