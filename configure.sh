@@ -150,6 +150,12 @@ echo 'Now installing vlc'
 echo ''
 sudo apt install vlc -y
 
+# Remmina remote desktop
+echo ''
+echo 'Now installing remmina'
+echo ''
+sudo apt install remmina -y
+
 echo ''
 echo 'Now installing ripgrep, fd and fzf'
 echo ''
