@@ -156,6 +156,12 @@ echo 'Now installing remmina'
 echo ''
 sudo apt install remmina -y
 
+# Gimp
+echo ''
+echo 'Now installing gimp'
+echo ''
+sudo apt install gimp -y
+
 echo ''
 echo 'Now installing ripgrep, fd and fzf'
 echo ''
