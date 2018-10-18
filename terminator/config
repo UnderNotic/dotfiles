@@ -1,6 +1,10 @@
 [global_config]
   suppress_multiple_term_dialog = True
 [keybindings]
+  line_down = <Primary><Shift>Down
+  line_up = <Primary><Shift>Up
+  resize_down = None
+  resize_up = None
 [layouts]
   [[default]]
     [[[child1]]]
