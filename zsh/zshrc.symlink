@@ -65,3 +65,5 @@ if ps $PPID |grep -q mc; then
         fasd --proc "$(fasd --sanitize "$1")"
     }
 fi
+
+eval $(thefuck --alias)

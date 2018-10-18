@@ -28,3 +28,9 @@ echo ''
 echo "Now installing diff-so-fancy..."
 echo ''
 brew install diff-so-fancy
+
+# thefuck install
+echo ''
+echo "Now installing thefuck..."
+echo ''
+brew install thefuck
