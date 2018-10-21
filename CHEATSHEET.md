@@ -15,12 +15,15 @@
 ## Utils
 * `xd` &nbsp; open with xdg-open, can open dirs with nemo
 * `htop` &nbsp; process util
+* `glances` &nbsp; more advanced process util
 * `df` &nbsp; show free disk space
 * `ncdu` &nbsp; disk space usage tool
 * `jq` &nbsp; json traverser
 * `http` &nbsp; rest calls
 * `fd` &nbsp; better find
 * `rg` &nbsp; regex utils
+* `peco` &nbsp; text finder
+* `fuck` &nbsp; fix last misspelled command
 * `regexgen [strings]` &nbsp; generate regex from give strings
 * `extract` &nbsp; extract all-in-one tool
 
@@ -34,3 +37,16 @@
 * `Alt + ?` &nbsp; shows the full Find dialog.
 * `Ctrl + x s` &nbsp; (that is press Ctrl + x, let it go and then press s) - create a symbolic link (change s to l for a hardlink). I find it very useful and intuitive - the link will, of course, be created in the other panel. You can change it’s destination and name, like with any other file operation.
 * `Alt + Shift + h` &nbsp; show the directory history. Might be easier to navigate than going back one entry at a time.
+
+## LF 
+* `Ctrl + f` &nbsp; open/close LF
+* `space` &nbsp; toggle select
+* `v` &nbsp; invert select
+* `y` &nbsp; copy selected
+* `d` &nbsp; cut selected
+* `p` &nbsp; paste selected
+* `i` &nbsp; preview
+* `f` &nbsp; fzf go to selected file, which is under current dir
+* `c` &nbsp; fzf go to selected dir, which is under current dir
+* `z` &nbsp; use z
+* `gh` &nbsp; go to home dir
