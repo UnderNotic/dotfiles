@@ -22,7 +22,7 @@
 * `http` &nbsp; rest calls
 * `fd` &nbsp; better find
 * `rg` &nbsp; regex utils
-* `peco` &nbsp; text finder
+* `fzf` &nbsp; text finder
 * `fuck` &nbsp; fix last misspelled command
 * `regexgen [strings]` &nbsp; generate regex from give strings
 * `extract` &nbsp; extract all-in-one tool
