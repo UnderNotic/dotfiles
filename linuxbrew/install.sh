@@ -34,3 +34,9 @@ echo ''
 echo "Now installing thefuck..."
 echo ''
 brew install thefuck
+
+# fpp install
+echo ''
+echo "Now installing fpp..."
+echo ''
+brew install fpp
