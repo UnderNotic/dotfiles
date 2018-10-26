@@ -9,6 +9,6 @@ cmd z %lf -remote "send $id cd '$(fasd -d $1)'"
 map z push :z<space>
 
 set previewer ~/.dotfiles/lf/pv.sh
-map i $~/.dotfiles/lf/pv.sh $f
+map i $~/.dotfiles/lf/pvi.sh $f
 
 set hidden
