@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=HeadphonesBuzzFix
+Comment=Fiz buzz in headphones (mainly for dell xps)
+Exec=amixer -c 0 set 'Headphone Mic Boost',0 1
+X-GNOME-Autostart-enabled=true
