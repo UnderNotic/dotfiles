@@ -9,6 +9,11 @@ echo ''
 sudo snap install slack --classic
 
 echo ''
+echo 'Now installing gitter'
+echo ''
+sudo snap install gitter-desktop
+
+echo ''
 echo 'Now installing skype'
 echo ''
 sudo snap install skype --classic
