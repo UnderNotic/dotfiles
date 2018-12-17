@@ -34,3 +34,9 @@ echo ''
 echo "Now installing fpp..."
 echo ''
 brew install fpp
+
+# git quick stats install
+echo ''
+echo "Now installing git-quick-stats..."
+echo ''
+brew install git-quick-stats
