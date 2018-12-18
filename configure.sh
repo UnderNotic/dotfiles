@@ -47,7 +47,7 @@ sudo apt -y upgrade
 echo ''
 echo "Installing dev essentials"
 echo ''
-sudo apt install software-properties-common wget curl file git tree kdiff3 build-essential g++ gcc libssl-dev apt-transport-https ca-certificates sqlite3 zlib1g-dev -y
+sudo apt install software-properties-common wget curl file git tree kdiff3 build-essential g++ gcc libssl-dev apt-transport-https ca-certificates sqlite3 zlib1g-dev ack-grep -y
 
 echo ''
 echo "Installing netstat etc."

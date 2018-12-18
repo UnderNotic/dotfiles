@@ -12,20 +12,17 @@
 * `e` &nbsp; open file in code using z
 * `o` &nbsp; open file/dir in xdg-open using z
 
-## Utils
-* `xd` &nbsp; open with xdg-open, can open dirs with nemo
-* `htop` &nbsp; process util
-* `glances` &nbsp; more advanced process util
-* `df` &nbsp; show free disk space
-* `ncdu` &nbsp; disk space usage tool
-* `jq` &nbsp; json traverser
-* `http` &nbsp; rest calls
-* `fd` &nbsp; better find
-* `rg` &nbsp; regex utils
-* `fzf` &nbsp; text finder
-* `fuck` &nbsp; fix last misspelled command
-* `regexgen [strings]` &nbsp; generate regex from give strings
-* `extract` &nbsp; extract all-in-one tool
+## Terminal
+* `CTRL + L` &nbsp; clean terminal
+* `CTRL + SHIFT + UP/DOWN` &nbsp; go up/down line
+* `SHIFT + UP/DOWN` &nbsp; go up/down a page
+* `CTRL + SHIFT + E` &nbsp; split vertically
+* `CTRL + D` &nbsp; exit terminal
+* `CTRL + X` &nbsp; toggle terminal fullscreen
+* `CTRL + L` &nbsp; clean terminal
+* `CTRL + W` &nbsp; clean typed backwards
+* `CTRL + K` &nbsp; clean typed forward
+* `CTRL + U` &nbsp; clean typed
 
 ## MC
 * `ALT + S` &nbsp; find by string in current dir
@@ -50,3 +47,55 @@
 * `c` &nbsp; fzf go to selected dir, which is under current dir
 * `z` &nbsp; use z
 * `gh` &nbsp; go to home dir
+
+
+## Utils tools
+* `xd` &nbsp; open with xdg-open, can open dirs with nemo
+* `htop` &nbsp; process util
+* `glances` &nbsp; more advanced process util
+* `fkill` &nbsp; kill processes taking port (ie. :8080)
+* `df` &nbsp; show free disk space
+* `ncdu` &nbsp; disk space usage tool
+* `jq` &nbsp; json traverser
+* `http` &nbsp; rest calls
+* `tldr` &nbsp; better man
+* `fd` &nbsp; better find
+* `rg` &nbsp; regex utils
+* `fzf` &nbsp; text finder
+* `fuck` &nbsp; fix last misspelled command
+* `artillery` &nbsp; perfomance testing tool
+* `http-server` &nbsp; static files web server
+* `clibboard (cb)` &nbsp; use cliboard in cli
+* `regexgen [strings]` &nbsp; generate regex from give strings
+* `fpp` &nbsp; file picker (git status | fpp)
+* `lazygit` &nbsp; git cli gui
+* `ripgrep (rg)` &nbsp; ripgrep recursively searches directories files content
+
+## GIT
+* `alias gl` &nbsp; git pull
+* `alias glog` &nbsp; git log --graph --pretty=format:'%Cred%h%Creset %an: %s - * `%Creset %C(yellow)%d%Creset %Cgreen(%cr)%Creset' --abbrev-commit * `--date=relative
+* `alias gp` &nbsp; git push origin HEAD
+* `alias gc` &nbsp; git commit
+* `alias gca` &nbsp; git commit -a
+* `alias gco` &nbsp; git checkout
+* `alias gcb` &nbsp; git copy-branch-name
+* `alias gb` &nbsp; git branch
+* `alias gs` &nbsp; git status -sb
+* `alias gac` &nbsp; git add -A && git commit -m
+* `alias ge` &nbsp; git-edit-new
+* `git-quick-stats` &nbsp; git stats
+* `git-all` &nbsp; stage all unstaged
+* `git-delete-local-merged` &nbsp; delete all local branches that have been merged into HEAD
+* `git-edit-new` &nbsp; open new, unstaged files in your $EDITOR
+* `git-nuke` &nbsp; nukes a branch locally and on the origin remote
+* `git-track` &nbsp; sets up your branch to track a remote branch. Assumes you mean `origin/$branch-name`.
+* `git-undo` &nbsp; undo your last commit, but don't throw away your changes
+* `git-unpushed` &nbsp; show the diff of everything you haven't pushed yet
+* `git-wtf` &nbsp; displays the state of your repository in a readable, easy-to-scan format
+
+## Functions
+* `seach` &nbsp; like CTRL + SHIFT + F
+* `internet_info` &nbsp; shows private and public ip's
+* `generate_cert` &nbsp; generates local ssl certificates and add them to trusted list
+* `extract` &nbsp; extract all-in-one function
+* `markdown-to-medium` &nbsp; push markdown to medium

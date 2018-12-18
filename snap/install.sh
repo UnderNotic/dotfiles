@@ -9,6 +9,11 @@ echo ''
 sudo snap install slack --classic
 
 echo ''
+echo 'Now installing postman'
+echo ''
+sudo snap install postman
+
+echo ''
 echo 'Now installing gitter'
 echo ''
 sudo snap install gitter-desktop
