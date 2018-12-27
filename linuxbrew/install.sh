@@ -35,6 +35,12 @@ echo "Now installing fpp..."
 echo ''
 brew install fpp
 
+# vegeta install
+echo ''
+echo "Now installing vegeta..."
+echo ''
+brew install vegeta
+
 # git quick stats install
 echo ''
 echo "Now installing git-quick-stats..."
