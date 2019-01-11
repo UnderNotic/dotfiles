@@ -5,6 +5,12 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/Linuxbrew/install/master/i
 # add linuxbrew to path to use it without shell restart
 PATH="/home/linuxbrew/.linuxbrew/bin:$PATH"
 
+# mkcert install (local https certificates)
+echo ''
+echo 'Now installing mkcert...'
+echo ''
+brew install mkcert
+
 # exa install
 echo ''
 echo "Now installing exa..."
