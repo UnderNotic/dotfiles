@@ -14,7 +14,6 @@
 #     bindkey -s '^o' 'lfcd\n'  # zsh
 #
 
-bindkey -s '^f' 'lfcd\n'  # zsh
 
 lfcd () {
     tmp="$(mktemp)"
