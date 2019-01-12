@@ -1,1 +1,1 @@
-alias mc='. /usr/share/mc/bin/mc-wrapper.sh --nosubshell'
+alias mc='. /usr/share/mc/bin/mc-wrapper.sh'
