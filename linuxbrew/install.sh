@@ -35,13 +35,6 @@ echo "Now installing thefuck..."
 echo ''
 brew install thefuck
 
-# gotop install
-echo ''
-echo "Now installing gotop..."
-echo ''
-brew tap cjbassi/gotop 
-brew install thefuck
-
 # fpp install
 echo ''
 echo "Now installing fpp..."
