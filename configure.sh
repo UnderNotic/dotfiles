@@ -66,6 +66,11 @@ echo ''
 sudo apt install htop -y
 
 echo ''
+echo 'Installing iftop'
+echo ''
+sudo apt install iftop -y
+
+echo ''
 echo 'Installing lazygit'
 echo ''
 
