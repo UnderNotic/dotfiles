@@ -23,6 +23,13 @@ echo "Now installing bat..."
 echo ''
 brew install bat
 
+# lazydocker install
+echo ''
+echo "Now installing lazydocker..."
+echo ''
+brew tap jesseduffield/lazydocker
+brew install lazydocker
+
 # diff-so-fancy install
 echo ''
 echo "Now installing diff-so-fancy..."
