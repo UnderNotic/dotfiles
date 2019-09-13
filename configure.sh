@@ -167,6 +167,12 @@ echo 'Now installing gimp'
 echo ''
 sudo apt install gimp -y
 
+# Tor
+echo ''
+echo 'Now installing tor browser'
+echo ''
+sudo apt install torbrowser-launcher -y
+
 echo ''
 echo 'Now installing ripgrep, fd and fzf'
 echo ''
