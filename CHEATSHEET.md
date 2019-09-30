@@ -25,6 +25,7 @@
 * `CTRL + U` &nbsp; clean typed
 
 ## MC
+* `Ctrl + f` &nbsp; open/close MC
 * `ALT + S` &nbsp; find by string in current dir
 * `CTRL + T` &nbsp; select item
 * \* &nbsp; reverse selection. If nothing was selected, all files will get selected.
@@ -36,7 +37,6 @@
 * `Alt + Shift + h` &nbsp; show the directory history. Might be easier to navigate than going back one entry at a time.
 
 ## LF 
-* `Ctrl + f` &nbsp; open/close LF
 * `space` &nbsp; toggle select
 * `v` &nbsp; invert select
 * `y` &nbsp; copy selected
@@ -52,6 +52,7 @@
 ## Utils tools
 * `xd` &nbsp; open with xdg-open, can open dirs with nemo
 * `htop` &nbsp; process util
+* `http` &nbsp; http (httpie) utils
 * `glances` &nbsp; more advanced process util
 * `fkill` &nbsp; kill processes taking port (ie. :8080)
 * `df` &nbsp; show free disk space
@@ -63,13 +64,16 @@
 * `rg` &nbsp; regex utils
 * `fzf` &nbsp; text finder
 * `fuck` &nbsp; fix last misspelled command
-* `artillery` &nbsp; perfomance testing tool
+* `artillery` &nbsp; network perfomance testing tool
+* `vegeta` &nbsp; network perfomance testing tool
 * `http-server` &nbsp; static files web server
 * `clibboard (cb)` &nbsp; use cliboard in cli
 * `regexgen [strings]` &nbsp; generate regex from give strings
 * `fpp` &nbsp; file picker (git status | fpp)
 * `lazygit` &nbsp; git cli gui
 * `ripgrep (rg)` &nbsp; ripgrep recursively searches directories files content
+* `nvm` &nbsp; node version manager
+* `git-quick-stats` &nbsp; git repo stats
 
 ## GIT
 * `alias gl` &nbsp; git pull
