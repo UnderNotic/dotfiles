@@ -74,6 +74,7 @@
 * `ripgrep (rg)` &nbsp; ripgrep recursively searches directories files content
 * `nvm` &nbsp; node version manager
 * `git-quick-stats` &nbsp; git repo stats
+* `mkcert` &nbsp; generates CA and then certficates signed by it
 
 ## GIT
 * `alias gl` &nbsp; git pull

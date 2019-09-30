@@ -59,3 +59,9 @@ echo ''
 echo "Now installing git-quick-stats..."
 echo ''
 brew install git-quick-stats
+
+# install go
+echo ''
+echo 'Now installing go'
+echo ''
+brew install go
