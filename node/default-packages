@@ -16,6 +16,7 @@ clipboard-cli
 tldr
 markdown-to-medium
 gifski
+gtop
 eslint
 babel-eslint
 eslint-config-defaults
@@ -29,3 +30,4 @@ eslint-plugin-node
 eslint-plugin-react
 tslint
 typescript
+ndb
