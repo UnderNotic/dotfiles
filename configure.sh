@@ -54,6 +54,11 @@ echo "Installing netstat etc."
 echo ''
 sudo apt install net-tools -y
 
+echo ''
+echo "Installing mtr"
+echo ''
+sudo apt install mtr -y
+
 # grc install
 echo ''
 echo "Installing grc..."
