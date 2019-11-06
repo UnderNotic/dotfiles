@@ -88,6 +88,11 @@ echo "Installing ncdu (disk space usage tool)"
 echo ''
 sudo apt install ncdu -y
 
+echo ''
+echo "Installing pydf"
+echo ''
+sudo apt install pydf -y
+
 # jq json query tool install
 echo ''
 echo 'Installing jq'

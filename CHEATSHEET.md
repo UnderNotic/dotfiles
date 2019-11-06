@@ -56,6 +56,7 @@
 * `glances` &nbsp; more advanced process util
 * `fkill` &nbsp; kill processes taking port (ie. :8080)
 * `df` &nbsp; show free disk space
+* `pydf` &nbsp; better df
 * `ncdu` &nbsp; disk space usage tool
 * `jq` &nbsp; json traverser
 * `http` &nbsp; rest calls
