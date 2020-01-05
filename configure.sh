@@ -71,6 +71,11 @@ echo ''
 sudo apt install htop -y
 
 echo ''
+echo 'Installing hardinfo'
+echo ''
+sudo apt install hardinfo -y
+
+echo ''
 echo 'Installing iftop'
 echo ''
 sudo apt install iftop -y
