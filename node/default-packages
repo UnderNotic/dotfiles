@@ -10,7 +10,6 @@ artillery
 testcafe
 yarn
 gatsby-cli
-fkill-cli
 regexgen
 clipboard-cli
 tldr

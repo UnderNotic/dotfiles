@@ -37,3 +37,13 @@ echo ''
 echo 'Now installing robo3t - mongodb client'
 echo ''
 sudo snap install robo3t-snap
+
+echo ''
+echo 'Now installing fkill'
+echo ''
+sudo snap install fkill
+
+echo ''
+echo 'Now installing termius'
+echo ''
+sudo snap install termius-app
