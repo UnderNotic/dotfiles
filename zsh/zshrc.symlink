@@ -62,3 +62,6 @@ if ps $PPID |grep -q mc; then
         fasd --proc "$(fasd --sanitize "$1")"
     }
 fi
+
+export PATH="$PATH:$HOME/.local/bin"
+export PYTHONPATH="/usr/lib/python3/dist-packages:$PYTHONPATH"
