@@ -47,3 +47,8 @@ echo ''
 echo 'Now installing termius'
 echo ''
 sudo snap install termius-app
+
+echo ''
+echo 'Now installing bitwarden'
+echo ''
+sudo snap install bitwarden
