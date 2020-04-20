@@ -76,6 +76,7 @@
 * `nvm` &nbsp; node version manager
 * `git-quick-stats` &nbsp; git repo stats
 * `mkcert` &nbsp; generates CA and then certficates signed by it
+* `get-shit-done` &nbsp; block funny page like reddit, youtube etc.
 
 ## GIT
 * `alias gl` &nbsp; git pull
