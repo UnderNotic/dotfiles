@@ -40,8 +40,7 @@ work()
     # if no hosts file found...
     [ -e "$1" ] || exit_with_error $E_NO_HOSTS_FILE "No hosts file found"
 
-    ini_file="$HOME/.config/get-shit-done.ini"
-
+    ini_file="$HOME/.dotfiles/bin/get-shit-done.ini"
     site_list=( 'reddit.com' 'forums.somethingawful.com' 'somethingawful.com'
 		'digg.com' 'break.com' 'news.ycombinator.com'
 		'infoq.com' 'bebo.com' 'twitter.com'
@@ -50,7 +49,9 @@ work()
 		'friendster.com' 'hi5.com' 'linkedin.com'
 		'livejournal.com' 'meetup.com' 'myspace.com'
 		'plurk.com' 'stickam.com' 'stumbleupon.com'
-		'yelp.com' 'slashdot.org' )
+		'yelp.com' 'slashdot.org' 'twitch.tv' 'teamliquid.net' 
+        'tl.net' 'netwars.pl' 'tradingview.com' 'coinmarketcap.com'
+        'netflix.com')
 
     # add sites from ini file
     # to site_list array
@@ -117,10 +118,11 @@ d
 sites_from_ini()
 {
     [ -e "$1" ] || return 1
-
+    echo $1
     # read all lines from ini file
     while read line
     do
+        echo 'xd'
         # split the equals sign
         arr=( ${line/=/" "} )
         key=${arr[0]}
@@ -133,13 +135,18 @@ sites_from_ini()
             # and leading
             clean_arr=$(echo "$clean_arr" | sed "s/^,*//")
             sites_arr=$(echo $clean_arr | tr ',' "\n")
-
+            echo "$value" | sed "s/,*$//"
+            echo "$clean_arr" | sed "s/^,*//"
+            echo $clean_arr | tr ',' "\n"
             # get array size
             count=${#site_list[*]}
-
+            echo 'size'
+            echo $site_arr
+            echo $count
             # add all sites to global sites array 
             for site in $sites_arr
             do
+                echo $site
                 site_list[$count]=$site
                 ((count++))
             done
