@@ -50,7 +50,7 @@ work()
 		'livejournal.com' 'meetup.com' 'myspace.com'
 		'plurk.com' 'stickam.com' 'stumbleupon.com'
 		'yelp.com' 'slashdot.org' 'twitch.tv' 'teamliquid.net' 
-        'tl.net' 'netwars.pl' 'tradingview.com' 'coinmarketcap.com'
+        'tl.net' 'netwars.pl' 'wykop.pl' 'tradingview.com' 'coinmarketcap.com'
         'netflix.com')
 
     # add sites from ini file
