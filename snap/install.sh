@@ -52,3 +52,8 @@ echo ''
 echo 'Now installing bitwarden'
 echo ''
 sudo snap install bitwarden
+
+echo ''
+echo 'Now installing gitkraken'
+echo ''
+sudo snap install gitkraken
