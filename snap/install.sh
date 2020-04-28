@@ -57,3 +57,8 @@ echo ''
 echo 'Now installing gitkraken'
 echo ''
 sudo snap install gitkraken
+
+echo ''
+echo 'Now installing foliate mobi reader'
+echo ''
+sudo snap install foliate
