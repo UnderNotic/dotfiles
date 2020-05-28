@@ -1,1 +1,1 @@
-alias c='micro'
+alias m='micro'
