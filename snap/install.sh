@@ -34,6 +34,11 @@ echo ''
 sudo snap install vscode --classic
 
 echo ''
+echo 'Now installing micro'
+echo ''
+snap install micro --classic
+
+echo ''
 echo 'Now installing robo3t - mongodb client'
 echo ''
 sudo snap install robo3t-snap
