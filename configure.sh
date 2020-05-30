@@ -84,7 +84,7 @@ echo ''
 echo 'Installing lazygit'
 echo ''
 
-sudo add-apt-repository ppa:lazygit-team/daily -y
+sudo add-apt-repository ppa:lazygit-team/release -y
 sudo apt-get update
 sudo apt-get install lazygit -y
 
