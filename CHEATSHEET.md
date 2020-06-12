@@ -65,6 +65,7 @@
 * `glances` &nbsp; more advanced process util
 * `pydf` &nbsp; better df
 * `df` &nbsp; show free disk space
+* `clean-packages` &nbsp; clean not used, old packages
 * `http-server` &nbsp; static files web server
 * `clibboard (cb)` &nbsp; use cliboard in cli
 * `ncdu` &nbsp; disk space usage tool
