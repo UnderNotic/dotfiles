@@ -52,31 +52,31 @@
 ## Utils tools
 * `xd` &nbsp; open with xdg-open, can open dirs with nemo
 * `htop` &nbsp; process util
+* `fkill` &nbsp; kill processes taking port (ie. :8080)
+* `fpp` &nbsp; file picker (git status | fpp or search {my_string} | fpp)
+* `tldr` &nbsp; better man
+* `fzf` &nbsp; text finder
+* `lazygit` &nbsp; git cli gui
+* `get-shit-done` &nbsp; block funny page like reddit, youtube etc.
+* `http` &nbsp; rest calls
+* `fuck` &nbsp; fix last misspelled command
+* `nvm` &nbsp; node version manager
 * `http` &nbsp; http (httpie) utils
 * `glances` &nbsp; more advanced process util
-* `fkill` &nbsp; kill processes taking port (ie. :8080)
-* `df` &nbsp; show free disk space
 * `pydf` &nbsp; better df
-* `ncdu` &nbsp; disk space usage tool
-* `jq` &nbsp; json traverser
-* `http` &nbsp; rest calls
-* `tldr` &nbsp; better man
-* `fd` &nbsp; better find
-* `rg` &nbsp; regex utils
-* `fzf` &nbsp; text finder
-* `fuck` &nbsp; fix last misspelled command
-* `artillery` &nbsp; network perfomance testing tool
-* `vegeta` &nbsp; network perfomance testing tool
+* `df` &nbsp; show free disk space
 * `http-server` &nbsp; static files web server
 * `clibboard (cb)` &nbsp; use cliboard in cli
-* `regexgen [strings]` &nbsp; generate regex from give strings
-* `fpp` &nbsp; file picker (git status | fpp)
-* `lazygit` &nbsp; git cli gui
+* `ncdu` &nbsp; disk space usage tool
+* `jq` &nbsp; json traverser
+* `fd` &nbsp; better find
+* `rg` &nbsp; regex utils
+* `artillery` &nbsp; network perfomance testing tool
+* `vegeta` &nbsp; network perfomance testing tool
+* `regexgen [strings]` &nbsp; generate regex from given strings
 * `ripgrep (rg)` &nbsp; ripgrep recursively searches directories files content
-* `nvm` &nbsp; node version manager
 * `git-quick-stats` &nbsp; git repo stats
 * `mkcert` &nbsp; generates CA and then certficates signed by it
-* `get-shit-done` &nbsp; block funny page like reddit, youtube etc.
 
 ## GIT
 * `alias gl` &nbsp; git pull
@@ -101,7 +101,7 @@
 * `git-wtf` &nbsp; displays the state of your repository in a readable, easy-to-scan format
 
 ## Functions
-* `seach` &nbsp; like CTRL + SHIFT + F
+* `search` &nbsp; like CTRL + SHIFT + F, recursive from current directory
 * `internet_info` &nbsp; shows private and public ip's
 * `generate_cert` &nbsp; generates local ssl certificates and add them to trusted list
 * `extract` &nbsp; extract all-in-one function
