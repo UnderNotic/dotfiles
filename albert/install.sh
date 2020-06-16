@@ -12,3 +12,6 @@ sudo apt install albert -y
 
 mkdir -p ~/.config/albert
 cp ./albert/albert.conf ~/.config/albert
+
+# autostart
+ln -s /usr/share/applications/albert.desktop ~/.config/autostart/
