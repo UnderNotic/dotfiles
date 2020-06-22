@@ -4,7 +4,7 @@
 echo ''
 echo 'Installing nvm'
 echo ''
-curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.34.0/install.sh | bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
 
 #setup nvm default global packages
 echo ''

@@ -250,9 +250,9 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.zsh/zsh-sy
 
 # powerlevel9k install
 echo ''
-echo "Now installing powerlevel9k..."
+echo "Now installing powerlevel10k..."
 echo ''
-git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/.oh-my-zsh/custom/themes/powerlevel10k
 
 echo ''
 echo 'Now installing themes, papirus icons'

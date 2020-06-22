@@ -1,7 +1,7 @@
 # POWERLEVEL9K_MODE='awesome-fontconfig'
 # POWERLEVEL9K_MODE='awesome-patched'
 POWERLEVEL9K_MODE="nerdfont-complete"
-ZSH_THEME="powerlevel9k/powerlevel9k"
+ZSH_THEME="powerlevel10k/powerlevel10k"
 
 # POWERLEVEL9K_IP_INTERFACE='en0'
 # POWERLEVEL9K_PUBLIC_IP_HOST='http://ident.me'
