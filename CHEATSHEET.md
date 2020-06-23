@@ -57,6 +57,8 @@
 * `tldr` &nbsp; better man
 * `fzf` &nbsp; text finder
 * `lazygit` &nbsp; git cli gui
+* `lazydocker` &nbsp; docker cli gui
+* `ctop` &nbsp; top for docker
 * `get-shit-done` &nbsp; block funny page like reddit, youtube etc.
 * `http` &nbsp; rest calls
 * `fuck` &nbsp; fix last misspelled command
