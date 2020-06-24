@@ -39,10 +39,10 @@ work()
 {
     # if no hosts file found...
     [ -e "$1" ] || exit_with_error $E_NO_HOSTS_FILE "No hosts file found"
-
+    
     ini_file="$HOME/.dotfiles/bin/get-shit-done.ini"
     site_list=( 'reddit.com' 'forums.somethingawful.com' 'somethingawful.com'
-		'digg.com' 'break.com' 'news.ycombinator.com'
+		'digg.com' 'break.com' 'news.ycombinator.com' 'stockwatch.pl'
 		'infoq.com' 'bebo.com' 'twitter.com'
 		'facebook.com' 'blip.com' 'youtube.com'
 		'vimeo.com' 'delicious.com' 'flickr.com'
@@ -51,7 +51,7 @@ work()
 		'plurk.com' 'stickam.com' 'stumbleupon.com'
 		'yelp.com' 'slashdot.org' 'twitch.tv' 'teamliquid.net' 
         'tl.net' 'netwars.pl' 'wykop.pl' 'tradingview.com' 'coinmarketcap.com'
-        'netflix.com')
+        'netflix.com' 'bankier.pl' 'mbank.pl' 'purepc.pl' 'benchmark.pl')
 
     # add sites from ini file
     # to site_list array
@@ -76,6 +76,7 @@ work()
 
     echo $end_token >> $file
 
+    sudo /etc/init.d/dns-clean start
     $restart_network
 }
 
@@ -112,6 +113,7 @@ d
 
     sed --in-place -e "$sed_script" $file
 
+    sudo /etc/init.d/dns-clean start
     $restart_network
 }
 
