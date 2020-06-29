@@ -11,6 +11,7 @@
 # mouse sensivity on pc 1000dpi mouse
 # should be runned on startup to do so add below line to: sudo nano /etc/rc.local and enabled by sudo systemctl enable rc-local.service
 # xinput --set-prop 10 299 2
+# xinput --set-prop 9 299 -0.709    
 
 # Configuring max file watches (needed only for ubuntu)
 echo ''
