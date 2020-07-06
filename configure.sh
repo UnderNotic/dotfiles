@@ -208,7 +208,7 @@ echo ''
 echo "deb https://dl.bintray.com/resin-io/debian stable etcher" | sudo tee /etc/apt/sources.list.d/etcher.list
 sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 379CE192D401AB61
 sudo apt update
-sudo apt install etcher-electron -y
+sudo apt-get install balena-etcher-electron
 
 echo ''
 echo 'Installing clamav antivirus'
