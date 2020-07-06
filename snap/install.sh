@@ -35,10 +35,10 @@ echo 'Now installing discord'
 echo ''
 sudo snap install discord
 
-echo ''
-echo 'Now installing vs code'
-echo ''
-sudo snap install code --classic
+# echo ''  ctrl+shift+e does not work
+# echo 'Now installing vs code'
+# echo ''
+# sudo snap install code --classic
 
 echo ''
 echo 'Now installing micro'
