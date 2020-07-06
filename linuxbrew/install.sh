@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/Linuxbrew/install/master/install.sh)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 
 # add linuxbrew to path to use it without shell restart
 PATH="/home/linuxbrew/.linuxbrew/bin:$PATH"

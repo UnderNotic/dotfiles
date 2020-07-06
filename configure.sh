@@ -147,15 +147,6 @@ sudo apt update
 sudo apt install peek -y
 sudo apt install simplescreenrecorder -y 
 
-# Spotify
-echo ''
-echo 'Now intalling spotify'
-echo ''
-sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 931FF8E79F0876134EDDBDCCA87FF9DF48BF1C90
-echo deb http://repository.spotify.com stable non-free | sudo tee /etc/apt/sources.list.d/spotify.list
-sudo apt update
-sudo apt install spotify-client -y
-
 # Chrome
 echo ''
 echo 'Now installing chrome'
@@ -192,23 +183,18 @@ sudo apt install torbrowser-launcher -y
 echo ''
 echo 'Now installing ripgrep, fd and fzf'
 echo ''
-#Fzf and ripgrep for files fuzzy searching
 git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 ~/.fzf/install
-curl -LO https://github.com/BurntSushi/ripgrep/releases/download/0.8.1/ripgrep_0.8.1_amd64.deb
-sudo dpkg -i ripgrep_0.8.1_amd64.deb
-rm ripgrep_0.8.1_amd64.deb
-curl -LO https://github.com/sharkdp/fd/releases/download/v7.0.0/fd-musl_7.0.0_amd64.deb
-sudo dpkg -i fd-musl_7.0.0_amd64.deb
-rm fd-musl_7.0.0_amd64.deb
+sudo apt install ripgrep -y
+sudo apt install fd-find -y
 
 echo ''
 echo 'Installing etcher live usb maker'
 echo ''
-echo "deb https://dl.bintray.com/resin-io/debian stable etcher" | sudo tee /etc/apt/sources.list.d/etcher.list
-sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 379CE192D401AB61
+echo "deb https://deb.etcher.io stable etcher" | sudo tee /etc/apt/sources.list.d/balena-etcher.list
+sudo apt-key adv --keyserver hkps://keyserver.ubuntu.com:443 --recv-keys 379CE192D401AB61
 sudo apt update
-sudo apt install balena-etcher-electron
+sudo apt install balena-etcher-electron -y
 
 echo ''
 echo 'Installing clamav antivirus'
