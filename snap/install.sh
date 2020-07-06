@@ -43,7 +43,12 @@ sudo snap install code --classic
 echo ''
 echo 'Now installing micro'
 echo ''
-snap install micro --classic
+sudo snap install micro --classic
+
+echo ''
+echo 'Installing rider'
+echo ''
+sudo snap install rider --classic
 
 echo ''
 echo 'Now installing robo3t - mongodb client'
