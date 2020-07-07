@@ -42,8 +42,8 @@
 [plugins]
 [profiles]
   [[default]]
-    background_color = "#002b36"
+    background_color = "#181818"
     cursor_color = "#aaaaaa"
-    foreground_color = "#839496"
+    foreground_color = "#d7dad5"
     scrollbar_position = hidden
     show_titlebar = False

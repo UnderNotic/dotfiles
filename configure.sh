@@ -127,7 +127,7 @@ mv dircolors.256dark ~/.dircolors
 echo ''
 echo "Now installing Nautilus addons..."
 echo ''
-sudo apt install nautilus-image-converter nautilus-compare nautilus-wipe -y
+sudo apt install nautilus-image-converter nautilus-wipe -y
 
 # Drivers for usb smart card reader
 echo ''
