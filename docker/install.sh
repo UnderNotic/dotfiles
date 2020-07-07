@@ -8,7 +8,7 @@ then
     echo ''
     echo 'Now installing docker'
     echo ''
-    sudo apt install docker.io
+    sudo apt install docker.io -y
     sudo usermod -aG docker $USER
 
     echo ''
