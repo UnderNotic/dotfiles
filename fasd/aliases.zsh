@@ -1,4 +1,5 @@
 alias e='f -e code'
+alias fd=fdfind
 
 if [[ $OSTYPE == darwin* ]]; then
     __REVERSER='tail -r'
