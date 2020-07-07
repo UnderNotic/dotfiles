@@ -9,7 +9,7 @@ yes | sudo cp -rf $DIR/files/* /usr/share/fonts/added
 sudo apt install fonts-roboto -y
 sudo fc-cache -fv
 
-# Gnome tweaks to change Monospace font to SauceCodeProRegular and terminal to use NOT custom font
+# Gnome tweaks to change Monospace font to MesloLGS and terminal to use NOT custom font
 echo ''
 echo 'Now installing gnome tweaks'
 echo ''
@@ -22,10 +22,10 @@ echo ''
 PROFILE=`dconf list /org/gnome/terminal/legacy/profiles:/ | grep -m 1 :`
 KEY="/org/gnome/terminal/legacy/profiles:/${PROFILE}font"
 
-dconf write $KEY "'SauceCodePro Nerd Font 13'"
+dconf write $KEY "'MesloLGS NF 12'"
 
 # Set system default monospace font programatically
 echo ''
 echo 'Now setting system default monospace font'
 echo ''
-gsettings set org.gnome.desktop.interface monospace-font-name 'SauceCodePro Nerd Font 13'
+gsettings set org.gnome.desktop.interface monospace-font-name 'MesloLGS NF 12'
