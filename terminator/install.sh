@@ -4,7 +4,7 @@ echo 'Now installing terminator...'
 echo ''
 sudo apt install terminator -y
 
-mkdir -p ~/.config/terminator/config
+mkdir -p ~/.config/terminator
 yes | cp -f ~/.dotfiles/terminator/config ~/.config/terminator/config
 
 # 2 split setup
