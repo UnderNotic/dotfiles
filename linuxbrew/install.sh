@@ -23,6 +23,12 @@ echo "Now installing bat..."
 echo ''
 brew install bat
 
+# bat install
+echo ''
+echo "Now installing fd..."
+echo ''
+brew install fd
+
 # lazydocker install
 echo ''
 echo "Now installing lazydocker..."

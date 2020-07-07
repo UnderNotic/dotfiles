@@ -195,12 +195,11 @@ echo ''
 sudo apt install torbrowser-launcher -y
 
 echo ''
-echo 'Now installing ripgrep, fd and fzf'
+echo 'Now installing ripgrep and fzf'
 echo ''
 git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 ~/.fzf/install
 sudo apt install ripgrep -y
-sudo apt install fd-find -y
 
 echo ''
 echo 'Installing etcher live usb maker'
