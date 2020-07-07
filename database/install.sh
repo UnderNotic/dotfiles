@@ -16,9 +16,9 @@ then
     echo "Now installing mongodb..."
     echo ''
     sudo apt install gnupg -y
-    wget -qO - https://www.mongodb.org/static/pgp/server-4.2.asc | apt-key add -
+    wget -qO - https://www.mongodb.org/static/pgp/server-4.2.asc | sudo apt-key add -
 
-    echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu bionic/mongodb-org/4.2 multiverse" | tee /etc/apt/sources.list.d/mongodb-org-4.2.list
+    echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu bionic/mongodb-org/4.2 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-4.2.list
 
     sudo apt-get update
     sudo apt-get install mongodb-org -y
