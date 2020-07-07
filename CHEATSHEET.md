@@ -52,6 +52,7 @@
 ## Utils tools
 * `xd` &nbsp; open with xdg-open, can open dirs with nemo
 * `htop` &nbsp; process util
+* `bmon` &nbsp; network util
 * `fkill` &nbsp; kill processes taking port (ie. :8080)
 * `fpp` &nbsp; file picker (git status | fpp or search {my_string} | fpp)
 * `tldr` &nbsp; better man

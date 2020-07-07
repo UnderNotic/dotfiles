@@ -72,6 +72,11 @@ echo ''
 sudo apt install htop -y
 
 echo ''
+echo 'Installing bmon'
+echo ''
+sudo apt install bmon -y
+
+echo ''
 echo 'Installing hardinfo'
 echo ''
 sudo apt install hardinfo -y
@@ -257,8 +262,8 @@ echo ''
 sudo add-apt-repository ppa:papirus/papirus -y
 sudo apt install papirus-icon-theme -y
 # sudo apt install variety -y #dynamic wallpaper change
-sudo apt install arc-theme -y
-sudo apt install materia-gtk-theme -y
+# sudo apt install arc-theme -y
+# sudo apt install materia-gtk-theme -y
 
 echo ''
 read -p "Do you want to install battery management tools (usefull for notebooks)? y/n" -n 1 -r

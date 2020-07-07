@@ -4,7 +4,7 @@
 echo ''
 echo 'Installing python'
 echo ''
-sudo apt install python python-dev python-pip python-setuptools python3-setuptools -y
+sudo apt install python3 python3-pip python3-setuptools -y
 
 # Httpie
 echo ''
