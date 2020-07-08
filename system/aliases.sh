@@ -21,3 +21,5 @@ alias .6='cd ../../../../../../'
 
 alias path='echo -e ${PATH//:/\\n}'
 
+alias df='pydf'
+

@@ -7,3 +7,5 @@ function t() {
 }
 
 alias cat='bat'
+
+alias fp='fpp'

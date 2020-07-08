@@ -1,6 +1,1 @@
-thefuck() {
-    unset -f thefuck
-    eval $(thefuck --alias fuck)
-    thefuck "$@"
-}
- 
+eval $(thefuck --alias fk)

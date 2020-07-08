@@ -54,7 +54,7 @@
 * `htop` &nbsp; process util
 * `bmon` &nbsp; network util
 * `fkill` &nbsp; kill processes taking port (ie. :8080)
-* `fpp` &nbsp; file picker (git status | fpp or search {my_string} | fpp)
+* `fpp (fp)` &nbsp; file picker (git status | fp or search {my_string} | fp)
 * `tldr` &nbsp; better man
 * `fzf` &nbsp; text finder
 * `lazygit` &nbsp; git cli gui
@@ -62,11 +62,10 @@
 * `ctop` &nbsp; top for docker
 * `get-shit-done` &nbsp; block funny page like reddit, youtube etc.
 * `http` &nbsp; rest calls
-* `fuck` &nbsp; fix last misspelled command
+* `thefuck (fk)` &nbsp; fix last misspelled command
 * `nvm` &nbsp; node version manager
 * `http` &nbsp; http (httpie) utils
 * `glances` &nbsp; more advanced process util
-* `pydf` &nbsp; better df
 * `df` &nbsp; show free disk space
 * `clean-packages` &nbsp; clean not used, old packages
 * `http-server` &nbsp; static files web server
