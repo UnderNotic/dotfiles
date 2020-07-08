@@ -1,5 +1,3 @@
-alias lle='exa -la --group-directories-first'
-
 function t() {
     if [ -z "$1" ];
     then

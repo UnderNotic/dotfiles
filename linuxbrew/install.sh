@@ -11,11 +11,11 @@ echo 'Now installing mkcert...'
 echo ''
 brew install mkcert
 
-# exa install
+# lsd install
 echo ''
-echo "Now installing exa..."
+echo "Now installing lsd..."
 echo ''
-brew install exa
+brew install lsd
 
 # bat install
 echo ''

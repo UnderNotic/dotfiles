@@ -8,9 +8,9 @@ alias cls='clear' # Good 'ol Clear Screen command
 alias nemo='nemo 2>&1 > /dev/null'
 alias xd='xdg-open 2>&1 > /dev/null'
 
-alias l='ls -lah --group-directories-first'
-alias ll='ls -lh --group-directories-first'
-alias lsa='ls -FGlAhp' 
+alias l='lsd -A --group-dirs first'
+alias ll='lsd -lA --group-dirs first'
+alias lsa='ls -FGlAhp --group-directories-first' 
 
 alias ..='cd ../'                           								# Go back 1 directory level
 alias ...='cd ../../'                       								# Go back 2 directory levels
