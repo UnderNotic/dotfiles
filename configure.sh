@@ -72,6 +72,11 @@ echo ''
 sudo apt install htop -y
 
 echo ''
+echo 'Installing stacer'
+echo ''
+sudo apt install stacer -y
+
+echo ''
 echo 'Installing bmon'
 echo ''
 sudo apt install bmon -y
