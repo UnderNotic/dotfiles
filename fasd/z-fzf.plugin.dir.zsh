@@ -41,7 +41,7 @@ __fzfz_dir() {
     local LIMIT_LENGTH="head -n $(($FZFZ_SUBDIR_LIMIT+1))"
 
     local SUBDIRS="{ $__DIR_FIND_PREFIX $PWD $__DIR_FIND_POSTFIX | $EXCLUDER | $LIMIT_LENGTH | $REMOVE_FIRST }"
-    local RECENTLY_USED_DIRS="{ z | $__REVERSER | sed 's/^[[:digit:].]*[[:space:]]*//' }"
+    local RECENTLY_USED_DIRS="{ z | $__REVERSER | sed 's/^[[:digit:].,[:digit:].]*[[:space:]]*//' }"
 
     local FZF_COMMAND="fzf --height 40% ${__FZFZ_EXTRA_OPTS} --tiebreak=end,index -m --preview='$__DIR_PREVIEW_COMMAND | head -\$LINES'"
 
