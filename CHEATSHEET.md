@@ -108,7 +108,6 @@
 * `internet_info` &nbsp; shows private and public ip's
 * `generate_cert` &nbsp; generates local ssl certificates and add them to trusted list
 * `extract` &nbsp; extract all-in-one function
-* `markdown-to-medium` &nbsp; push markdown to medium
 
 ## Docker
 * `alias dr` &nbsp; docker
