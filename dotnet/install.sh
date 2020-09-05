@@ -24,7 +24,18 @@ then
     echo ''
 	echo "Now installing az cli..."
     echo ''
-    curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
+    # curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
+
+    curl -sL https://packages.microsoft.com/keys/microsoft.asc |
+    gpg --dearmor |
+    sudo tee /etc/apt/trusted.gpg.d/microsoft.gpg > /dev/null
+
+    AZ_REPO=$(lsb_release -cs)
+    echo "deb [arch=amd64] https://packages.microsoft.com/repos/azure-cli/ $AZ_REPO main" |
+    sudo tee /etc/apt/sources.list.d/azure-cli.list
+
+    sudo apt-get update
+    sudo apt-get install azure-cli
 
 else 
     echo "You chose not to install Azure CLI. Exiting now."
