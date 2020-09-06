@@ -135,6 +135,7 @@ echo ''
 sudo apt install nautilus-image-converter nautilus-wipe -y
 
 # Drivers for usb smart card reader
+# show info -> pcsc_scan
 echo ''
 echo "Smart card reader..."
 echo ''
