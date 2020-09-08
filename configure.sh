@@ -221,9 +221,11 @@ echo ''
 sudo apt install clamav -y
 
 echo ''
-echo 'Installing kgpg'
+echo 'Installing kleopatra'
 echo ''
-sudo apt install kgpg -y
+# sudo apt install kgpg -y
+sudo apt install kleopatra -y
+
 
 echo ''
 echo "Now installing zsh..."
