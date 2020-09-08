@@ -1,4 +1,5 @@
-#Terminator install
+#!/bin/bash
+
 echo ''
 echo 'Now installing terminator...'
 echo ''
