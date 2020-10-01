@@ -87,6 +87,11 @@ echo ''
 sudo apt install hardinfo -y
 
 echo ''
+echo 'Installing handbrake'
+echo ''
+sudo apt install handbrake -y
+
+echo ''
 echo 'Installing iftop'
 echo ''
 sudo apt install iftop -y

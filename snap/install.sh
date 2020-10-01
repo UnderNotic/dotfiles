@@ -79,3 +79,13 @@ echo ''
 echo 'Now installing foliate mobi reader'
 echo ''
 sudo snap install foliate
+
+echo ''
+echo 'Now installing lnav'
+echo ''
+sudo snap install lnav
+
+echo ''
+echo 'Now installing flameshot'
+echo ''
+sudo snap install flameshot
