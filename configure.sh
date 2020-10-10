@@ -19,12 +19,6 @@ echo "Configuring max file watches..."
 echo ''
 echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p
 
-# SSD https://sites.google.com/site/easylinuxtipsproject/ssd
-echo ''
-echo "Set low swappiness for ssd drive"
-echo ''
-echo 'vm.swappiness=1' | sudo tee --append /etc/sysctl.conf > /dev/null
-
 #Use hardware local time
 echo ''
 echo "Use hardware local time..."
@@ -60,7 +54,6 @@ echo "Installing mtr"
 echo ''
 sudo apt install mtr -y
 
-# grc install
 echo ''
 echo "Installing grc..."
 echo ''
@@ -72,24 +65,9 @@ echo ''
 sudo apt install htop -y
 
 echo ''
-echo 'Installing stacer'
-echo ''
-sudo apt install stacer -y
-
-echo ''
 echo 'Installing bmon'
 echo ''
 sudo apt install bmon -y
-
-echo ''
-echo 'Installing hardinfo'
-echo ''
-sudo apt install hardinfo -y
-
-echo ''
-echo 'Installing handbrake'
-echo ''
-sudo apt install handbrake -y
 
 echo ''
 echo 'Installing iftop'
@@ -124,6 +102,8 @@ sudo apt install jq -y
 echo ''
 echo "Now installing Midnight commander..."
 echo ''
+sudo add-apt-repository ppa:eugenesan/ppa -y
+sudo apt-get update
 sudo apt install mc -y
 
 # Bash color scheme
@@ -133,104 +113,12 @@ echo ''
 wget https://raw.githubusercontent.com/seebi/dircolors-solarized/master/dircolors.256dark
 mv dircolors.256dark ~/.dircolors
 
-# Nautilus addons
-echo ''
-echo "Now installing Nautilus addons..."
-echo ''
-sudo apt install nautilus-image-converter nautilus-wipe -y
-
-# Drivers for usb smart card reader
-# show info -> pcsc_scan
-echo ''
-echo "Smart card reader..."
-echo ''
-sudo apt install pcscd  -y
-sudo apt install pcsc-tools -y
-
-# Qnapi
-echo ''
-echo 'Now installing qnapi'
-echo ''
-sudo add-apt-repository ppa:krzemin/qnapi -y
-sudo apt install qnapi -y
-
-# Peek for gif screen recording
-echo ''
-echo 'Now installing peek and simplescreenrecorder'
-echo ''
-sudo add-apt-repository ppa:peek-developers/stable  -y
-sudo apt update
-sudo apt install peek -y
-sudo apt install simplescreenrecorder -y 
-
-# Chrome
-echo ''
-echo 'Now installing chrome'
-echo ''
-sudo sh -c 'echo "deb http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google.list'
-wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
-sudo apt update
-sudo apt install google-chrome-stable -y
-
-# Vlc
-echo ''
-echo 'Now installing vlc'
-echo ''
-sudo apt install vlc -y
-
-# Remmina remote desktop
-echo ''
-echo 'Now installing remmina'
-echo ''
-sudo apt install remmina -y
-
-# Gimp
-echo ''
-echo 'Now installing gimp'
-echo ''
-sudo apt install gimp -y
-
-echo ''
-echo 'Now installing vs code'
-echo ''
-curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > packages.microsoft.gpg
-sudo install -o root -g root -m 644 packages.microsoft.gpg /etc/apt/trusted.gpg.d/
-sudo sh -c 'echo "deb [arch=amd64 signed-by=/etc/apt/trusted.gpg.d/packages.microsoft.gpg] https://packages.microsoft.com/repos/vscode stable main" > /etc/apt/sources.list.d/vscode.list'
-sudo apt update
-sudo apt install code
-
-# Tor
-echo ''
-echo 'Now installing tor browser'
-echo ''
-sudo apt install torbrowser-launcher -y
-
 echo ''
 echo 'Now installing ripgrep and fzf'
 echo ''
 git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 ~/.fzf/install
 sudo apt install ripgrep -y
-
-echo ''
-echo 'Installing etcher live usb maker'
-echo ''
-echo "deb https://deb.etcher.io stable etcher" | sudo tee /etc/apt/sources.list.d/balena-etcher.list
-sudo apt-key adv --keyserver hkps://keyserver.ubuntu.com:443 --recv-keys 379CE192D401AB61
-sudo apt update
-sudo apt install balena-etcher-electron -y
-
-echo ''
-echo 'Installing clamav antivirus'
-echo ''
-sudo apt install clamav -y
-
-echo ''
-echo 'Installing kleopatra'
-echo ''
-# sudo apt install kgpg -y
-sudo apt install kleopatra -y
-
 
 echo ''
 echo "Now installing zsh..."
@@ -266,36 +154,14 @@ git clone https://github.com/zsh-users/zsh-completions ~/.oh-my-zsh/custom/plugi
 git clone git://github.com/zsh-users/zsh-autosuggestions ~/.zsh/zsh-autosuggestions
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.zsh/zsh-syntax-highlighting
 
-# powerlevel9k install
+# powerlevel10k install
 echo ''
 echo "Now installing powerlevel10k..."
 echo ''
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/.oh-my-zsh/custom/themes/powerlevel10k
 
-echo ''
-echo 'Now installing themes, papirus icons'
-echo ''
-#Papirus icons
-sudo add-apt-repository ppa:papirus/papirus -y
-sudo apt install papirus-icon-theme -y
-# sudo apt install variety -y #dynamic wallpaper change
-# sudo apt install arc-theme -y
-# sudo apt install materia-gtk-theme -y
 
-echo ''
-read -p "Do you want to install battery management tools (usefull for notebooks)? y/n" -n 1 -r
-echo
-if [[ $REPLY =~ ^[Yy]$ ]]
-then
-    echo ''
-    echo 'Now installing tlp'
-    echo ''
-    sudo apt install tlp tlp-rdw  -y #linux power management for laptops
-    sudo tlp start
-    # sudo apt install powertop
-    # sudo powertop --auto-tune
-fi
-``
+
 # Pull down personal dotfiles
 echo ''
 read -p "Do you want to use undernotic's dotfiles? y/n" -n 1 -r

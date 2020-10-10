@@ -1,3 +1,17 @@
+
+# WSL Setup
+
+[https://docs.microsoft.com/en-us/windows/wsl/install-win10](https://docs.microsoft.com/en-us/windows/wsl/install-win10)
+
+Install MesliLGS NF Regular font from fonts/files/Meslo and change windows terminal config:
+```json
+      "defaults":
+        {
+            "fontFace": "MesloLGS NF"
+            // Put settings here that you want to apply to all profiles.
+        }
+```
+
 # Installation
 
 ``` bash

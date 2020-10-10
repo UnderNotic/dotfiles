@@ -26,6 +26,3 @@ echo ''
 echo 'Installing npm global packages'
 echo ''
 npm install -g nodemon create-react-app jest forever http-server pm2 webpack webpack-dev-server artillery testcafe yarn gatsby-cli
-npm install -g regexgen clipboard-cli tldr gifski gtop
-npm install -g eslint babel-eslint eslint-config-defaults eslint-config-standard eslint-config-standard-react eslint-plugin-standard eslint-plugin-promise eslint-plugin-jest eslint-plugin-import eslint-plugin-node eslint-plugin-react tslint typescript
-npm install -g ndb
