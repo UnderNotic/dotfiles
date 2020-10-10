@@ -167,7 +167,7 @@ then
 	echo ''
 	cd $HOME/.dotfiles && echo "switched to .dotfiles dir..."
 	echo ''
-	echo "Checking out master branch..." && git checkout master
+	echo "Checking out windows-wsl branch..." && git checkout windows-wsl
 	echo ''
 	echo "Now configuring symlinks..." && $HOME/.dotfiles/script/bootstrap
 	echo "Now installing..." && $HOME/.dotfiles/script/install
