@@ -19,12 +19,6 @@ echo "Configuring max file watches..."
 echo ''
 echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p
 
-#Use hardware local time
-echo ''
-echo "Use hardware local time..."
-echo ''
-timedatectl set-local-rtc 1
-
 # Creating project structure
 echo ''
 echo "Creating project structure..."

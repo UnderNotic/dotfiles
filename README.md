@@ -15,7 +15,7 @@ Install MesliLGS NF Regular font from fonts/files/Meslo and change windows termi
 # Installation
 
 ``` bash
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/undernotic/dotfiles/master/configure.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/undernotic/dotfiles/windows-wsl/configure.sh)"
 ```
 
 # Shortcuts
