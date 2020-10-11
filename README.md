@@ -48,7 +48,7 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/undernotic/dotfiles/wind
 
 # Shortcuts
 
-[See here](https://github.com/UnderNotic/dotfiles/blob/master/CHEATSHEET.md)
+[See here](https://github.com/UnderNotic/dotfiles/blob/windows-wsl/CHEATSHEET.md)
 
 
 # holman does dotfiles

@@ -155,7 +155,6 @@ echo ''
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/.oh-my-zsh/custom/themes/powerlevel10k
 
 
-
 # Pull down personal dotfiles
 echo ''
 read -p "Do you want to use undernotic's dotfiles? y/n" -n 1 -r
@@ -168,7 +167,7 @@ then
 	echo ''
 	cd $HOME/.dotfiles && echo "switched to .dotfiles dir..."
 	echo ''
-	echo "Checking out master branch..." && git checkout master
+	echo "Checking out windows-wsl branch..." && git checkout windows-wsl
 	echo ''
 	echo "Now configuring symlinks..." && $HOME/.dotfiles/script/bootstrap
 	echo "Now installing..." && $HOME/.dotfiles/script/install
