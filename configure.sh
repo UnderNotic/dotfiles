@@ -100,6 +100,12 @@ sudo add-apt-repository ppa:eugenesan/ppa -y
 sudo apt-get update
 sudo apt install mc -y
 
+# Micro install 
+echo ''
+echo "Now installing Micro..."
+echo ''
+sudo apt install micro -y
+
 # Bash color scheme
 echo ''
 echo "Now installing solarized dark WSL color scheme..."

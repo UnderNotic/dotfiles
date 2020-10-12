@@ -8,7 +8,8 @@ Install MesliLGS NF Regular font from fonts/files/Meslo and change windows termi
       "defaults":
         {
             "fontFace": "MesloLGS NF",
-            "colorScheme": "Dark+"
+            "colorScheme": "Ambience",
+            "closeOnExit": "always"
             // Put settings here that you want to apply to all profiles.
         }
 ```
@@ -16,6 +17,27 @@ Install MesliLGS NF Regular font from fonts/files/Meslo and change windows termi
 and color scheme:
 ```json
  "schemes": [
+          {
+            "name": "Ambience",
+            "black": "#2E3436",
+            "red": "#CC0000",
+            "green": "#4E9A06",
+            "yellow": "#C4A000",
+            "blue": "#3465A4",
+            "purple": "#75507B",
+            "cyan": "#06989A",
+            "white": "#D3D7CF",
+            "brightBlack": "#555753",
+            "brightRed": "#EF2929",
+            "brightGreen": "#8AE234",
+            "brightYellow": "#FCE94F",
+            "brightBlue": "#729FCF",
+            "brightPurple": "#AD7FA8",
+            "brightCyan": "#34E2E2",
+            "brightWhite": "#EEEEEC",
+            "background": "#181818",
+            "foreground": "#D7DAD5"
+          },
           {
             "name": "Dark+",
             "black": "#000000",
