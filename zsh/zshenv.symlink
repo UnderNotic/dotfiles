@@ -2,6 +2,7 @@
 export PROJECTS=~/workspace/projects
 export P=~/workspace/projects
 export p=~/workspace/projects
+export WORKSPACE=~/workspace
 export W=~/workspace
 export w=~/workspace
 
