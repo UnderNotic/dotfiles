@@ -56,6 +56,11 @@ echo ''
 sudo snap install robo3t-snap
 
 echo ''
+echo 'Now installing redis gui client'
+echo ''
+sudo snap install redis-desktop-manager
+
+echo ''
 echo 'Now installing fkill'
 echo ''
 sudo snap install fkill
