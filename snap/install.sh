@@ -16,6 +16,11 @@ echo ''
 sudo snap install postman
 
 echo ''
+echo 'Now installing subsync'
+echo ''
+sudo snap install subsync
+
+echo ''
 echo 'Now installing gitter'
 echo ''
 sudo snap install gitter-desktop
