@@ -36,6 +36,18 @@ echo ''
 brew tap jesseduffield/lazydocker
 brew install lazydocker
 
+# kubetail install
+echo ''
+echo "Now installing kubetail..."
+echo ''
+brew tap johanhaleby/kubetail && brew install kubetail
+
+# lazykubernetes install
+echo ''
+echo "Now installing lazykubernetes..."
+echo ''
+brew install yolossn/tap/lazykubernetes
+
 # diff-so-fancy install
 echo ''
 echo "Now installing diff-so-fancy..."
