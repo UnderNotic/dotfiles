@@ -84,6 +84,12 @@ echo 'Now installing go'
 echo ''
 brew install go
 
+# install gh
+echo ''
+echo 'Now installing gh'
+echo ''
+brew install gh
+
 echo ''
 echo 'Now installing lf - terminal navigator'
 echo ''
