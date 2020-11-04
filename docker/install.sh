@@ -31,11 +31,11 @@ then
     sudo chmod +x /usr/local/bin/ctop
 fi
 
-#kubectl
-#curl -LO https://storage.googleapis.com/kubernetes-release/release/$(curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt)/bin/linux/amd64/kubectl
-#chmod +x ./kubectl
-#sudo mv ./kubectl /usr/local/bin/kubectl
+# kubectl
+# curl -LO "https://storage.googleapis.com/kubernetes-release/release/$(curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt)/bin/linux/amd64/kubectl"
+# chmod +x ./kubectl
+# sudo mv ./kubectl /usr/local/bin/kubectl
 
-#minikube
-#sudo apt install libvirt-clients libvirt-daemon-system qemu-kvm
-#curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64 && sudo install minikube-linux-amd64 /usr/local/bin/minikube
+# minikube
+# sudo apt install libvirt-clients libvirt-daemon-system qemu-kvm
+# curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64 && sudo install minikube-linux-amd64 /usr/local/bin/minikube
