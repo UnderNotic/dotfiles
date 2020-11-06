@@ -34,8 +34,8 @@ done
 
 unset config_files
 
-# plugins=(sudo git node npm httpie history docker fasd zsh-completions)
-plugins=(node httpie fasd zsh-completions)
+# plugins=(sudo git node npm httpie history docker fasd zsh-completions kubectl docker)
+plugins=(node httpie fasd zsh-completions docker kubectl)
 
 source $ZSH/oh-my-zsh.sh
 source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
