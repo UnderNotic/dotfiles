@@ -113,7 +113,8 @@
 
 ## Kubernetes
 * `kubetail` &nbsp; kubernetes tail logs
-* `lazykubernetes` &nbsp; kubernetes cli gui
+* `k9s` &nbsp; kubernetes cli gui
+* `fubectl` &nbsp; https://github.com/kubermatic/fubectl
 
 ## CAT (BAT)
 * `/` &nbsp; search, use n/N for next/previous result

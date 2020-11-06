@@ -42,11 +42,17 @@ echo "Now installing kubetail..."
 echo ''
 brew tap johanhaleby/kubetail && brew install kubetail
 
-# lazykubernetes install
+# k9s install
 echo ''
-echo "Now installing lazykubernetes..."
+echo "Now installing k9s..."
 echo ''
-brew install yolossn/tap/lazykubernetes
+brew install k9s
+
+# k9s install
+echo ''
+echo "Now installing kubectx..."
+echo ''
+brew install kubectx
 
 # diff-so-fancy install
 echo ''
