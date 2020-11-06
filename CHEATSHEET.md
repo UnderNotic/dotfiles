@@ -59,6 +59,7 @@
 * `fzf` &nbsp; text finder
 * `lazygit` &nbsp; git cli gui
 * `lazydocker` &nbsp; docker cli gui
+* `lazykubernetes` &nbsp; kubernetes cli gui
 * `ctop` &nbsp; top for docker
 * `get-shit-done` &nbsp; block funny page like reddit, youtube etc.
 * `http` &nbsp; rest calls
@@ -80,6 +81,7 @@
 * `ripgrep (rg)` &nbsp; ripgrep recursively searches directories files content
 * `git-quick-stats` &nbsp; git repo stats
 * `mkcert` &nbsp; generates CA and then certficates signed by it
+* `lnav` &nbsp; log file navigator
 
 ## GIT
 * `alias gl` &nbsp; git pull
