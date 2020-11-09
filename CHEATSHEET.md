@@ -106,8 +106,8 @@
 
 ## Docker
 * `alias d-c` &nbsp; docker-compose
-* `https://github.com/MartinRamm/fzf-docker` &nbsp; docker links
-* `https://github.com/pierpo/fzf-docker` &nbsp; docker links
+* `fzf-docker` &nbsp; https://github.com/MartinRamm/fzf-docker
+* `fzf-docker` &nbsp; https://github.com/pierpo/fzf-docker
 * `lazydocker` &nbsp; docker cli gui
 * `ctop` &nbsp; top for docker
 
