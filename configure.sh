@@ -42,6 +42,7 @@ echo ''
 mkdir -p ~/workspace/projects
 mkdir -p ~/workspace/101
 mkdir -p ~/workspace/open_source
+mkdir -p ~/workspace/work
 
 echo ''
 echo "Updating package lists..."
