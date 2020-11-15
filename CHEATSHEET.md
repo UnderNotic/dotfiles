@@ -13,7 +13,6 @@
 * `o` &nbsp; open file/dir in xdg-open using z
 
 ## Terminal
-* `CTRL + L` &nbsp; clean terminal
 * `CTRL + SHIFT + UP/DOWN` &nbsp; go up/down line
 * `SHIFT + UP/DOWN` &nbsp; go up/down a page
 * `CTRL + SHIFT + E` &nbsp; split vertically
@@ -48,40 +47,9 @@
 * `z` &nbsp; use z
 * `gh` &nbsp; go to home dir
 
-
-## Utils tools
-* `xd` &nbsp; open with xdg-open, can open dirs with nemo
-* `htop` &nbsp; process util
-* `bmon` &nbsp; network util
-* `fkill` &nbsp; kill processes taking port (ie. :8080)
-* `fpp (fp)` &nbsp; file picker (git status | fp or search {my_string} | fp)
-* `tldr` &nbsp; better man
-* `fzf` &nbsp; text finder
-* `lazygit` &nbsp; git cli gui
-* `lazydocker` &nbsp; docker cli gui
-* `ctop` &nbsp; top for docker
-* `get-shit-done` &nbsp; block funny page like reddit, youtube etc.
-* `http` &nbsp; rest calls
-* `thefuck (fk)` &nbsp; fix last misspelled command
-* `nvm` &nbsp; node version manager
-* `http` &nbsp; http (httpie) utils
-* `glances` &nbsp; more advanced process util
-* `df` &nbsp; show free disk space
-* `clean-packages` &nbsp; clean not used, old packages
-* `http-server` &nbsp; static files web server
-* `clibboard (cb)` &nbsp; use cliboard in cli
-* `ncdu` &nbsp; disk space usage tool
-* `jq` &nbsp; json traverser
-* `fd` &nbsp; better find
-* `rg` &nbsp; regex utils
-* `artillery` &nbsp; network perfomance testing tool
-* `vegeta` &nbsp; network perfomance testing tool
-* `regexgen [strings]` &nbsp; generate regex from given strings
-* `ripgrep (rg)` &nbsp; ripgrep recursively searches directories files content
-* `git-quick-stats` &nbsp; git repo stats
-* `mkcert` &nbsp; generates CA and then certficates signed by it
-
 ## GIT
+* `lazygit` &nbsp; git cli gui
+* `git-quick-stats` &nbsp; git repo stats
 * `alias gl` &nbsp; git pull
 * `alias glog` &nbsp; git log --graph --pretty=format:'%Cred%h%Creset %an: %s - * `%Creset %C(yellow)%d%Creset %Cgreen(%cr)%Creset' --abbrev-commit * `--date=relative
 * `alias gp` &nbsp; git push origin HEAD
@@ -104,11 +72,52 @@
 * `git-wtf` &nbsp; displays the state of your repository in a readable, easy-to-scan format
 
 ## Functions
-* `search` &nbsp; like CTRL + SHIFT + F, recursive from current directory
+* `search` &nbsp; CTRL + SHIFT + F, recursive from current directory
 * `internet_info` &nbsp; shows private and public ip's
 * `generate_cert` &nbsp; generates local ssl certificates and add them to trusted list
 * `extract` &nbsp; extract all-in-one function
 
+## Utils tools
+* `xd` &nbsp; open with xdg-open, can open dirs with nemo
+* `fzf` &nbsp; text finder
+* `htop` &nbsp; process util
+* `bmon` &nbsp; network util
+* `fkill` &nbsp; kill processes taking port (ie. :8080)
+* `fpp (fp)` &nbsp; file picker (git status | fp or search {my_string} | fp)
+* `tldr` &nbsp; better man
+* `get-shit-done` &nbsp; block funny page like reddit, youtube etc.
+* `thefuck (fk)` &nbsp; fix last misspelled command
+* `regexgen [strings]` &nbsp; generate regex from given strings
+* `nvm` &nbsp; node version manager
+* `http` &nbsp; http (httpie) utils
+* `glances` &nbsp; more advanced process util
+* `df` &nbsp; show free disk space
+* `clean-packages` &nbsp; clean not used, old packages
+* `http-server` &nbsp; static files web server
+* `clibboard (cb)` &nbsp; use cliboard in cli
+* `ncdu` &nbsp; disk space usage tool
+* `jq` &nbsp; json traverser
+* `fd` &nbsp; better find
+* `rg` &nbsp; regex utils
+* `artillery` &nbsp; network performance testing tool
+* `vegeta` &nbsp; network performance testing tool
+* `ripgrep (rg)` &nbsp; ripgrep recursively searches directories files content
+* `mkcert` &nbsp; generates CA and then certficates signed by it
+
 ## Docker
-* `alias dr` &nbsp; docker
-* `alias dr-c` &nbsp; docker-compose
+* `alias d-c` &nbsp; docker-compose
+* `fzf-docker` &nbsp; https://github.com/MartinRamm/fzf-docker
+* `fzf-docker` &nbsp; https://github.com/pierpo/fzf-docker
+* `lazydocker` &nbsp; docker cli gui
+* `ctop` &nbsp; top for docker
+
+## Kubernetes
+* `kubetail` &nbsp; kubernetes tail logs
+* `k9s` &nbsp; kubernetes cli gui
+* `fubectl` &nbsp; https://github.com/kubermatic/fubectl
+
+## CAT (BAT)
+* `/` &nbsp; search, use n/N for next/previous result
+
+## LNAV - Log file navigator
+* `/` &nbsp; search, use n/N for next/previous result

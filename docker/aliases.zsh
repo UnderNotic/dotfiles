@@ -1,2 +1,1 @@
-alias dr='docker $*'
-alias dr-c='docker-compose $*'
+alias d-c='docker-compose $*'

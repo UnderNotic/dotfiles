@@ -36,6 +36,24 @@ echo ''
 brew tap jesseduffield/lazydocker
 brew install lazydocker
 
+# kubetail install
+echo ''
+echo "Now installing kubetail..."
+echo ''
+brew tap johanhaleby/kubetail && brew install kubetail
+
+# k9s install
+echo ''
+echo "Now installing k9s..."
+echo ''
+brew install k9s
+
+# k9s install
+echo ''
+echo "Now installing kubectx..."
+echo ''
+brew install kubectx
+
 # diff-so-fancy install
 echo ''
 echo "Now installing diff-so-fancy..."
@@ -71,6 +89,12 @@ echo ''
 echo 'Now installing go'
 echo ''
 brew install go
+
+# install gh
+echo ''
+echo 'Now installing gh'
+echo ''
+brew install gh
 
 echo ''
 echo 'Now installing lf - terminal navigator'
