@@ -33,6 +33,9 @@ choco install handbrake.install
 
 choco install firacode
 
+choco install obs-studio
+
+choco install python3
 
 choco install gimp
 choco install avirafreeantivirus
@@ -43,8 +46,11 @@ choco install microsoft-windows-terminal
 choco install transmission
 choco install ccleaner.portable
 choco install etcher
-# choco install rufus
 
+
+
+
+# choco install rufus
 
 # choco install docker-desktop
 # choco install docker-compose
