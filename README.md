@@ -69,7 +69,7 @@ and color scheme:
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/undernotic/dotfiles/windows-wsl/configure.sh)"
 ```
 
-## In powershell
+## In windows powershell
 ```powershell
 iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/UnderNotic/dotfiles/windows-wsl/wslterm.ps1'))
 ```

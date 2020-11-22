@@ -1,0 +1,7 @@
+[core]
+	editor = \"C:\\Users\\under\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe\" --wait
+[user]
+	email = undernotic@gmail.com
+	name = undernotic
+[includeIf "gitdir/i:/C/workspace/work/**"]
+    path = C:/workspace/work/.gitconfig
