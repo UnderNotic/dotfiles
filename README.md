@@ -69,9 +69,9 @@ and color scheme:
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/undernotic/dotfiles/windows-wsl/configure.sh)"
 ```
 
-## In windows powershell
+## In windows powershell (admin rights)
 ```powershell
-iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/UnderNotic/dotfiles/windows-wsl/wslterm.ps1'))
+iex ((New-Object System.Net.WebClient).DownloadString('https://github.com/UnderNotic/dotfiles/blob/windows-wsl/windows/setup.ps1'))
 ```
 
 
