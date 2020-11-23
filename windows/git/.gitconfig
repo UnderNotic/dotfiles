@@ -3,5 +3,5 @@
 [user]
 	email = undernotic@gmail.com
 	name = undernotic
-[includeIf "gitdir/i:/C/workspace/work/**"]
-    path = C:/workspace/work/.gitconfig-work
+[includeIf "gitdir/i:/C:/workspace/work/**"]
+    path = /C:/workspace/work/.gitconfig-work
