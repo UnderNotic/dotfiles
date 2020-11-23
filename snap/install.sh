@@ -40,6 +40,11 @@ echo 'Now installing discord'
 echo ''
 sudo snap install discord
 
+echo ''
+echo 'Now installing obs-studio'
+echo ''
+sudo snap install obs-studio
+
 # echo ''  ctrl+shift+e does not work
 # echo 'Now installing vs code'
 # echo ''
