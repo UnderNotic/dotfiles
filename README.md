@@ -74,7 +74,8 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/undernotic/dotfiles/wind
 iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/UnderNotic/dotfiles/windows-wsl/windows/setup.ps1'))
 ```
 
-
+# Manual steps
+* Install MesloLGS font
 
 # Shortcuts
 

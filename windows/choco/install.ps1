@@ -27,7 +27,13 @@ choco install postman -y
 
 choco install libreoffice-fresh -y
 choco install audacity -y
+
 choco install jetbrains-rider -y
+choco install resharper -y
+choco install dotcover -y
+choco install dotmemory -y
+choco install dotpeek -y
+choco install dottrace -y
 choco install jetbrainstoolbox -y
 
 choco install handbrake.install -y
