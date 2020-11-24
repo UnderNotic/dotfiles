@@ -121,3 +121,14 @@
 
 ## LNAV - Log file navigator
 * `/` &nbsp; search, use n/N for next/previous result
+
+## WINDOWS
+* `windows + ctrl + d`  &nbsp; create new workspace
+* `windows + ctrl + F4`  &nbsp; delete current workspace
+* `windows + ctrl + right/left`  &nbsp; switch workspace
+* `wt -d .`  &nbsp; open terminal from explorer
+* `shift + alt + d`  &nbsp; split terminal
+* `windows + e`  &nbsp; open explorer
+* `windows + left/right/up/down`  &nbsp; move current window
+* `windows + shift + left/right`  &nbsp; move current window to another screen
+* `windows + d`  &nbsp; show desktop
