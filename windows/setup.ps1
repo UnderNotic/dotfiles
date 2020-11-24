@@ -8,6 +8,11 @@ mkdir C:\workspace\work
 Invoke-WebRequest -Uri "https://raw.githubusercontent.com/UnderNotic/dotfiles/windows-wsl/windows/git/.gitconfig" -OutFile $HOME\.gitconfig
 Invoke-WebRequest -Uri "https://raw.githubusercontent.com/UnderNotic/dotfiles/windows-wsl/windows/git/.gitconfig-work" -OutFile "C:\workspace\work\.gitconfig-work"
 
+
+# font install
+iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/UnderNotic/dotfiles/windows-wsl/windows/fonts/install.ps1'))
+
+
 # choco install
 iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/UnderNotic/dotfiles/windows-wsl/windows/choco/install.ps1'))
 

@@ -1,6 +1,9 @@
 ﻿Set-ExecutionPolicy AllSigned
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1')) -y
 
+
+
+choco install rufus -y
 choco install mremoteng -y
 choco install winscp -y
 choco install mc -y
@@ -16,6 +19,8 @@ choco install nvm -y
 choco install putty -y
 
 choco install powershell-core -y
+
+choco install fiddler -y
 
 choco install skype -y
 choco install azure-cli -y
@@ -54,13 +59,9 @@ choco install transmission -y
 choco install ccleaner.portable -y
 choco install etcher -y
 
+wsl --set-default-version 2
+choco install docker-desktop -y
+choco install wsl-ubuntu-2004 -y
 
-
-
-# choco install rufus -y
-
-# choco install docker-desktop -y
-# choco install docker-compose -y
 
 # choco install wsl -y
-# choco install wsl-ubuntu-2004 -y
