@@ -129,3 +129,4 @@
 * `windows + left/right/up/down`  &nbsp; move current window
 * `windows + shift + left/right`  &nbsp; move current window to another screen
 * `windows + d`  &nbsp; show desktop
+* `ctrl + alt + t`  &nbsp; open terminal
