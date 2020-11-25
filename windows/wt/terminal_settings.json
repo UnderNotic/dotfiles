@@ -29,9 +29,9 @@
     {
         "defaults":
         {
-            // "fontFace": "MesloLGS NF",
-            "colorScheme" : "Campbell",
-            "closeOnExit": "always"
+            "fontFace": "MesloLGS NF",
+            "closeOnExit": "always",
+            "colorScheme": "Ambience"
         },
         "list":
         [
@@ -65,15 +65,36 @@
                 "guid": "{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}",
                 "hidden": false,
                 "name": "Ubuntu-20.04",
-                "source": "Windows.Terminal.Wsl",
-                "cursorColor" : "#FFFFFD"
+                "source": "Windows.Terminal.Wsl"
             }
         ]
     },
 
     // Add custom color schemes to this array.
     // To learn more about color schemes, visit https://aka.ms/terminal-color-schemes
-    "schemes": [],
+    "schemes": [
+        {
+            "name": "Ambience",
+            "black": "#2E3436",
+            "red": "#CC0000",
+            "green": "#4E9A06",
+            "yellow": "#C4A000",
+            "blue": "#3465A4",
+            "purple": "#75507B",
+            "cyan": "#06989A",
+            "white": "#D3D7CF",
+            "brightBlack": "#555753",
+            "brightRed": "#EF2929",
+            "brightGreen": "#8AE234",
+            "brightYellow": "#FCE94F",
+            "brightBlue": "#729FCF",
+            "brightPurple": "#AD7FA8",
+            "brightCyan": "#34E2E2",
+            "brightWhite": "#EEEEEC",
+            "background": "#181818",
+            "foreground": "#D7DAD5"
+          }
+    ],
 
     // Add custom actions and keybindings to this array.
     // To unbind a key combination from your defaults.json, set the command to "unbound".
