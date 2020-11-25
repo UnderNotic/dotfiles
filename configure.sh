@@ -35,6 +35,7 @@ timedatectl set-local-rtc 1
 echo ''
 echo "Creating project structure..."
 echo ''
+# just mount /workspace under m2 instead of this
 # sudo mkdir /workspace
 # sudo chown $USER /workspace
 # sudo chmod 775 /workspace
