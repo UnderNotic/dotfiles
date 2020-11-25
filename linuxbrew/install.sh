@@ -23,11 +23,12 @@ echo "Now installing bat..."
 echo ''
 brew install bat
 
-# bat install
+# fd install
 echo ''
 echo "Now installing fd..."
 echo ''
-brew install fd
+# brew install fd
+sudo apt install fd-find
 
 # lazydocker install
 echo ''

@@ -10,6 +10,7 @@ choco install firacode -y
 choco install sql-server-management-studio -y
 choco install microsoft-windows-terminal -y
 
+
 choco install jetbrains-rider -y
 choco install resharper -y
 choco install dotcover -y
