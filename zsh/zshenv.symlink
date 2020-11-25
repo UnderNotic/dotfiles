@@ -1,9 +1,10 @@
 # your project folder that we can `c [tab]` to
-export PROJECTS=~/workspace/projects
-export P=~/workspace/projects
-export p=~/workspace/projects
-export W=~/workspace
-export w=~/workspace
+export PROJECTS=/mnt/c/workspace/projects
+export P=/mnt/c/workspace/projects
+export p=/mnt/c/workspace/projects
+export WORKSPACE=/mnt/c/workspace
+export W=/mnt/c/workspace
+export w=/mnt/c/workspace
 
 export PATH=$PATH:~/bin
 export ZSH=~/.oh-my-zsh

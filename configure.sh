@@ -19,14 +19,6 @@ echo "Configuring max file watches..."
 echo ''
 echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p
 
-# Creating project structure
-echo ''
-echo "Creating project structure..."
-echo ''
-mkdir -p ~/workspace/projects
-mkdir -p ~/workspace/101
-mkdir -p ~/workspace/open_source
-
 echo ''
 echo "Updating package lists..."
 echo ''
@@ -138,6 +130,22 @@ echo "Downloading git-completion for git version: $GIT_VERSION..."
 if ! curl "$URL" --silent --output "$HOME/.git-completion.zsh"; then
 	echo "ERROR: Couldn't download completion script. Make sure you have a working internet connection." && exit 1
 fi
+
+# this is here, because brew install does not work
+echo ''
+echo 'Now installing lsd...'
+echo ''
+wget https://github.com/sharkdp/fd/releases/download/v8.1.1/fd-musl_8.1.1_amd64.deb -O fd-musl_8.1.1_amd64.deb
+sudo dpkg -i fd-musl_8.1.1_amd64.deb
+sudo rm fd-musl_8.1.1_amd64.deb
+
+# this is here, because brew install does not work
+echo ''
+echo 'Now installing fd...'
+echo ''
+wget https://github.com/Peltoche/lsd/releases/download/0.18.0/lsd_0.18.0_amd64.deb -O lsd_0.18.0_amd64.deb
+sudo dpkg -i lsd_0.18.0_amd64.deb
+sudo rm lsd_0.18.0_amd64.deb
 
 # oh-my-zsh install (type exit once installed to continue this script)
 echo ''

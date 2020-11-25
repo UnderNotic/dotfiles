@@ -12,10 +12,10 @@ echo ''
 brew install mkcert
 
 # lsd install
-echo ''
-echo "Now installing lsd..."
-echo ''
-brew install lsd
+# echo ''
+# echo "Now installing lsd..."
+# echo ''
+# brew install lsd
 
 # bat install
 echo ''
@@ -24,11 +24,10 @@ echo ''
 brew install bat
 
 # fd install
-echo ''
-echo "Now installing fd..."
-echo ''
+# echo ''
+# echo "Now installing fd..."
+# echo ''
 # brew install fd
-sudo apt install fd-find
 
 # lazydocker install
 echo ''
@@ -96,6 +95,11 @@ echo ''
 echo 'Now installing gh'
 echo ''
 brew install gh
+
+echo ''
+echo 'Now installing lnav'
+echo ''
+brew install lnav
 
 echo ''
 echo 'Now installing lf - terminal navigator'

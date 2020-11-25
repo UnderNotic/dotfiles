@@ -9,5 +9,3 @@ function t() {
 alias cat='bat'
 
 alias fp='fpp'
-
-alias fd='fdfind'

@@ -1,6 +1,8 @@
 # Local/private config goes in the include
 [include]
         path = ~/.gitconfig.local
+[includeIf "gitdir/i:/mnt/c/workspace/work/**"]
+    path = /mnt/c/workspace/work/.gitconfig-work
 [hub]
         protocol = https
 [alias]
