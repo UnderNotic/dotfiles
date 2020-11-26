@@ -121,3 +121,12 @@
 
 ## LNAV - Log file navigator
 * `/` &nbsp; search, use n/N for next/previous result
+
+## LINUX MINT
+* `shift + alt + left/right`  &nbsp; switch workspace
+* `ctrl + shift + e`  &nbsp; split terminal
+* `windows + e`  &nbsp; open explorer
+* `windows + left/right/up/down`  &nbsp; move current window
+* `windows + shift + left/right`  &nbsp; move current window to another screen
+* `windows + d`  &nbsp; show desktop
+* `ctrl + alt + t`  &nbsp; open terminal
