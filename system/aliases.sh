@@ -5,6 +5,8 @@ alias sudo='sudo env "PATH=$PATH"'
 alias reload!='. ~/.zshrc'
 alias cls='clear' # Good 'ol Clear Screen command
 
+alias xd='xdg-open 2>/dev/null'
+
 alias l='lsd -A --group-dirs first'
 alias ll='lsd -lA --group-dirs first'
 alias lsa='ls -FGlAhp --group-directories-first' 
