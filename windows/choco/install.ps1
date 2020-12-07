@@ -46,6 +46,7 @@ choco install vlc -y
 choco install skype -y
 choco install spotify -y
 choco install microsoft-teams -y
+choco install zoom -y
 choco install discord -y
 choco install slack -y
 choco install libreoffice-fresh -y
