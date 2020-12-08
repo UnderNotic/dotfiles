@@ -19,6 +19,15 @@ echo "Configuring max file watches..."
 echo ''
 echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p
 
+# Creating project structure
+echo ''
+echo "Creating project structure..."
+echo ''
+mkdir -p ~/workspace/projects
+mkdir -p ~/workspace/101
+mkdir -p ~/workspace/open_source
+mkdir -p ~/workspace/work
+
 echo ''
 echo "Updating package lists..."
 echo ''
