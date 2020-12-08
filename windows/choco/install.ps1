@@ -1,15 +1,20 @@
 ﻿Set-ExecutionPolicy AllSigned
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1')) -y
 
+choco install googlechrome -y
 
 choco install vscode -y
+choco install microsoft-windows-terminal -y
 choco install git -y
 choco install gitextensions -y
-choco install linqpad -y
 choco install firacode -y
 choco install sql-server-management-studio -y
-choco install microsoft-windows-terminal -y
 
+choco install dotnet -y
+choco install nodejs -y
+choco install nvm -y
+choco install python3 -y
+choco install powershell-core -y
 
 choco install jetbrains-rider -y
 choco install resharper -y
@@ -18,13 +23,7 @@ choco install dotmemory -y
 choco install dotpeek -y
 choco install dottrace -y
 choco install jetbrainstoolbox -y
-
-
-choco install dotnet -y
-choco install nodejs -y
-choco install nvm -y
-choco install python3 -y
-choco install powershell-core -y
+choco install linqpad -y
 
 
 choco install mremoteng -y
@@ -39,7 +38,6 @@ choco install azure-functions-core-tools-3 -y
 
 choco install mc -y
 choco install adobereader -y
-choco install googlechrome -y
 choco install 7zip -y
 choco install notepadplusplus -y
 choco install vlc -y
