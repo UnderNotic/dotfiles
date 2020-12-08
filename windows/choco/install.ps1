@@ -60,5 +60,5 @@ choco install obs-studio -y
 
 choco install wsl -y
 wsl --set-default-version 2
-choco install docker-desktop -y
 choco install wsl-ubuntu-2004 -y
+choco install docker-desktop -y
