@@ -18,6 +18,7 @@
         ui = true
 [core]
         editor = code --wait
+	    autocrlf = true
 
 [diff]
     tool = default-difftool
