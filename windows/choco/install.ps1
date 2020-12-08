@@ -38,7 +38,6 @@ choco install adobereader -y
 choco install 7zip -y
 choco install notepadplusplus -y
 choco install vlc -y
-choco install skype -y
 choco install spotify -y
 choco install microsoft-teams -y
 choco install zoom -y
