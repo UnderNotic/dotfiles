@@ -51,6 +51,7 @@ choco install transmission -y
 choco install ccleaner.portable -y
 choco install etcher -y
 choco install rufus -y
+choco install qnapi -y
 
 
 choco install handbrake.install -y
