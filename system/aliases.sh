@@ -22,3 +22,4 @@ alias path='echo -e ${PATH//:/\\n}'
 
 alias df='pydf'
 
+alias cmd='cmd.exe /c start'

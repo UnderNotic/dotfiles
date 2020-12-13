@@ -103,6 +103,7 @@
 * `vegeta` &nbsp; network performance testing tool
 * `ripgrep (rg)` &nbsp; ripgrep recursively searches directories files content
 * `mkcert` &nbsp; generates CA and then certficates signed by it
+* `cmd` &nbsp; open cmd.exe in new windoww
 
 ## Docker
 * `alias d-c` &nbsp; docker-compose
