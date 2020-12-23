@@ -22,11 +22,11 @@ choco install dottrace -y
 choco install jetbrainstoolbox -y
 choco install linqpad -y
 
-
 choco install mremoteng -y
 choco install winscp -y
 choco install putty -y
 choco install pgptool -y
+choco install lightshot.install -y
 
 choco install fiddler -y
 choco install postman -y
