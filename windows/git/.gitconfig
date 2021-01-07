@@ -1,7 +1,15 @@
 [core]
-	editor = \"C:\\Users\\under\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe\" --wait
+	editor = code --wait
 [user]
 	email = undernotic@gmail.com
 	name = undernotic
+[merge]
+        tool = vscode
+[mergetool "vscode"]
+        cmd = code -n --wait $MERGED
+[diff]
+        tool = vscode
+[difftool "vscode"]
+        cmd = code -n --wait --diff $LOCAL $REMOTE    
 [includeIf "gitdir/i:/C:/workspace/work/**"]
     path = /C:/workspace/work/.gitconfig-work
