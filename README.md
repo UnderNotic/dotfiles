@@ -61,6 +61,11 @@ iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercon
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/undernotic/dotfiles/windows-wsl/configure.sh)"
 ```
 
+## Optional
+Install taskbarx
+https://chrisandriessen.nl/taskbarx
+
+
 # Shortcuts
 
 [See here](https://github.com/UnderNotic/dotfiles/blob/windows-wsl/CHEATSHEET.md)
