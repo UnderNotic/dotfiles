@@ -17,4 +17,7 @@ iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercon
 # wt install 
 iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/UnderNotic/dotfiles/windows-wsl/windows/wt/install.ps1'))
 
+# autohotkeyinstall
+iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/UnderNotic/dotfiles/windows-wsl/windows/auto-hotkey/install.ps1'))
+
 
