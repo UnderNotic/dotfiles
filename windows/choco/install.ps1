@@ -35,6 +35,7 @@ choco install azure-functions-core-tools-3 -y
 
 choco install mc -y
 choco install adobereader -y
+choco install kindle -y
 choco install 7zip -y
 choco install notepadplusplus -y
 choco install vlc -y
