@@ -65,6 +65,7 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/undernotic/dotfiles/wind
 Install taskbarx
 https://chrisandriessen.nl/taskbarx
 
+Set copyq global shortcut to (alt + `)
 
 # Shortcuts
 

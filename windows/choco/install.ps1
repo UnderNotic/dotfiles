@@ -27,6 +27,8 @@ choco install winscp -y
 choco install putty -y
 choco install pgptool -y
 choco install lightshot.install -y
+choco install copyq -y
+choco install everything -y
 
 choco install fiddler -y
 choco install postman -y
