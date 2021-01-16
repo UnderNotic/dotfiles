@@ -34,6 +34,7 @@ choco install fiddler -y
 choco install postman -y
 choco install azure-cli -y
 choco install azure-functions-core-tools-3 -y
+choco install procexp -y
 
 choco install mc -y
 choco install adobereader -y
