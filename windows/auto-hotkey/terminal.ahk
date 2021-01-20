@@ -30,7 +30,9 @@ SwitchToWindowsTerminal()
 
 SwitchToWindowsTerminal2()
 {
-    Run, explorer.exe shell:AppsFolder\Microsoft.WindowsTerminal_8wekyb3d8bbwe!App
+    Run, explorer.exe shell:AppsFolder\Microsoft.WindowsTerminal_8wekyb3d8bbwe!App,,, process_id
+    WinWait, ahk_pid %process_id%
+    WinActivate, ahk_pid %process_id%
 }
 
 ; Hotkey to use Ctrl+Shift+C to launch/restore the Windows Terminal.
