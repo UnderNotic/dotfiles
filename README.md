@@ -62,6 +62,9 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/undernotic/dotfiles/wind
 ```
 
 ## Optional
+Install fkill
+In cmd: `npm install -g fkill-cli`
+
 Install taskbarx
 https://chrisandriessen.nl/taskbarx
 
