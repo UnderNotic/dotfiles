@@ -24,7 +24,6 @@ choco install jetbrainstoolbox -y
 
 choco install mremoteng -y
 choco install winscp -y
-choco install putty -y
 choco install pgptool -y
 choco install lightshot.install -y
 choco install copyq -y
@@ -36,7 +35,6 @@ choco install azure-cli -y
 choco install azure-functions-core-tools-3 -y
 choco install procexp -y
 
-choco install mc -y
 choco install adobereader -y
 choco install kindle -y
 choco install 7zip -y
