@@ -13,14 +13,14 @@ choco install nvm -y
 choco install python3 -y
 choco install powershell-core -y
 
-choco install jetbrains-rider -y
-choco install resharper -y
-choco install dotcover -y
-choco install dotmemory -y
-choco install dotpeek -y
-choco install dottrace -y
 choco install jetbrainstoolbox -y
-choco install linqpad -y
+# choco install jetbrains-rider -y
+# choco install resharper -y
+# choco install dotcover -y
+# choco install dotmemory -y
+# choco install dotpeek -y
+# choco install dottrace -y
+# choco install linqpad -y
 
 choco install mremoteng -y
 choco install winscp -y
