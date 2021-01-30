@@ -40,7 +40,7 @@ choco install kindle -y
 choco install 7zip -y
 choco install notepadplusplus -y
 choco install vlc -y
-choco install spotify -y
+# windows store install choco install spotify -y
 choco install microsoft-teams -y
 choco install zoom -y
 choco install discord -y
@@ -63,6 +63,7 @@ choco install obs-studio -y
 
 
 choco install wsl -y
-wsl --set-default-version 2
-choco install wsl-ubuntu-2004 -y
-choco install docker-desktop -y
+# run after restart
+# wsl --set-default-version 2
+# choco install wsl-ubuntu-2004 -y
+# choco install docker-desktop -y
