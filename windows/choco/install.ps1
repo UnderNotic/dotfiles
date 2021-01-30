@@ -51,7 +51,7 @@ choco install gimp -y
 choco install avirafreeantivirus -y
 choco install transmission -y
 choco install ccleaner.portable -y
-choco install etcher -y
+# choco install etcher -y
 choco install rufus -y
 choco install qnapi -y
 choco install powertoys -y
