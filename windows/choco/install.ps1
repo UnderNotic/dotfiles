@@ -67,3 +67,4 @@ choco install wsl -y
 # wsl --set-default-version 2
 # choco install wsl-ubuntu-2004 -y
 # choco install docker-desktop -y
+# if needed convert ubuntu to wsl2: 'wsl --set-version Ubuntu-20.04 2' 
