@@ -43,7 +43,7 @@ choco install vlc -y
 # windows store install choco install spotify -y
 choco install microsoft-teams -y
 choco install zoom -y
-choco install discord -y
+# choco install discord -y
 choco install slack -y
 choco install libreoffice-fresh -y
 choco install audacity -y
