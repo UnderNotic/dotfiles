@@ -7,9 +7,9 @@ export WORKSPACE=/mnt/c/workspace
 export W=/mnt/c/workspace
 export w=/mnt/c/workspace
 
-export LWORKSPACE=~/linux_workspace
-export LW=~/linux_workspace
-export lw=~/linux_workspace
+export LWORKSPACE=~/workspace_linux
+export LW=~/workspace_linux
+export lw=~/workspace_linux
 
 export PATH=$PATH:~/bin
 export ZSH=~/.oh-my-zsh
