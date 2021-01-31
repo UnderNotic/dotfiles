@@ -3,6 +3,8 @@
         path = ~/.gitconfig.local
 [includeIf "gitdir/i:/mnt/c/workspace/work/**"]
     path = /mnt/c/workspace/work/.gitconfig-work
+[includeIf "gitdir/i:~/workspace_linux/work/**"]
+    path = ~/workspace_linux/work/.gitconfig-work
 [hub]
         protocol = https
 [alias]
