@@ -23,10 +23,10 @@ echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo s
 echo ''
 echo "Creating project structure..."
 echo ''
-mkdir -p ~/workspace/projects
-mkdir -p ~/workspace/101
-mkdir -p ~/workspace/open_source
-mkdir -p ~/workspace/work
+mkdir -p ~/linux_workspace/projects
+mkdir -p ~/linux_workspace/101
+mkdir -p ~/linux_workspace/open_source
+mkdir -p ~/linux_workspace/work
 
 echo ''
 echo "Updating package lists..."
