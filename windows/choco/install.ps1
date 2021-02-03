@@ -6,13 +6,13 @@ choco install git -y
 choco install gitextensions -y
 choco install firacode -y
 choco install sql-server-management-studio -y
+choco install robo3t -y
 
 choco install dotnet -y
 choco install nodejs -y
 choco install nvm -y
 choco install python3 -y
 choco install powershell-core -y
-
 choco install jetbrainstoolbox -y
 # choco install jetbrains-rider -y
 # choco install resharper -y
@@ -24,6 +24,7 @@ choco install jetbrainstoolbox -y
 
 choco install mremoteng -y
 choco install winscp -y
+choco install openvpn -y
 choco install pgptool -y
 choco install lightshot.install -y
 choco install copyq -y
