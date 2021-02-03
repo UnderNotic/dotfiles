@@ -62,13 +62,17 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/undernotic/dotfiles/wind
 ```
 
 ## Optional
-Install fkill
+* Set copyq global shortcut to (alt + `)
+
+* Install oh-my-posh for powershell
+https://github.com/JanDeDobbeleer/oh-my-posh
+
+* Install fkill
 In cmd: `npm install -g fkill-cli`
 
-Install taskbarx
+* Install taskbarx
 https://chrisandriessen.nl/taskbarx
 
-Set copyq global shortcut to (alt + `)
 
 # Shortcuts
 

@@ -21,7 +21,7 @@
 [core]
         editor = code --wait
 	    autocrlf = true
-
+	    symlinks = true
 [diff]
     tool = default-difftool
     

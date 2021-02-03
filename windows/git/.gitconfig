@@ -1,5 +1,6 @@
 [core]
 	editor = code --wait
+        symlinks = true
 [user]
 	email = undernotic@gmail.com
 	name = undernotic
