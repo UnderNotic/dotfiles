@@ -93,6 +93,13 @@ echo 'Installing jq'
 echo ''
 sudo apt install jq -y
 
+
+# aws cli install
+echo ''
+echo 'Installing awscli'
+echo ''
+sudo apt install awscli -y
+
 # Midnight commander install
 echo ''
 echo "Now installing Midnight commander..."
