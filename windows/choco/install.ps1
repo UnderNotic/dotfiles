@@ -26,7 +26,8 @@ choco install mremoteng -y
 choco install winscp -y
 choco install openvpn -y
 choco install pgptool -y
-choco install lightshot.install -y
+# choco install lightshot.install -y
+choco install sharex -y
 choco install copyq -y
 choco install everything -y
 
