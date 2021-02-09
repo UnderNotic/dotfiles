@@ -22,4 +22,5 @@ alias path='echo -e ${PATH//:/\\n}'
 
 alias df='pydf'
 
-alias cmd='pwsh.exe'
+alias cm='pwsh.exe'
+alias cmd='cmd.exe /c "wt.exe" -p "PowerShell" -d .'
