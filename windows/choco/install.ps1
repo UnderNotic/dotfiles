@@ -70,3 +70,5 @@ choco install wsl -y
 # choco install wsl-ubuntu-2004 -y
 # choco install docker-desktop -y
 # if needed convert ubuntu to wsl2: 'wsl --set-version Ubuntu-20.04 2' 
+
+choco install logitech-options -y
