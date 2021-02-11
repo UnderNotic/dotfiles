@@ -24,7 +24,7 @@ choco install jetbrainstoolbox -y
 
 choco install mremoteng -y
 choco install winscp -y
-choco install openvpn -y
+# choco install openvpn -y instead install openvpn connect v3
 choco install pgptool -y
 # choco install lightshot.install -y
 choco install sharex -y
