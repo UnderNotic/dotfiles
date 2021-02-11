@@ -20,8 +20,9 @@
         ui = true
 [core]
         editor = code --wait
-	    autocrlf = true
+	    autocrlf = input
 	    symlinks = true
+    	eol = lf
 [diff]
     tool = default-difftool
     
