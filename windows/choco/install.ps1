@@ -29,7 +29,7 @@ choco install pgptool -y
 # choco install lightshot.install -y
 choco install sharex -y
 choco install copyq -y
-choco install everything -y
+# choco install everything -y optional
 
 choco install fiddler -y
 choco install postman -y
@@ -63,6 +63,7 @@ choco install quicklook -y
 choco install handbrake.install -y
 choco install obs-studio -y
 
+choco install logitech-options -y
 
 choco install wsl -y
 # run after restart
@@ -70,5 +71,3 @@ choco install wsl -y
 # choco install wsl-ubuntu-2004 -y
 # choco install docker-desktop -y
 # if needed convert ubuntu to wsl2: 'wsl --set-version Ubuntu-20.04 2' 
-
-choco install logitech-options -y
