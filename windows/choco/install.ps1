@@ -6,6 +6,7 @@ choco install git -y
 choco install gitextensions -y
 choco install firacode -y
 choco install sql-server-management-studio -y
+choco install azure-data-studio -y
 choco install robo3t -y
 
 choco install dotnet -y
