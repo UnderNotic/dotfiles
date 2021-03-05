@@ -66,9 +66,14 @@ choco install obs-studio -y
 
 choco install logitech-options -y
 
+choco install fzf -y
+
+
 choco install wsl -y
 # run after restart
 # wsl --set-default-version 2
 # choco install wsl-ubuntu-2004 -y
 # choco install docker-desktop -y
 # if needed convert ubuntu to wsl2: 'wsl --set-version Ubuntu-20.04 2' 
+
+Install-Module PSFzf -Scope CurrentUser
