@@ -3,6 +3,7 @@
 choco install vscode -y
 choco install microsoft-windows-terminal -y
 choco install git -y
+choco install github-desktop -y
 choco install gitextensions -y
 choco install firacode -y
 choco install sql-server-management-studio -y
