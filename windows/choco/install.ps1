@@ -53,7 +53,7 @@ choco install libreoffice-fresh -y
 choco install audacity -y
 choco install gimp -y
 choco install avirafreeantivirus -y
-choco install transmission -y
+choco install qbittorrent -y
 choco install ccleaner.portable -y
 choco install etcher -y
 choco install rufus -y
