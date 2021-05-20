@@ -32,6 +32,7 @@ choco install pgptool -y
 choco install sharex -y
 choco install copyq -y
 # choco install everything -y optional
+choco install agentransack -y
 
 choco install fiddler -y
 choco install postman -y
