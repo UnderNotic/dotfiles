@@ -22,16 +22,16 @@ choco install jetbrainstoolbox -y
 # choco install dotmemory -y
 # choco install dotpeek -y
 # choco install dottrace -y
-# choco install linqpad -y
+choco install linqpad -y
 
 choco install mremoteng -y
 choco install winscp -y
-# choco install openvpn -y instead install openvpn connect v3
+choco install openvpn-connect -y
 choco install pgptool -y
 # choco install lightshot.install -y
 choco install sharex -y
 choco install copyq -y
-# choco install everything -y optional
+choco install everything -y
 choco install agentransack -y
 
 choco install fiddler -y
