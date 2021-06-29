@@ -24,6 +24,9 @@ choco install jetbrainstoolbox -y
 # choco install dottrace -y
 choco install linqpad -y
 
+# choco install teamviewer -y
+choco install wakemeonlan -y
+
 choco install mremoteng -y
 choco install winscp -y
 choco install openvpn-connect -y
