@@ -65,6 +65,7 @@ choco install qnapi -y
 # choco install powertoys -y
 # choco install autohotkey -y
 choco install quicklook -y
+choco install hwmonitor -y
 
 choco install handbrake.install -y
 choco install obs-studio -y
