@@ -79,3 +79,7 @@ https://chrisandriessen.nl/taskbarx
 # Shortcuts
 
 [See here](https://github.com/UnderNotic/dotfiles/blob/windows-wsl/CHEATSHEET.md)
+
+# WSL Internet fix
+Run this script (right-click run with powershell)
+[See here](https://github.com/UnderNotic/dotfiles/blob/windows-wsl/windows/wsl-fix/WSL2-Net-Fix.ps1)
