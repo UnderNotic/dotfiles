@@ -66,15 +66,26 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/undernotic/dotfiles/wind
 ## Optional
 * Set copyq global shortcut to (alt + `)
 
-* Install oh-my-posh for powershell
-https://github.com/JanDeDobbeleer/oh-my-posh
+* Set powershell aliases
+https://raw.githubusercontent.com/UnderNotic/dotfiles/windows-wsl/windows/powershell/profile.ps1
 
 * Install fkill
 In cmd: `npm install -g fkill-cli`
 
-* Install taskbarx
-https://chrisandriessen.nl/taskbarx
+* install powershell posh-git and oh-my-posh
+```powershell
+Install-Module posh-git -Scope CurrentUser
+Install-Module oh-my-posh -Scope CurrentUser
+```
+And put this is ps profile file:
+notepad $PROFILE
+```powershell
+Import-Module posh-git
+Import-Module oh-my-posh
+Set-PoshPrompt -Theme powerlevel10k_rainbow
+```
 
+* Inspire from https://github.com/jayharris/dotfiles-windows
 
 # Shortcuts
 

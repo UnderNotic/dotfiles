@@ -1,8 +1,7 @@
 notepad $profile and copy following
 
 
-function gs()
-{
+function gs(){
     git status -sb
 }
 function gl(){
@@ -17,6 +16,9 @@ function gp(){
 function gd(){
     git diff
 }
-function gl(){
-    git pull
+function gch {
+	git checkout $args
+}
+function gb {
+	git branch $args
 }
