@@ -1,4 +1,7 @@
-notepad $profile and copy following
+New-Item –Path $Profile –Type File –Force
+notepad $profile
+
+ and copy following
 
 
 function gs(){
