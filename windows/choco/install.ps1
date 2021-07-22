@@ -34,7 +34,7 @@ choco install pgptool -y
 # choco install lightshot.install -y
 choco install sharex -y
 choco install copyq -y
-choco install everything -y
+# choco install everything -y
 choco install agentransack -y
 
 choco install fiddler -y
