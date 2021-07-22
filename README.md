@@ -58,6 +58,16 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/UnderNotic/dotfiles/windows-wsl/windows/setup.ps1'))
 ```
 
+## After restart
+
+```powershell
+# run after restart
+wsl --set-default-version 2
+choco install wsl-ubuntu-2004 -y
+choco install docker-desktop -y
+# if needed convert ubuntu to wsl2: 'wsl --set-version Ubuntu-20.04 2' 
+```
+
 ## In WSL Bash
 ``` bash
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/undernotic/dotfiles/windows-wsl/configure.sh)"
