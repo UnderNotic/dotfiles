@@ -79,6 +79,8 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/undernotic/dotfiles/wind
 * Set powershell aliases
 https://raw.githubusercontent.com/UnderNotic/dotfiles/windows-wsl/windows/powershell/profile.ps1
 
+* disable fast startup on notebook
+
 * Install fkill
 In cmd: `npm install -g fkill-cli`
 
