@@ -13,7 +13,7 @@ choco install robo3t -y
 choco install dotnet -y
 choco install nodejs -y
 choco install nvm -y
-choco install python3 -y
+# choco install python3 -y install this normally, this have some path issue with pip packages 
 choco install powershell-core -y
 choco install jetbrainstoolbox -y
 # choco install jetbrains-rider -y
