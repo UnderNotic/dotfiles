@@ -1,4 +1,4 @@
-Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass #run this before running script
 # Check these threads before proceeding:
 # https://github.com/microsoft/WSL/discussions/5857
 # https://github.com/microsoft/WSL/issues/5821

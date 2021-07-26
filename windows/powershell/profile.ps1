@@ -25,3 +25,7 @@ function gch {
 function gb {
 	git branch $args
 }
+
+Remove-PSReadlineKeyHandler 'Ctrl+r'
+Remove-PSReadlineKeyHandler 'Ctrl+t'
+Import-Module PSFzf
