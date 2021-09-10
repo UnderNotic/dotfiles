@@ -47,6 +47,7 @@ choco install procexp -y
 choco install adobereader -y
 choco install kindle -y
 choco install 7zip -y
+choco install windirstat -y 
 choco install notepadplusplus -y
 choco install vlc -y
 # windows store install choco install spotify -y
