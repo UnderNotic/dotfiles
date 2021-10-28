@@ -37,6 +37,8 @@ choco install copyq -y
 # choco install everything -y
 choco install agentransack -y
 
+choco install f.lux -y
+
 choco install fiddler -y
 choco install postman -y
 choco install k6 -y
