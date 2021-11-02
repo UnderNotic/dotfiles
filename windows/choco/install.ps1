@@ -64,7 +64,7 @@ choco install slack -y
 choco install libreoffice-fresh -y
 choco install audacity -y
 choco install gimp -y
-choco install avirafreeantivirus -y
+# choco install avirafreeantivirus -y /install manually
 choco install qbittorrent -y
 choco install ccleaner.portable -y
 choco install etcher -y
