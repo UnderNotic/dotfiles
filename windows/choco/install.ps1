@@ -1,5 +1,7 @@
 ﻿choco install googlechrome -y
 
+choco install onenote -y
+
 choco install vscode -y
 # choco install microsoftwindows-terminal -y /installed on default in w11
 choco install git -y
