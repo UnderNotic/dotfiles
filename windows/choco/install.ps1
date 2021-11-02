@@ -1,7 +1,7 @@
 ﻿choco install googlechrome -y
 
 choco install vscode -y
-choco install microsoft-windows-terminal -y
+# choco install microsoftwindows-terminal -y /installed on default in w11
 choco install git -y
 # choco install github-desktop -y
 choco install gitextensions -y
@@ -13,7 +13,7 @@ choco install robo3t -y
 choco install dotnet -y
 choco install nodejs -y
 choco install nvm -y
-# choco install python3 -y install this normally, this have some path issue with pip packages 
+
 choco install powershell-core -y
 choco install jetbrainstoolbox -y
 # choco install jetbrains-rider -y
@@ -33,10 +33,10 @@ choco install mremoteng -y
 choco install winscp -y
 choco install openvpn-connect -y
 choco install pgptool -y
-# choco install lightshot.install -y
+
 choco install sharex -y
 choco install copyq -y
-# choco install everything -y
+
 choco install agentransack -y
 
 choco install f.lux -y
@@ -53,10 +53,10 @@ choco install kindle -y
 choco install 7zip -y
 choco install notepadplusplus -y
 choco install vlc -y
-# windows store install choco install spotify -y
+choco install spotify -y
 choco install microsoft-teams -y
 choco install zoom -y
-# choco install discord -y
+choco install discord -y
 choco install slack -y
 choco install libreoffice-fresh -y
 choco install audacity -y
@@ -71,8 +71,7 @@ choco install windirstat -y
 choco install partitionwizard -y
 
 choco install qnapi -y
-# choco install powertoys -y
-# choco install autohotkey -y
+
 choco install quicklook -y
 choco install hwmonitor -y
 
@@ -83,12 +82,27 @@ choco install logitech-options -y
 
 choco install fzf -y
 
+choco install docker-desktop -y
+
+# install fzf for powershell
+Install-Module PSFzf -Scope CurrentUser
+
+# choco install python3 -y install this normally, this have some path issue with pip packages 
+
+# what should be installed by windows store?
 
 # choco install wsl -y
 # run after restart
 # wsl --set-default-version 2
 # choco install wsl-ubuntu-2004 -y
-# choco install docker-desktop -y
 # if needed convert ubuntu to wsl2: 'wsl --set-version Ubuntu-20.04 2' 
 
-Install-Module PSFzf -Scope CurrentUser
+
+
+
+
+# old stuff
+# choco install powertoys -y
+# choco install autohotkey -y
+# choco install everything -y
+# choco install lightshot.install -y
