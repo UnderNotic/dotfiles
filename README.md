@@ -76,6 +76,8 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/undernotic/dotfiles/wind
 
 - Set powershell aliases
   https://raw.githubusercontent.com/UnderNotic/dotfiles/windows-wsl/windows/powershell/profile.ps1
+  New-Item –Path $Profile –Type File –Force  // not needed 
+  notepad $PROFILE
 
 - disable fast startup on notebook (if wsl networking doesn't work after waking up)
 

@@ -90,7 +90,7 @@ choco install fzf -y
 choco install docker-desktop -y
 
 # install fzf for powershell
-Install-Module PSFzf -Scope CurrentUser
+Install-Module PSFzf -Scope CurrentUser -Force
 
 # choco install python3 -y install this normally, this have some path issue with pip packages 
 
