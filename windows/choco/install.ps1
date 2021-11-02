@@ -49,7 +49,6 @@ choco install procexp -y
 choco install adobereader -y
 choco install kindle -y
 choco install 7zip -y
-choco install windirstat -y 
 choco install notepadplusplus -y
 choco install vlc -y
 # windows store install choco install spotify -y
@@ -65,6 +64,10 @@ choco install qbittorrent -y
 choco install ccleaner.portable -y
 choco install etcher -y
 choco install rufus -y
+choco install windows10-media-creation-tool -y
+choco install windirstat -y 
+choco install partitionwizard -y
+
 choco install qnapi -y
 # choco install powertoys -y
 # choco install autohotkey -y
