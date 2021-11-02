@@ -24,6 +24,8 @@ choco install jetbrainstoolbox -y
 # choco install dottrace -y
 choco install linqpad -y
 
+choco install mc -y
+
 # choco install teamviewer -y
 choco install wakemeonlan -y
 
@@ -82,7 +84,7 @@ choco install logitech-options -y
 choco install fzf -y
 
 
-choco install wsl -y
+# choco install wsl -y
 # run after restart
 # wsl --set-default-version 2
 # choco install wsl-ubuntu-2004 -y
