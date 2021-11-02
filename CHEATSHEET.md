@@ -152,4 +152,4 @@
 - `windows + ctrl + f4` &nbsp; delete current virtual desktop
 - `windows + ctrl + left/right` &nbsp; switch between virtual desktops
 - `windows + l` &nbsp; lock
-- [https://techpp.com/2021/08/20/windows-11-keyboard-shortcuts-the-ultimate-list/](other)
+- [other](https://techpp.com/2021/08/20/windows-11-keyboard-shortcuts-the-ultimate-list/)
