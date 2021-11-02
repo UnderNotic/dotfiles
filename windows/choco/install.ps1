@@ -57,7 +57,7 @@ choco install 7zip -y
 choco install notepadplusplus -y
 choco install vlc -y
 choco install spotify -y
-choco install microsoft-teams -y
+# choco install microsoft-teams -y /installed on default in w11
 choco install zoom -y
 choco install discord -y
 choco install slack -y
