@@ -12,7 +12,7 @@ choco install sql-server-management-studio -y
 choco install azure-data-studio -y
 choco install robo3t -y
 
-choco install dotnet -y
+choco install dotnet-sdk -y
 choco install nodejs -y
 choco install nvm -y
 
