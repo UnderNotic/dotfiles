@@ -22,6 +22,9 @@ choco install jetbrainstoolbox -y
 # choco install dotmemory -y
 # choco install dotpeek -y
 # choco install dottrace -y
+# choco install webstorm -y
+# choco install datagrip -y
+# choco install goland -y
 choco install linqpad -y
 
 choco install mc -y
