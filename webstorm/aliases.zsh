@@ -1,0 +1,1 @@
+alias webstorm='. /opt/WebStorm*/bin/webstorm.sh > /dev/null 2>&1 &'

@@ -70,6 +70,16 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/undernotic/dotfiles/wind
 }
 ```
 
+## Install WebStorm
+
+- Use wget to install webstorm from https://www.jetbrains.com/webstorm/download/#section=linux
+- Extract webstorm 
+```bash
+sudo tar xzf WebStorm-*.tar.gz -C /opt/
+```
+- Run webstorm.sh
+- Use webstorm command to run
+
 ## Optional
 
 - Set copyq global shortcut to (alt + `)
