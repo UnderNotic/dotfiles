@@ -105,15 +105,6 @@ Install-Module oh-my-posh -Scope CurrentUser
 - Install fkill
   In cmd: `npm install -g fkill-cli`
 
-And put this is ps profile file:
-notepad $PROFILE
-
-```powershell
-Import-Module posh-git
-Import-Module oh-my-posh
-Set-PoshPrompt -Theme powerlevel10k_rainbow
-```
-
 - Inspired from https://github.com/jayharris/dotfiles-windows
 
 ## Shortcuts
