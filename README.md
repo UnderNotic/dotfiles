@@ -87,9 +87,8 @@ sudo tar xzf WebStorm-*.tar.gz -C /opt/
 - Set copyq global shortcut to (alt + `)
 
 - Set powershell aliases
-  notepad $PROFILE
-
-  copy content of https://raw.githubusercontent.com/UnderNotic/dotfiles/windows-wsl/windows/powershell/profile.ps1
+  `notepad $PROFILE`  
+  copy content to notepad -> https://raw.githubusercontent.com/UnderNotic/dotfiles/windows-wsl/windows/powershell/profile.ps1
 
 - Extend right click context menu https://github.com/UnderNotic/dotfiles/blob/windows-wsl/windows/wt/install.ps1
 
