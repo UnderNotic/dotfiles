@@ -14,5 +14,5 @@ iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercon
 # choco install
 iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/UnderNotic/dotfiles/windows-wsl/windows/choco/install.ps1'))
 
-# wt install (not needed in w11)
-# iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/UnderNotic/dotfiles/windows-wsl/windows/wt/install.ps1'))
+# terminal utilities install
+iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/UnderNotic/dotfiles/windows-wsl/windows/wt/install.ps1'))

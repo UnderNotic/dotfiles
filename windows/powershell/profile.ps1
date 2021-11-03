@@ -1,4 +1,5 @@
-function gs(){
+function gs()
+{
     git status -sb
 }
 function gl(){
@@ -13,13 +14,30 @@ function gp(){
 function gd(){
     git diff
 }
-function gch {
-	git checkout $args
+function gl(){
+    git pull
 }
-function gb {
-	git branch $args
+
+function gl(){
+    git pull
+}
+
+function ls(){
+    lsd
+}
+
+function l(){
+    lsd -A --group-dirs first
+}
+
+function ll(){
+    lsd -lA --group-dirs first
 }
 
 Remove-PSReadlineKeyHandler 'Ctrl+r'
 Remove-PSReadlineKeyHandler 'Ctrl+t'
 Import-Module PSFzf
+
+Import-Module posh-git
+Import-Module oh-my-posh
+Set-PoshPrompt -Theme powerlevel10k_rainbow

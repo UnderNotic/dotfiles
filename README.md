@@ -86,9 +86,17 @@ sudo tar xzf WebStorm-*.tar.gz -C /opt/
 
 - Set copyq global shortcut to (alt + `)
 
-- Set powershell aliases
-  `notepad $PROFILE`  
-  copy content to notepad -> https://raw.githubusercontent.com/UnderNotic/dotfiles/windows-wsl/windows/powershell/profile.ps1
+- Setup powershell prompt
+
+Install powershell posh-git and oh-my-posh
+
+```powershell
+Install-Module posh-git -Scope CurrentUser
+Install-Module oh-my-posh -Scope CurrentUser
+```
+
+`notepad $PROFILE`  
+ copy content to notepad -> https://raw.githubusercontent.com/UnderNotic/dotfiles/windows-wsl/windows/powershell/profile.ps1
 
 - Extend right click context menu https://github.com/UnderNotic/dotfiles/blob/windows-wsl/windows/wt/install.ps1
 
@@ -96,13 +104,6 @@ sudo tar xzf WebStorm-*.tar.gz -C /opt/
 
 - Install fkill
   In cmd: `npm install -g fkill-cli`
-
-- install powershell posh-git and oh-my-posh
-
-```powershell
-Install-Module posh-git -Scope CurrentUser
-Install-Module oh-my-posh -Scope CurrentUser
-```
 
 And put this is ps profile file:
 notepad $PROFILE
