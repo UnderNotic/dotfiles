@@ -73,10 +73,12 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/undernotic/dotfiles/wind
 ## Install WebStorm
 
 - Use wget to install webstorm from https://www.jetbrains.com/webstorm/download/#section=linux
-- Extract webstorm 
+- Extract webstorm
+
 ```bash
 sudo tar xzf WebStorm-*.tar.gz -C /opt/
 ```
+
 - Run webstorm.sh
 - Use webstorm command to run
 
@@ -85,9 +87,11 @@ sudo tar xzf WebStorm-*.tar.gz -C /opt/
 - Set copyq global shortcut to (alt + `)
 
 - Set powershell aliases
-  https://raw.githubusercontent.com/UnderNotic/dotfiles/windows-wsl/windows/powershell/profile.ps1
-  New-Item –Path $Profile –Type File –Force  // not needed 
   notepad $PROFILE
+
+  copy content of https://raw.githubusercontent.com/UnderNotic/dotfiles/windows-wsl/windows/powershell/profile.ps1
+
+- Extend right click context menu https://github.com/UnderNotic/dotfiles/blob/windows-wsl/windows/wt/install.ps1
 
 - disable fast startup on notebook (if wsl networking doesn't work after waking up)
 
