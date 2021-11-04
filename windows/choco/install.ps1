@@ -72,7 +72,7 @@ choco install ccleaner.portable -y
 choco install etcher -y
 choco install rufus -y
 choco install windows10-media-creation-tool -y
-choco install windirstat -y 
+choco install wiztree -y
 choco install partitionwizard -y
 
 choco install qnapi -y
