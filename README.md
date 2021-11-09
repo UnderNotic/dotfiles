@@ -82,6 +82,11 @@ sudo tar xzf WebStorm-*.tar.gz -C /opt/
 - Run webstorm.sh
 - Use webstorm command to run
 
+## Window store
+
+- Messenger
+- WhatsApp
+
 ## Optional
 
 - Set copyq global shortcut to (alt + `)
