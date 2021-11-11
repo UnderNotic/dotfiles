@@ -89,9 +89,9 @@ sudo tar xzf WebStorm-*.tar.gz -C /opt/
 
 ## Optional
 
-- Set copyq global shortcut to (alt + `)
+### Set copyq global shortcut to (alt + `)
 
-- Setup powershell prompt
+### Setup powershell prompt
 
 Install powershell posh-git and oh-my-posh
 
@@ -103,14 +103,18 @@ Install-Module oh-my-posh -Scope CurrentUser
 `notepad $PROFILE`  
  copy content to notepad -> https://raw.githubusercontent.com/UnderNotic/dotfiles/windows-wsl/windows/powershell/profile.ps1
 
-- Extend right click context menu https://github.com/UnderNotic/dotfiles/blob/windows-wsl/windows/wt/install.ps1
+### Extend right click context menu 
+https://github.com/UnderNotic/dotfiles/blob/windows-wsl/windows/wt/install.ps1
 
-- disable fast startup on notebook (if wsl networking doesn't work after waking up)
+### disable fast startup on notebook (if wsl networking doesn't work after waking up)
 
-- Install fkill
+### Install fkill
   In cmd: `npm install -g fkill-cli`
 
-- Inspired from https://github.com/jayharris/dotfiles-windows
+### Setup git-bash
+  https://www.youtube.com/watch?v=aQDsgCV4US0&t=846s
+
+### Inspired from https://github.com/jayharris/dotfiles-windows
 
 ## Shortcuts
 
