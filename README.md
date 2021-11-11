@@ -106,7 +106,7 @@ Install-Module oh-my-posh -Scope CurrentUser
 ### Extend right click context menu 
 https://github.com/UnderNotic/dotfiles/blob/windows-wsl/windows/wt/install.ps1
 
-### disable fast startup on notebook (if wsl networking doesn't work after waking up)
+### Disable fast startup on notebook (if wsl networking doesn't work after waking up)
 
 ### Install fkill
   In cmd: `npm install -g fkill-cli`
