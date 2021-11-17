@@ -1,4 +1,5 @@
 ﻿choco install googlechrome -y
+choco install tor-browser -y
 
 choco install onenote -y
 
