@@ -44,7 +44,7 @@ choco install sharex -y
 choco install copyq -y
 
 choco install agentransack -y
-
+choco install bluescreenview -y
 choco install f.lux -y
 
 choco install fiddler -y
