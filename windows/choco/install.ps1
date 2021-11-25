@@ -41,7 +41,7 @@ choco install openvpn-connect -y
 choco install pgptool -y
 
 choco install sharex -y
-choco install copyq -y
+choco install ditto -y
 
 choco install agentransack -y
 choco install bluescreenview -y
