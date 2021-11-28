@@ -89,7 +89,7 @@ sudo tar xzf WebStorm-*.tar.gz -C /opt/
 
 ## Optional
 
-### Set copyq global shortcut to (alt + `)
+### Set ditto/copyq global shortcut to (alt + `)
 
 ### Setup powershell prompt
 
@@ -111,16 +111,19 @@ https://github.com/UnderNotic/dotfiles/blob/windows-wsl/windows/wt/install.ps1
 ### Install fkill
   In cmd: `npm install -g fkill-cli`
 
+### Use ThisIsWin11
+  https://github.com/builtbybel/ThisIsWin11
+
 ### Setup git-bash
   https://www.youtube.com/watch?v=aQDsgCV4US0&t=846s
-
-### Inspired from https://github.com/jayharris/dotfiles-windows
-
-## Shortcuts
-
-[See here](https://github.com/UnderNotic/dotfiles/blob/windows-wsl/CHEATSHEET.md)
 
 ## WSL Internet fix
 
 Run this script (right-click run with powershell)
 [See here](https://github.com/UnderNotic/dotfiles/blob/windows-wsl/windows/wsl-fix/WSL2-Net-Fix.ps1)
+
+## Shortcuts
+
+[See here](https://github.com/UnderNotic/dotfiles/blob/windows-wsl/CHEATSHEET.md)
+
+### Inspired from https://github.com/jayharris/dotfiles-windows
