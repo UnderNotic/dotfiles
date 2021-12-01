@@ -111,6 +111,9 @@ https://github.com/UnderNotic/dotfiles/blob/windows-wsl/windows/wt/install.ps1
 ### Install fkill
   In cmd: `npm install -g fkill-cli`
 
+### Use extended right-click menu by default
+In cmd: `reg add "HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}\InprocServer32" /f /ve`
+
 ### Use ThisIsWin11
   https://github.com/builtbybel/ThisIsWin11
 
