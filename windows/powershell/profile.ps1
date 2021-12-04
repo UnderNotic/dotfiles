@@ -34,10 +34,25 @@ function ll(){
     lsd -lA --group-dirs first
 }
 
+function ..(){
+    cd ..
+}
+
+function ...(){
+    cd ..
+    cd ..
+}
+
+function ....(){
+    cd ..
+    cd ..
+    cd ..
+}
+
 Remove-PSReadlineKeyHandler 'Ctrl+r'
 Remove-PSReadlineKeyHandler 'Ctrl+t'
 Import-Module PSFzf
 
 Import-Module posh-git
 Import-Module oh-my-posh
-Set-PoshPrompt -Theme powerlevel10k_rainbow
+Set-PoshPrompt -Theme pure
