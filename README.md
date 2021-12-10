@@ -70,6 +70,18 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/undernotic/dotfiles/wind
 }
 ```
 
+Add `"startingDirectory": "."` to each profile in list, for example:
+```json
+{
+  "commandline": "powershell.exe",
+  "startingDirectory": ".",
+  "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+  "hidden": false,
+  "name": "Windows PowerShell"
+}
+```
+This way using `wt` in explorer location bar will open terminal in current dir.
+
 ## Install WebStorm
 
 - Use wget to install webstorm from https://www.jetbrains.com/webstorm/download/#section=linux
