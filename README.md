@@ -111,6 +111,7 @@ Install powershell posh-git and oh-my-posh
 Install-Module posh-git -Scope CurrentUser
 Install-Module oh-my-posh -Scope CurrentUser
 Install-Module PSFzf -Scope CurrentUser
+Install-Module ZLocation -Scope CurrentUser
 ```
 
 `notepad $PROFILE`  
