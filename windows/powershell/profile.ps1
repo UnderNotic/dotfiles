@@ -49,6 +49,10 @@ function ....(){
     cd ..
 }
 
+function mc(){
+& 'C:\Program Files (x86)\Midnight Commander\mc.exe'
+}
+
 Remove-PSReadlineKeyHandler 'Ctrl+r'
 Remove-PSReadlineKeyHandler 'Ctrl+t'
 Import-Module PSFzf
