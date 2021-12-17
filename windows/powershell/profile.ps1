@@ -49,6 +49,11 @@ function ....(){
     cd ..
 }
 
+function xd(){
+    explorer $args
+}
+
+
 function mc(){
 & 'C:\Program Files (x86)\Midnight Commander\mc.exe'
 }
