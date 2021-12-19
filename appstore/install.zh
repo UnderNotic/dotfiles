@@ -1,0 +1,8 @@
+#!/bin/sh
+#
+# This installs app store apps
+
+brew install mas
+
+# Install OneNote
+mas install 784801555
