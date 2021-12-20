@@ -7,7 +7,8 @@ choco install vscode -y
 # choco install microsoftwindows-terminal -y /installed on default in w11
 choco install git -y
 # choco install github-desktop -y
-choco install gitextensions -y
+# choco install gitextensions -y
+choco install sourcetree -y
 choco install firacode -y
 choco install sql-server-management-studio -y
 choco install azure-data-studio -y
