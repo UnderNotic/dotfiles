@@ -1,1 +1,2 @@
-export PATH="/opt/homebrew/bin:$PATH"
+# probably not needed
+# export PATH="/opt/homebrew/bin:$PATH"

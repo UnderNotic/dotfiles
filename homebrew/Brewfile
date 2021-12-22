@@ -1,0 +1,148 @@
+###############################
+#  Taps                       #
+###############################
+
+tap "homebrew/core"
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "buo/cask-upgrade"
+tap "homebrew/cask-fonts"
+
+###############################
+#  Binaries                   #
+###############################
+
+# Command line
+brew "zsh"
+brew "bash"
+
+# GNU utilities (those that come with macOS are outdated)
+brew "coreutils"
+brew "moreutils"
+brew "findutils"
+brew "gnutls"
+brew "gnu-indent"
+brew "gnu-sed"
+brew "gnu-tar"
+brew "gnu-indent"
+brew "gnu-which"
+brew "gcc"
+brew "grep"
+brew "openssh"
+brew "tree"
+
+# Git
+brew "git"
+brew "github-keygen"
+brew "gnupg"
+
+# Cloud
+brew "azure-cli"
+brew "awscli"
+brew "aws-shell"
+# brew "docker-credential-helper-ecr"
+
+# Languages
+brew "python3"
+brew "ruby"
+brew "ruby-build"
+brew 'nvm'
+
+# Databases
+# brew "postgresql"
+# brew "sqlite"
+# brew "mariadb"
+
+# Task monitor
+brew "htop"
+
+# Networking
+brew "mkcert"
+brew "httpie"
+
+# Utilities
+brew "mas"
+
+# Editors
+brew "micro"
+
+###############################
+#  Cask                       #
+###############################
+
+# Configure where cask apps go
+cask_args appdir: "/Applications"
+
+# System Utilities
+cask "alt-tab"
+cask "rectangle"
+cask "raycast"
+cask "hyperkey"
+cask "eqmac"
+cask "gpg-suite"
+cask "tor-browser"
+
+# Browsers
+cask "microsoft-edge"
+
+# Cloud
+cask "onedrive"
+
+# Networking
+cask "nordvpn"
+cask "microsoft-remote-desktop"
+cask "vnc-viewer"
+
+# Development/Work
+cask "jetbrains-toolbox"
+cask "visual-studio-code"
+cask "kitty"
+cask "postman"
+cask "robo-3t"
+cask "docker"
+
+# Media
+cask "vlc"
+cask "spotify"
+cask "pocket-casts"
+cask "adobe-acrobat-reader"
+cask "obs"
+
+# Communication/Social
+cask "whatsapp"
+cask "messenger"
+cask "slack"
+
+# Drivers
+cask "homebrew/cask-drivers/logitech-options"
+
+###############################
+#  Fonts                      #
+###############################
+
+# Monospace
+cask "homebrew/cask-fonts/font-jetbrains-mono-nerd-font"
+cask "homebrew/cask-fonts/font-meslo-lg-nerd-font"
+cask "homebrew/cask-fonts/font-fira-code-nerd-font"
+cask "homebrew/cask-fonts/font-hasklig"
+
+# Sans/Serif
+cask "homebrew/cask-fonts/font-comic-neue"
+cask "homebrew/cask-fonts/font-inter"
+cask "homebrew/cask-fonts/font-roboto"
+cask "homebrew/cask-fonts/font-open-sans"
+
+
+###############################
+#  macOS Apps via App Store   #
+###############################
+
+# Apple
+mas "Microsoft OneNote", id: 784801555
+
+
+# Third Party
+mas "Amphetamine", id: 937984704
+mas "Deliveries", id: 290986013
+mas "Disk Speed Test", id: 425264550
+mas "Microsoft Remote Desktop", id: 1295203466
