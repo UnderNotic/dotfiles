@@ -41,6 +41,7 @@ brew "azure-cli"
 brew "awscli"
 brew "aws-shell"
 # brew "docker-credential-helper-ecr"
+brew "k6"
 
 # Languages
 brew "python3"

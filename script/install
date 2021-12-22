@@ -7,4 +7,8 @@ set -e
 cd "$(dirname $0)"/..
 
 # find the installers and run them iteratively
+
+# bundle brewfile first
+sh -c ./homebrew/init.sh
+
 find . -name install.sh | while read installer ; do sh -c "${installer}" ; done
