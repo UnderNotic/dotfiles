@@ -1,3 +1,5 @@
+# Deprecated - sync with windows-wsl/macos branch needed
+
 # Installation
 
 ``` bash
