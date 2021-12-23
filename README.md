@@ -82,23 +82,6 @@ Add `"startingDirectory": "."` to each profile in list, for example:
 ```
 This way using `wt` in explorer location bar will open terminal in current dir.
 
-## Install WebStorm
-
-- Use wget to install webstorm from https://www.jetbrains.com/webstorm/download/#section=linux
-- Extract webstorm
-
-```bash
-sudo tar xzf WebStorm-*.tar.gz -C /opt/
-```
-
-- Run webstorm.sh
-- Use webstorm command to run
-
-## Window store
-
-- Messenger
-- WhatsApp
-
 ## Optional
 
 ### Set ditto/copyq global shortcut to (alt + `)
@@ -117,27 +100,27 @@ Install-Module ZLocation -Scope CurrentUser
 `notepad $PROFILE`  
  copy content to notepad -> https://raw.githubusercontent.com/UnderNotic/dotfiles/windows-wsl/windows/powershell/profile.ps1
 
-### Extend right click context menu 
-https://github.com/UnderNotic/dotfiles/blob/windows-wsl/windows/wt/install.ps1
-
-### Disable fast startup on notebook (if wsl networking doesn't work after waking up)
-
-### Install fkill
-  In cmd: `npm install -g fkill-cli`
-
 ### Use extended right-click menu by default
 In cmd: `reg add "HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}\InprocServer32" /f /ve`
 
-### Use ThisIsWin11
-  https://github.com/builtbybel/ThisIsWin11
-
-### Setup git-bash
-  https://www.youtube.com/watch?v=aQDsgCV4US0&t=846s
+### Disable fast startup on notebook (if wsl networking doesn't work after waking up)
 
 ## WSL Internet fix
 
 Run this script (right-click run with powershell)
 [See here](https://github.com/UnderNotic/dotfiles/blob/windows-wsl/windows/wsl-fix/WSL2-Net-Fix.ps1)
+
+## Install WebStorm in WSL
+
+- Use wget to install webstorm from https://www.jetbrains.com/webstorm/download/#section=linux
+- Extract webstorm
+
+```bash
+sudo tar xzf WebStorm-*.tar.gz -C /opt/
+```
+
+- Run webstorm.sh
+- Use webstorm command to run
 
 ## Shortcuts
 

@@ -4,6 +4,13 @@ Invoke-WebRequest -Uri "https://github.com/UnderNotic/dotfiles/raw/windows-wsl/w
 Invoke-WebRequest -Uri "https://github.com/UnderNotic/dotfiles/raw/windows-wsl/windows/fonts/fonts-to-be-installed/MesloLGS%20NF%20Bold.ttf" -OutFile $HOME\fonts-to-be-installed\MesloLGS_NF_Bold.ttf
 Invoke-WebRequest -Uri "https://github.com/UnderNotic/dotfiles/raw/windows-wsl/windows/fonts/fonts-to-be-installed/MesloLGS%20NF%20Regular.ttf" -OutFile $HOME\fonts-to-be-installed\MesloLGS_NF_Regular.ttf
 
+Invoke-WebRequest -Uri "https://github.com/UnderNotic/dotfiles/raw/windows-wsl/windows/fonts/fonts-to-be-installed/Fira%20Code%20Regular%20Nerd%20Font%20Complete%20Mono.ttf" -OutFile $HOME\fonts-to-be-installed\Fira_Code_Regular_Nerd_Font_Complete_Mono.ttf
+Invoke-WebRequest -Uri "https://github.com/UnderNotic/dotfiles/raw/windows-wsl/windows/fonts/fonts-to-be-installed/Fira%20Code%20Regular%20Nerd%20Font%20Complete.ttf" -OutFile $HOME\fonts-to-be-installed\Fira_Code_Regular_Nerd_Font_Complete.ttf
+
+Invoke-WebRequest -Uri "https://github.com/UnderNotic/dotfiles/raw/windows-wsl/windows/fonts/fonts-to-be-installed/JetBrains%20Mono%20Regular%20Nerd%20Font%20Complete%20Mono.ttf" -OutFile $HOME\fonts-to-be-installed\JetBrains_Mono_Regular_Nerd_Font_Complete_Mono.ttf
+Invoke-WebRequest -Uri "https://github.com/UnderNotic/dotfiles/raw/windows-wsl/windows/fonts/fonts-to-be-installed/JetBrains%20Mono%20Regular%20Nerd%20Font%20Complete.ttf" -OutFile $HOME\fonts-to-be-installed\JetBrains_Mono_Regular_Nerd_Font_Complete.ttf
+
+
 $FONTS = 0x14
 $Path="$HOME\fonts-to-be-installed"
 $objShell = New-Object -ComObject Shell.Application
