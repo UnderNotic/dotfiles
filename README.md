@@ -86,21 +86,8 @@ This way using `wt` in explorer location bar will open terminal in current dir.
 
 ### Set ditto/copyq global shortcut to (alt + `)
 
-### Setup powershell prompt
-
-Install powershell posh-git and oh-my-posh
-
-```powershell
-Install-Module posh-git -Scope CurrentUser
-Install-Module oh-my-posh -Scope CurrentUser
-Install-Module PSFzf -Scope CurrentUser
-Install-Module ZLocation -Scope CurrentUser
-```
-
-`notepad $PROFILE`  
- copy content to notepad -> https://raw.githubusercontent.com/UnderNotic/dotfiles/windows-wsl/windows/powershell/profile.ps1
-
 ### Use extended right-click menu by default
+
 In cmd: `reg add "HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}\InprocServer32" /f /ve`
 
 ### Disable fast startup on notebook (if wsl networking doesn't work after waking up)
