@@ -1,12 +1,10 @@
 nodemon
 create-react-app
-jest
 forever
-http-server
 pm2
-webpack
-webpack-dev-server
-artillery
 testcafe
-yarn
-gatsby-cli
+regexgen
+fkill-cli
+npm
+tldr
+http-server

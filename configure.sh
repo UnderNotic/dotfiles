@@ -52,7 +52,7 @@ sudo apt install mtr -y
 echo ''
 echo "Installing grc..."
 echo ''
-sudo apt install grc
+sudo apt install grc -y
 
 echo ''
 echo 'Installing htop'
@@ -70,29 +70,15 @@ echo ''
 sudo apt install iftop -y
 
 echo ''
-echo 'Installing lazygit'
-echo ''
-
-sudo add-apt-repository ppa:lazygit-team/release -y
-sudo apt-get update
-sudo apt-get install lazygit -y
-
-echo ''
 echo "Installing ncdu (disk space usage tool)"
 echo ''
 sudo apt install ncdu -y
-
-echo ''
-echo "Installing pydf"
-echo ''
-sudo apt install pydf -y
 
 # jq json query tool install
 echo ''
 echo 'Installing jq'
 echo ''
 sudo apt install jq -y
-
 
 # aws cli install
 echo ''

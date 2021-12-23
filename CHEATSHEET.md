@@ -53,7 +53,6 @@
 
 ## GIT
 
-- `lazygit` &nbsp; git cli gui
 - `git-quick-stats` &nbsp; git repo stats
 - `alias gl` &nbsp; git pull
 - `alias glog` &nbsp; git log --graph --pretty=format:'%Cred%h%Creset %an: %s - _ `%Creset %C(yellow)%d%Creset %Cgreen(%cr)%Creset' --abbrev-commit _ `--date=relative

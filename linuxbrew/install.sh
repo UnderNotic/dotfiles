@@ -72,12 +72,6 @@ echo "Now installing fpp..."
 echo ''
 brew install fpp
 
-# vegeta install
-echo ''
-echo "Now installing vegeta..."
-echo ''
-brew install vegeta
-
 # git quick stats install
 echo ''
 echo "Now installing git-quick-stats..."
@@ -100,11 +94,3 @@ echo ''
 echo 'Now installing lnav'
 echo ''
 brew install lnav
-
-echo ''
-echo 'Now installing lf - terminal navigator'
-echo ''
-brew install lf
-
-mkdir -p ~/.config/lf
-cp ./lf/lfrc ~/.config/lf

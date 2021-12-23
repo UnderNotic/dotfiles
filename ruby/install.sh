@@ -12,9 +12,3 @@ echo 'Installing Jekyll'
 echo ''
 sudo gem install bundler
 sudo gem install jekyll
-
-# travis install
-echo ''
-echo 'Installing Travis secrets generator'
-echo ''
-sudo gem install travis
