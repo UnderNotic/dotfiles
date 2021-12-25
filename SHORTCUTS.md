@@ -8,3 +8,4 @@
 * cmd + o open in finder
 * cmd + ` open terminal
 * cmd + § clipboard
+* cmd + down arrow open file

@@ -37,6 +37,7 @@ brew "tree"
 brew "git"
 brew "github-keygen"
 brew "gnupg"
+brew "diff-so-fancy"
 
 # Cloud
 brew "awscli"
@@ -52,6 +53,7 @@ brew "azure/functions/azure-functions-core-tools@3"
 # brew "openshift-cli"
 # brew "helm"
 # brew "minikube"
+# brew "ctop"
 
 # Languages
 brew "python3"

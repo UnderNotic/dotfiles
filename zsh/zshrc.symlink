@@ -1,17 +1,6 @@
 # shortcut to this dotfiles path is $ZSH
 export ZSH=$HOME/.dotfiles
 
-# your project folder that we can `c [tab]` to
-export PROJECTS=~/Code
-
-# Stash your environment variables in ~/.localrc. This means they'll stay out
-# of your main dotfiles repository (which may be public, like this one), but
-# you'll have access to them in your scripts.
-if [[ -a ~/.localrc ]]
-then
-  source ~/.localrc
-fi
-
 # all of our zsh files
 typeset -U config_files
 config_files=($ZSH/**/*.zsh)
@@ -40,11 +29,28 @@ done
 
 unset config_files
 
-# Better history
-# Credits to https://coderwall.com/p/jpj_6q/zsh-better-history-searching-with-arrow-keys
-autoload -U up-line-or-beginning-search
-autoload -U down-line-or-beginning-search
-zle -N up-line-or-beginning-search
-zle -N down-line-or-beginning-search
-bindkey "^[[A" up-line-or-beginning-search # Up
-bindkey "^[[B" down-line-or-beginning-search # Down
+plugins=(node httpie fasd zsh-completions docker kubectl)
+
+source $ZSH/oh-my-zsh.sh
+source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
+source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+alias o='a -e open' # for fasd
+
+source $DOTFILES/system/aliases.sh
+
+export FZF_DEFAULT_COMMAND='fd --type f --hidden --follow --exclude .git --exclude node_modules'
+export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
+export FZF_CTRL_T_OPTS="--preview 'bat --color \"always\" {}' --height 60%"
+export FZF_ALT_C_COMMAND='fd -t d --hidden --follow --exclude .git'
+export FZF_ALT_C_OPTS="--preview 'tree -L 2 -x --noreport --dirsfirst {}' --height 40%"
+export FZF_DEFAULT_OPTS="--bind='ctrl-e:execute(code {})+abort' --bind='ctrl-o:execute(xdg-open {} 2>&1 > /dev/null)+abort'"
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+if ps $PPID |grep -q mc; then
+    _fasd_preexec () {
+        fasd --proc "$(fasd --sanitize "$1")"
+    }
+fi
+
+[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
