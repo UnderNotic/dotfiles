@@ -15,6 +15,8 @@ tap "homebrew/cask-fonts"
 # Command line
 brew "zsh"
 brew "bash"
+brew "fzf"
+brew "total-commander"
 
 # GNU utilities (those that come with macOS are outdated)
 brew "coreutils"
@@ -37,11 +39,19 @@ brew "github-keygen"
 brew "gnupg"
 
 # Cloud
-brew "azure-cli"
 brew "awscli"
 brew "aws-shell"
-# brew "docker-credential-helper-ecr"
-brew "k6"
+brew "azure-cli"
+brew "azure/functions/azure-functions-core-tools@3"
+# brew "terraform"
+# cask "powershell"
+
+# Kubernetes
+# brew "kubernetes-cli"
+# brew "kubectx"
+# brew "openshift-cli"
+# brew "helm"
+# brew "minikube"
 
 # Languages
 brew "python3"
@@ -62,6 +72,7 @@ brew "mkcert"
 brew "httpie"
 
 # Utilities
+brew "k6"
 brew "mas"
 
 # Editors
@@ -82,6 +93,7 @@ cask "hyperkey"
 cask "eqmac"
 cask "gpg-suite"
 cask "tor-browser"
+cask "phoenix"
 
 # Browsers
 cask "microsoft-edge"
@@ -93,8 +105,10 @@ cask "onedrive"
 cask "nordvpn"
 cask "microsoft-remote-desktop"
 cask "vnc-viewer"
+cask "transmission"
 
 # Development/Work
+cask "dotnet-sdk"
 cask "jetbrains-toolbox"
 cask "visual-studio-code"
 cask "kitty"
@@ -108,6 +122,7 @@ cask "spotify"
 cask "pocket-casts"
 cask "adobe-acrobat-reader"
 cask "obs"
+cask "qnapi"
 
 # Communication/Social
 cask "whatsapp"
@@ -133,17 +148,11 @@ cask "homebrew/cask-fonts/font-inter"
 cask "homebrew/cask-fonts/font-roboto"
 cask "homebrew/cask-fonts/font-open-sans"
 
-
 ###############################
 #  macOS Apps via App Store   #
 ###############################
 
-# Apple
 mas "Microsoft OneNote", id: 784801555
-
-
-# Third Party
 mas "Amphetamine", id: 937984704
-mas "Deliveries", id: 290986013
 mas "Disk Speed Test", id: 425264550
 mas "Microsoft Remote Desktop", id: 1295203466

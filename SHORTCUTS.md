@@ -5,3 +5,6 @@
 * cmd + q   quit
 * cmd + w   close tab
 * cmd + §2 focus on top menu
+* cmd + o open in finder
+* cmd + ` open terminal
+* cmd + § clipboard
