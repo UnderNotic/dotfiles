@@ -12,5 +12,5 @@
         tool = vscode
 [difftool "vscode"]
         cmd = code -n --wait --diff $LOCAL $REMOTE    
-[includeIf "gitdir/i:/C:/workspace/work/**"]
-    path = /C:/workspace/work/.gitconfig-work
+[includeIf "gitdir/i:~/workspace/work/**"]
+    path = ~/workspace/work/.gitconfig-work

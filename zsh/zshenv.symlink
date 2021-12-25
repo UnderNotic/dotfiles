@@ -1,11 +1,11 @@
 # your project folder that we can `c [tab]` to
-export PROJECTS=/mnt/c/workspace/projects
-export P=/mnt/c/workspace/projects
-export p=/mnt/c/workspace/projects
+export PROJECTS=/mnt/c/users/under/workspace/projects
+export P=/mnt/c/users/under/workspace/projects
+export p=/mnt/c/users/under/workspace/projects
 
-export WORKSPACE=/mnt/c/workspace
-export W=/mnt/c/workspace
-export w=/mnt/c/workspace
+export WORKSPACE=/mnt/c/users/under/workspace
+export W=/mnt/c/users/under/workspace
+export w=/mnt/c/users/under/workspace
 
 export LWORKSPACE=~/workspace_linux
 export LW=~/workspace_linux
