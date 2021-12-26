@@ -7,6 +7,7 @@ tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "buo/cask-upgrade"
 tap "homebrew/cask-fonts"
+tap "johanhaleby/kubetail"
 
 ###############################
 #  Binaries                   #
@@ -17,8 +18,13 @@ brew "zsh"
 brew "bash"
 brew "ripgrep"
 brew "fzf"
+brew "fasd"
 brew "grc"
 brew "total-commander"
+brew "lsd"
+brew "fd"
+brew "lnav"
+brew "bat"
 
 # GNU utilities (those that come with macOS are outdated)
 brew "coreutils"
@@ -40,12 +46,17 @@ brew "git"
 brew "github-keygen"
 brew "gnupg"
 brew "diff-so-fancy"
+brew "git-quick-stats"
 
 # Cloud
 brew "awscli"
 brew "aws-shell"
 brew "azure-cli"
 brew "azure/functions/azure-functions-core-tools@3"
+brew "lazydocker"
+brew "kubetail"
+brew "k9s"
+brew "kubectx"
 # brew "terraform"
 # cask "powershell"
 
@@ -82,6 +93,8 @@ brew "mtr"
 brew "k6"
 brew "jq"
 brew "mas"
+brew "thefuck"
+brew "fpp"
 
 # Editors
 brew "micro"
@@ -138,7 +151,7 @@ cask "messenger"
 cask "slack"
 
 # Drivers
-cask "homebrew/cask-drivers/logitech-options"
+# cask "homebrew/cask-drivers/logitech-options"
 
 ###############################
 #  Fonts                      #

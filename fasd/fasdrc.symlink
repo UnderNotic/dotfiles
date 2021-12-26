@@ -1,0 +1,1 @@
+$_FASD_BLACKLIST = 'node_modules'
