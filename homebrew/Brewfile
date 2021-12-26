@@ -9,24 +9,34 @@ tap "buo/cask-upgrade"
 tap "homebrew/cask-fonts"
 tap "johanhaleby/kubetail"
 
+cask_args appdir: "/Applications"
+
 ###############################
-#  Binaries                   #
+#  Command line               #
 ###############################
 
-# Command line
 brew "zsh"
 brew "bash"
+cask "kitty"
+
+###############################
+#  Power comand line          #
+###############################
+
 brew "ripgrep"
+brew "fd"
 brew "fzf"
 brew "fasd"
-brew "grc"
-brew "total-commander"
+brew "midnight-commander"
 brew "lsd"
-brew "fd"
-brew "lnav"
+brew "grc"
 brew "bat"
+brew "lnav"
 
-# GNU utilities (those that come with macOS are outdated)
+###############################
+# GNU utilities               #
+###############################
+
 brew "coreutils"
 brew "moreutils"
 brew "findutils"
@@ -41,103 +51,131 @@ brew "grep"
 brew "openssh"
 brew "tree"
 
-# Git
+###############################
+#  Git                        #
+###############################
+
 brew "git"
 brew "github-keygen"
-brew "gnupg"
-brew "diff-so-fancy"
 brew "git-quick-stats"
+brew "diff-so-fancy"
 
-# Cloud
+###############################
+#  Crypto                     #
+###############################
+
+cask "tor-browser"
+brew "gnupg"
+
+###############################
+#  Cloud                      #
+###############################
+
 brew "awscli"
 brew "aws-shell"
 brew "azure-cli"
 brew "azure/functions/azure-functions-core-tools@3"
+cask "docker"
 brew "lazydocker"
-brew "kubetail"
-brew "k9s"
+brew "ctop"
+
+###############################
+#  Kubernetes                 #
+###############################
+
+brew "kubernetes-cli"
 brew "kubectx"
-# brew "terraform"
-# cask "powershell"
+brew "kubetail"
+brew "openshift-cli"
+brew "k9s"
+brew "minikube"
+brew "helm"
 
-# Kubernetes
-# brew "kubernetes-cli"
-# brew "kubectx"
-# brew "openshift-cli"
-# brew "helm"
-# brew "minikube"
-# brew "ctop"
+###############################
+#  Languages                  #
+###############################
 
-# Languages
+cask "dotnet-sdk"
 brew "python3"
 brew "ruby"
 brew "ruby-build"
 brew 'nvm'
+# brew 'go'
+# brew "terraform"
+# cask "powershell"
 
-# Databases
+###############################
+#  Databases                  #
+###############################
+
 # brew "postgresql"
 # brew "sqlite"
 # brew "mariadb"
+# cask "robo-3t"
 
-# Task monitor
+###############################
+#  Task monitor               #
+###############################
+
 brew "htop"
 brew "bpytop"
+
 brew "ncdu"
 
-# Networking
-brew "mkcert"
-brew "httpie"
-brew "mtr"
+###############################
+#  Networking                 #
+###############################
 
-# Utilities
+brew "httpie"
+brew "mkcert"
+brew "mtr"
 brew "k6"
+cask "postman"
+cask "nordvpn"
+cask "microsoft-remote-desktop"
+cask "vnc-viewer"
+
+###############################
+# Command line utilities      #
+###############################
+
 brew "jq"
 brew "mas"
 brew "thefuck"
 brew "fpp"
 
-# Editors
+###############################
+#  IDEs                       #
+###############################
+
+cask "jetbrains-toolbox"
+cask "visual-studio-code"
 brew "micro"
 
 ###############################
-#  Cask                       #
+#  System utilities           #
 ###############################
 
-# Configure where cask apps go
-cask_args appdir: "/Applications"
-
-# System Utilities
 cask "alt-tab"
 cask "rectangle"
 cask "raycast"
 cask "hyperkey"
 cask "eqmac"
 cask "gpg-suite"
-cask "tor-browser"
 cask "phoenix"
 
-# Browsers
+###############################
+#  BROWSING                   #
+###############################
+
 cask "microsoft-edge"
-
-# Cloud
 cask "onedrive"
-
-# Networking
-cask "nordvpn"
-cask "microsoft-remote-desktop"
-cask "vnc-viewer"
 cask "transmission"
 
-# Development/Work
-cask "dotnet-sdk"
-cask "jetbrains-toolbox"
-cask "visual-studio-code"
-cask "kitty"
-cask "postman"
-cask "robo-3t"
-cask "docker"
+###############################
+#  Media                      #
+###############################
 
-# Media
 cask "vlc"
 cask "spotify"
 cask "pocket-casts"
@@ -145,13 +183,19 @@ cask "adobe-acrobat-reader"
 cask "obs"
 cask "qnapi"
 
-# Communication/Social
+###############################
+#  Communication              #
+###############################
+
 cask "whatsapp"
 cask "messenger"
 cask "slack"
 
-# Drivers
-# cask "homebrew/cask-drivers/logitech-options"
+###############################
+#  Drive                      #
+###############################
+
+cask "homebrew/cask-drivers/logitech-options"
 
 ###############################
 #  Fonts                      #
@@ -170,10 +214,9 @@ cask "homebrew/cask-fonts/font-roboto"
 cask "homebrew/cask-fonts/font-open-sans"
 
 ###############################
-#  macOS Apps via App Store   #
+#  APP STORE                  #
 ###############################
 
 mas "Microsoft OneNote", id: 784801555
 mas "Amphetamine", id: 937984704
 mas "Disk Speed Test", id: 425264550
-mas "Microsoft Remote Desktop", id: 1295203466

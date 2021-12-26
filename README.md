@@ -16,6 +16,9 @@
 * cmd+w close tab
 * next tab ctrl+tab
 
+
+https://klimer.eu/2015/05/01/use-midnight-commander-like-a-pro/
+
 # Shortcuts
 
 ## Navigating

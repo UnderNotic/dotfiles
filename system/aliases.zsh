@@ -15,3 +15,15 @@ alias .5='cd ../../../../../'               								# Go back 5 directory levels
 alias .6='cd ../../../../../../'     
 
 alias path='echo -e ${PATH//:/\\n}'
+
+alias cat='bat'
+
+alias fp='fpp'
+
+function t() {
+    if [ -z "$1" ];
+    then
+        set -- "1"
+    fi
+    tree -L $1
+}
