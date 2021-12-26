@@ -11,9 +11,3 @@ echo ''
 echo "Now installing Httpie..."
 echo ''
 sudo apt install httpie -y
-
-# Glances for monitoring, task manager
-echo ''
-echo 'Now installing glances'
-echo ''
-curl -L https://bit.ly/glances | /bin/bash

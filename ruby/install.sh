@@ -8,7 +8,7 @@ sudo apt install ruby ruby-dev -y
 
 # jekyll install
 echo ''
-echo 'Installing Jekyll'
+echo 'Installing jekyll'
 echo ''
 sudo gem install bundler
 sudo gem install jekyll

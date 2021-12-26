@@ -1,24 +1,5 @@
 #!/bin/bash
 
-# Dual boot setup
-# Use rufus for windows usb creation
-# Disable secure boot and reset uefi keys to default
-# During linux install create 2 ext4 partitions one for / and second for /home, setting device for bootloader installation is not important.
-# In case of grub failures grup-repair can be used in live linux usb.
-
-# for ubuntu gnome install 'Alt-Tab Switcher Popup Delay Removal' from ubuntu software center
-
-# mouse sensivity on pc 1000dpi mouse
-# should be runned on startup to do so add below line to: sudo nano /etc/rc.local and enabled by sudo systemctl enable rc-local.service
-# xinput --set-prop 10 299 2
-# xinput --set-prop 9 299 -0.709    
-
-# Configuring max file watches (needed only for ubuntu)
-echo ''
-echo "Configuring max file watches..."
-echo ''
-echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p
-
 # Creating project structure
 echo ''
 echo "Creating project structure..."
@@ -60,33 +41,20 @@ echo ''
 sudo apt install htop -y
 
 echo ''
-echo 'Installing bmon'
-echo ''
-sudo apt install bmon -y
-
-echo ''
-echo 'Installing iftop'
-echo ''
-sudo apt install iftop -y
-
-echo ''
 echo "Installing ncdu (disk space usage tool)"
 echo ''
 sudo apt install ncdu -y
 
-# jq json query tool install
 echo ''
 echo 'Installing jq'
 echo ''
 sudo apt install jq -y
 
-# aws cli install
 echo ''
 echo 'Installing awscli'
 echo ''
 sudo apt install awscli -y
 
-# Midnight commander install
 echo ''
 echo "Now installing Midnight commander..."
 echo ''
@@ -94,13 +62,11 @@ sudo add-apt-repository ppa:eugenesan/ppa -y
 sudo apt-get update
 sudo apt install mc -y
 
-# Micro install 
 echo ''
 echo "Now installing Micro..."
 echo ''
 sudo apt install micro -y
 
-# Bash color scheme
 echo ''
 echo "Now installing solarized dark WSL color scheme..."
 echo ''

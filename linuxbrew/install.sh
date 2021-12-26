@@ -11,23 +11,11 @@ echo 'Now installing mkcert...'
 echo ''
 brew install mkcert
 
-# lsd install
-# echo ''
-# echo "Now installing lsd..."
-# echo ''
-# brew install lsd
-
 # bat install
 echo ''
 echo "Now installing bat..."
 echo ''
 brew install bat
-
-# fd install
-# echo ''
-# echo "Now installing fd..."
-# echo ''
-# brew install fd
 
 # lazydocker install
 echo ''
@@ -77,12 +65,6 @@ echo ''
 echo "Now installing git-quick-stats..."
 echo ''
 brew install git-quick-stats
-
-# install go
-echo ''
-echo 'Now installing go'
-echo ''
-brew install go
 
 # install gh
 echo ''
