@@ -58,11 +58,11 @@ function mc(){
 & 'C:\Program Files (x86)\Midnight Commander\mc.exe'
 }
 
-Remove-PSReadlineKeyHandler 'Ctrl+r'
-Remove-PSReadlineKeyHandler 'Ctrl+t'
 Import-Module PSFzf
 
 Import-Module posh-git
 Import-Module oh-my-posh
-Import-Module ZLocation
 Set-PoshPrompt -Theme pure
+
+Set-PsFzfOption -PSReadlineChordProvider 'Ctrl+t' -PSReadlineChordReverseHistory 'Ctrl+r'
+Set-PSReadLineKeyHandler -Key Tab -ScriptBlock { Invoke-FzfTabCompletion }

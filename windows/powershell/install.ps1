@@ -4,4 +4,3 @@ Invoke-WebRequest -Uri "https://github.com/UnderNotic/dotfiles/raw/windows-wsl/w
 Install-Module posh-git -Scope CurrentUser -Force
 Install-Module oh-my-posh -Scope CurrentUser -Force
 Install-Module PSFzf -Scope CurrentUser -Force
-Install-Module ZLocation -Scope CurrentUser -Force
