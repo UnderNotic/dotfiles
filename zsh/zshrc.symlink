@@ -1,9 +1,6 @@
-# shortcut to this dotfiles path is $ZSH
-export ZSH=$HOME/.dotfiles
-
 # all of our zsh files
 typeset -U config_files
-config_files=($ZSH/**/*.zsh)
+config_files=($DOTFILES/**/*.zsh)
 
 # load the path files
 for file in ${(M)config_files:#*/path.zsh}
@@ -29,11 +26,9 @@ done
 
 unset config_files
 
-plugins=(node httpie fasd zsh-completions docker kubectl)
+plugins=(node httpie fasd zsh-completions zsh-autosuggestions zsh-syntax-highlighting docker kubectl)
 
 source $ZSH/oh-my-zsh.sh
-source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
-source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 alias o='a -e open' # for fasd
 
 source $DOTFILES/system/aliases.sh

@@ -15,7 +15,9 @@ tap "homebrew/cask-fonts"
 # Command line
 brew "zsh"
 brew "bash"
+brew "ripgrep"
 brew "fzf"
+brew "grc"
 brew "total-commander"
 
 # GNU utilities (those that come with macOS are outdated)
@@ -68,13 +70,17 @@ brew 'nvm'
 
 # Task monitor
 brew "htop"
+brew "bpytop"
+brew "ncdu"
 
 # Networking
 brew "mkcert"
 brew "httpie"
+brew "mtr"
 
 # Utilities
 brew "k6"
+brew "jq"
 brew "mas"
 
 # Editors
