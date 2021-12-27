@@ -39,7 +39,7 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/undernotic/dotfiles/wind
   "theme": "dark",
   "profiles": {
     "defaults": {
-      "fontFace": "MesloLGS NF",
+      "fontFace": "JetBrainsMono NF",
       "closeOnExit": "always",
       "colorScheme": "Ambience"
     }
