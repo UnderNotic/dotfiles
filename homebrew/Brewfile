@@ -66,6 +66,7 @@ brew "diff-so-fancy"
 
 cask "tor-browser"
 brew "gnupg"
+cask "gpg-suite"
 
 ###############################
 #  Cloud                      #
@@ -83,13 +84,13 @@ brew "ctop"
 #  Kubernetes                 #
 ###############################
 
-brew "kubernetes-cli"
-brew "kubectx"
-brew "kubetail"
-brew "openshift-cli"
-brew "k9s"
-brew "minikube"
-brew "helm"
+# brew "kubernetes-cli"
+# brew "kubectx"
+# brew "kubetail"
+# brew "openshift-cli"
+# brew "k9s"
+# brew "minikube"
+# brew "helm"
 
 ###############################
 #  Languages                  #
@@ -119,7 +120,6 @@ brew 'nvm'
 
 brew "htop"
 brew "bpytop"
-
 brew "ncdu"
 
 ###############################
@@ -133,7 +133,7 @@ brew "k6"
 cask "postman"
 cask "nordvpn"
 cask "microsoft-remote-desktop"
-cask "vnc-viewer"
+# cask "vnc-viewer"
 
 ###############################
 # Command line utilities      #
@@ -161,7 +161,6 @@ cask "rectangle"
 cask "raycast"
 cask "hyperkey"
 cask "eqmac"
-cask "gpg-suite"
 cask "phoenix"
 
 ###############################
@@ -195,7 +194,7 @@ cask "slack"
 #  Drive                      #
 ###############################
 
-cask "homebrew/cask-drivers/logitech-options"
+# cask "homebrew/cask-drivers/logitech-options"
 
 ###############################
 #  Fonts                      #
