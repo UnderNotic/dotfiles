@@ -62,6 +62,7 @@ Import-Module PSFzf
 
 Import-Module posh-git
 Import-Module oh-my-posh
+Import-Module ZLocation;
 Set-PoshPrompt -Theme pure
 
 Set-PsFzfOption -PSReadlineChordProvider 'Ctrl+t' -PSReadlineChordReverseHistory 'Ctrl+r'
