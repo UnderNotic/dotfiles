@@ -120,6 +120,7 @@ brew 'nvm'
 
 brew "htop"
 brew "bpytop"
+# cask "stats"
 brew "ncdu"
 
 ###############################
