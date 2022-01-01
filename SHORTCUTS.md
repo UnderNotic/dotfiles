@@ -13,6 +13,13 @@
 * `CMD + §` &nbsp; clipboard
 * `CMD + down arrow` &nbsp; open file
 
+## Kitty shortcuts
+* `CMD + ENTER` &nbsp; new_window 🍎
+* `CMD + 1/2` &nbsp; open window 1 or 2
+* `CMD + T` &nbsp; new tab
+* `CMD + W` &nbsp; close tab
+* `CTRL + TAB` &nbsp; next tab
+
 ## Navigating
 * `ALT + C` &nbsp; cd into dir, which is under current dir (show all dirs)
 * `CTRL + T` &nbsp; paste file name into cli, which is under current dir (show all files)
