@@ -7,3 +7,5 @@ echo "› sudo softwareupdate -i -a"
 sudo softwareupdate -i -a
 
 softwareupdate --install-rosetta
+
+sh macos/dock.sh
