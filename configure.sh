@@ -16,7 +16,7 @@ mkdir -p ~/workspace/work
 echo ''
 echo "Install macos command line tools..."
 echo ''
-xcode-select —install
+xcode-select -—install
 
 # Pull down personal dotfiles
 echo ''
