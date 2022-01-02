@@ -1,5 +1,7 @@
 #!/bin/bash
 
+sudo -v
+
 echo ''
 echo "Creating project structure..."
 echo ''
