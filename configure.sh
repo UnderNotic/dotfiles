@@ -16,6 +16,11 @@ echo "Installing macos command line tools..."
 echo ''
 xcode-select -—install
 
+echo ''
+echo "Installing rosetta..."
+echo ''
+sudo softwareupdate --install-rosetta --agree-to-license
+
 # Pull down personal dotfiles
 echo ''
 read -p "Do you want to use undernotic's dotfiles? y/n" -n 1 -r
@@ -42,22 +47,6 @@ else
 	echo ''
     echo "You chose not to apply undernotic dotfiles. You will need to configure your environment manually..."
 	echo ''
-fi
-
-# Set default shell to zsh
-echo ''
-read -p "Do you want to change your default shell? y/n" -n 1 -r
-echo ''
-if [[ $REPLY =~ ^[Yy]$ ]]
-then
-	echo "Now setting default shell..."
-    chsh -s $(which zsh)
-    if [[ $? -eq 0 ]]
-    then
-        echo "Successfully set your default shell to zsh..."
-    else
-        echo "Default shell not set successfully..." >&2
-    fi
 fi
 
 echo '######################'

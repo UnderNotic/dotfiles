@@ -1,11 +1,16 @@
-# The Brewfile handles Homebrew-based app and library installs, but there may
-# still be updates and installables in the Mac App Store. There's a nifty
-# command line interface to it that we can use to just install everything, so
-# yeah, let's do that.
+#!/bin/bash
 
-echo "› sudo softwareupdate -i -a"
-sudo softwareupdate -i -a
+# echo ''
+# echo 'Updating system stuff'
+# echo ''
+# sudo softwareupdate -i -a
 
-softwareupdate --install-rosetta
+# echo ''
+# echo 'Setting up dock'
+# echo ''
+# sh macos/dock.sh
 
-sh macos/dock.sh
+# echo ''
+# echo 'Setting macos defaults'
+# echo ''
+# sh macos/set-defaults.sh

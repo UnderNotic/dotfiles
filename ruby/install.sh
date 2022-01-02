@@ -1,6 +1,5 @@
 #!/bin/bash
 
-# jekyll install
 echo ''
 echo 'Installing Jekyll'
 echo ''

@@ -84,13 +84,13 @@ brew "ctop"
 #  Kubernetes                 #
 ###############################
 
-# brew "kubernetes-cli"
-# brew "kubectx"
-# brew "kubetail"
-# brew "openshdefaults write .GlobalPreferences com.apple.mouse.scaling -1-cli"
-# brew "k9s"
-# brew "minikube"
-# brew "helm"
+brew "kubernetes-cli"
+brew "kubectx"
+brew "kubetail"
+brew "openshdefaults write .GlobalPreferences com.apple.mouse.scaling -1-cli"
+brew "k9s"
+brew "minikube"
+brew "helm"
 
 ###############################
 #  Languages                  #
@@ -100,10 +100,6 @@ cask "dotnet-sdk"
 brew "python3"
 brew "ruby"
 brew "ruby-build"
-brew 'nvm'
-# brew 'go'
-# brew "terraform"
-# cask "powershell"
 
 ###############################
 #  Databases                  #
@@ -120,7 +116,6 @@ brew 'nvm'
 
 brew "htop"
 brew "bpytop"
-# cask "stats"
 brew "ncdu"
 
 ###############################
@@ -134,7 +129,7 @@ brew "k6"
 cask "postman"
 cask "nordvpn"
 cask "microsoft-remote-desktop"
-# cask "vnc-viewer"
+cask "vnc-viewer"
 
 ###############################
 # Command line utilities      #
@@ -164,6 +159,7 @@ cask "raycast"
 cask "hyperkey"
 cask "eqmac"
 cask "phoenix"
+cask "bitwarden"
 
 ###############################
 #  BROWSING                   #
@@ -193,12 +189,6 @@ cask "messenger"
 cask "slack"
 
 ###############################
-#  Drivers                    #
-###############################
-
-# cask "homebrew/cask-drivers/logitech-options"
-
-###############################
 #  Fonts                      #
 ###############################
 
@@ -211,8 +201,6 @@ cask "homebrew/cask-fonts/font-hasklig"
 # Sans/Serif
 cask "homebrew/cask-fonts/font-comic-neue"
 cask "homebrew/cask-fonts/font-inter"
-cask "homebrew/cask-fonts/font-roboto"
-cask "homebrew/cask-fonts/font-open-sans"
 
 ###############################
 #  APP STORE                  #
@@ -221,3 +209,9 @@ cask "homebrew/cask-fonts/font-open-sans"
 mas "Microsoft OneNote", id: 784801555
 mas "Amphetamine", id: 937984704
 mas "Disk Speed Test", id: 425264550
+
+###############################
+#  Drivers                    #
+###############################
+
+# cask "homebrew/cask-drivers/logitech-options"

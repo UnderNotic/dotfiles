@@ -69,7 +69,6 @@ cask "dotnet-sdk"
 brew "python3"
 brew "ruby"
 brew "ruby-build"
-brew 'nvm'
 
 
 ###############################
@@ -93,6 +92,7 @@ cask "nordvpn"
 brew "mas"
 brew "thefuck"
 brew "fpp"
+brew "dockutil"
 
 ###############################
 #  IDEs                       #
@@ -110,6 +110,7 @@ cask "alt-tab"
 cask "rectangle"
 cask "raycast"
 cask "phoenix"
+cask "bitwarden"
 
 ###############################
 #  BROWSING                   #
@@ -150,8 +151,6 @@ cask "homebrew/cask-fonts/font-hasklig"
 # Sans/Serif
 cask "homebrew/cask-fonts/font-comic-neue"
 cask "homebrew/cask-fonts/font-inter"
-cask "homebrew/cask-fonts/font-roboto"
-cask "homebrew/cask-fonts/font-open-sans"
 
 ###############################
 #  APP STORE                  #
