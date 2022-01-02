@@ -1,6 +1,5 @@
 #!/bin/bash
 
-# Creating project structure
 echo ''
 echo "Creating project structure..."
 echo ''
@@ -14,6 +13,10 @@ mkdir -p ~/workspace/101
 mkdir -p ~/workspace/open_source
 mkdir -p ~/workspace/work
 
+echo ''
+echo "Install macos command line tools..."
+echo ''
+xcode-select —install
 
 # Pull down personal dotfiles
 echo ''
