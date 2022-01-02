@@ -3,18 +3,14 @@
 echo ''
 echo "Creating project structure..."
 echo ''
-# just mount /workspace under m2 instead of this
-# sudo mkdir /workspace
-# sudo chown $USER /workspace
-# sudo chmod 775 /workspace
-# sudo ln -s /workspace ~/workspace
+
 mkdir -p ~/workspace/projects
 mkdir -p ~/workspace/101
 mkdir -p ~/workspace/open_source
 mkdir -p ~/workspace/work
 
 echo ''
-echo "Install macos command line tools..."
+echo "Installing macos command line tools..."
 echo ''
 xcode-select -—install
 
