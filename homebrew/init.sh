@@ -7,7 +7,8 @@ then
 fi
 
 echo "Installing apps from Brewfile"
-brew bundle --file=~/homebrew/Brewfile
+# brew bundle --file=~/homebrew/Brewfile
+brew bundle --file=~/homebrew/MinimalBrewfile
 
 echo "Updating and upgrading Homebrew..."; echo;
 yes | brew update

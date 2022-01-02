@@ -60,37 +60,6 @@ brew "github-keygen"
 brew "git-quick-stats"
 brew "diff-so-fancy"
 
-###############################
-#  Crypto                     #
-###############################
-
-cask "tor-browser"
-brew "gnupg"
-cask "gpg-suite"
-
-###############################
-#  Cloud                      #
-###############################
-
-brew "awscli"
-brew "aws-shell"
-brew "azure-cli"
-brew "azure/functions/azure-functions-core-tools@3"
-cask "docker"
-brew "lazydocker"
-brew "ctop"
-
-###############################
-#  Kubernetes                 #
-###############################
-
-# brew "kubernetes-cli"
-# brew "kubectx"
-# brew "kubetail"
-# brew "openshdefaults write .GlobalPreferences com.apple.mouse.scaling -1-cli"
-# brew "k9s"
-# brew "minikube"
-# brew "helm"
 
 ###############################
 #  Languages                  #
@@ -101,48 +70,27 @@ brew "python3"
 brew "ruby"
 brew "ruby-build"
 brew 'nvm'
-# brew 'go'
-# brew "terraform"
-# cask "powershell"
 
-###############################
-#  Databases                  #
-###############################
-
-# brew "postgresql"
-# brew "sqlite"
-# brew "mariadb"
-# cask "robo-3t"
 
 ###############################
 #  Task monitor               #
 ###############################
 
 brew "htop"
-brew "bpytop"
-# cask "stats"
-brew "ncdu"
 
 ###############################
 #  Networking                 #
 ###############################
 
 brew "httpie"
-brew "mkcert"
-brew "mtr"
-brew "k6"
 cask "postman"
 cask "nordvpn"
-cask "microsoft-remote-desktop"
-# cask "vnc-viewer"
 
 ###############################
 # Command line utilities      #
 ###############################
 
-brew "jq"
 brew "mas"
-brew "dockutil"
 brew "thefuck"
 brew "fpp"
 
@@ -161,8 +109,6 @@ brew "micro"
 cask "alt-tab"
 cask "rectangle"
 cask "raycast"
-cask "hyperkey"
-cask "eqmac"
 cask "phoenix"
 
 ###############################
@@ -181,7 +127,6 @@ cask "vlc"
 cask "spotify"
 cask "pocket-casts"
 cask "adobe-acrobat-reader"
-cask "obs"
 cask "qnapi"
 
 ###############################
@@ -191,12 +136,6 @@ cask "qnapi"
 cask "whatsapp"
 cask "messenger"
 cask "slack"
-
-###############################
-#  Drivers                    #
-###############################
-
-# cask "homebrew/cask-drivers/logitech-options"
 
 ###############################
 #  Fonts                      #
@@ -220,4 +159,3 @@ cask "homebrew/cask-fonts/font-open-sans"
 
 mas "Microsoft OneNote", id: 784801555
 mas "Amphetamine", id: 937984704
-mas "Disk Speed Test", id: 425264550
