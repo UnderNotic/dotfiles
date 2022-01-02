@@ -26,7 +26,7 @@ then
 	echo ''
 	cd $HOME/.dotfiles && echo "switched to .dotfiles dir..."
 	echo ''
-	echo "Checking out master branch..." && git checkout macos
+	echo "Checking out macos branch..." && git checkout macos
 	echo ''
 	echo "Now configuring symlinks..." && $HOME/.dotfiles/script/bootstrap
 	echo "Now installing..." && $HOME/.dotfiles/script/install
