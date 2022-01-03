@@ -5,5 +5,5 @@ echo 'Configuring kitty'
 echo ''
 
 mkdir -p ~/.config/kitty/
-cp ./mc/ini ~/.config/kitty/
+cp ./kitty/kitty.conf ~/.config/kitty/kitty.conf
 sudo chmod 777 ~/.config/kitty/
