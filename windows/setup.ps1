@@ -22,3 +22,6 @@ iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercon
 
 # windows store install
 iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/UnderNotic/dotfiles/windows-wsl/windows/winget/install.ps1'))
+
+# node packages install
+iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/UnderNotic/dotfiles/windows-wsl/windows/node/install.ps1'))
