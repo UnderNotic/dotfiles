@@ -78,7 +78,7 @@ defaults write NSGlobalDomain NSAutomaticQuoteSubstitutionEnabled -bool false
 defaults write NSGlobalDomain NSAutomaticDashSubstitutionEnabled -bool false
 
 # Set function keys to work as function keys without fn key pressed
-defaults write -g com.apple.keyboard.fnState -boolean true
+defaults write -g com.apple.keyboard.fnState true
 
 # Set a blazingly fast keyboard repeat rate
 defaults write NSGlobalDomain KeyRepeat -int 1
