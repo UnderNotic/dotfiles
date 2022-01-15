@@ -72,6 +72,7 @@ choco install onenote -y
 choco install sharex -y
 choco install ditto -y
 choco install agentransack -y
+choco install powertoys -y
 
 ###############################
 #  Media                      #

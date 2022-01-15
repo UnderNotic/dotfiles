@@ -29,9 +29,12 @@
     {
         "defaults":
         {
-            "fontFace": "MesloLGS NF",
             "closeOnExit": "always",
-            "colorScheme": "Ambience"
+            "colorScheme": "Ambience",
+            "font": 
+            {
+                "face": "JetBrainsMono NF"
+            }
         },
         "list":
         [
