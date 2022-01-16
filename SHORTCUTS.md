@@ -12,9 +12,10 @@
 * `CMD + \`` &nbsp; open terminal
 * `CMD + §` &nbsp; clipboard
 * `CMD + down arrow` &nbsp; open file
+* `CMD + backspace`  &nbsp; delete file
 
 ## Kitty shortcuts
-* `CMD + ENTER` &nbsp; new_window 🍎
+* `CMD + ENTER` &nbsp; new_window
 * `CMD + 1/2` &nbsp; open window 1 or 2
 * `CMD + T` &nbsp; new tab
 * `CMD + W` &nbsp; close tab
