@@ -17,7 +17,11 @@
 
 - `CTRL + SHIFT + UP/DOWN` &nbsp; go up/down line
 - `SHIFT + UP/DOWN` &nbsp; go up/down a page
-- `CTRL + SHIFT + E` &nbsp; split vertically
+- `CTRL + SHIFT + W` &nbsp; new terminal tab
+- `CTRL + SHIFT + SPACE` &nbsp; new terminal tab of given type (wsl, powershell, cmd)
+- `CTRL + ALT + +` &nbsp; split vertically
+- `CTRL + ALT + -` &nbsp; split horizontally
+- `CTRL + TAB` &nbsp; switch terminal tab
 - `CTRL + D` &nbsp; exit terminal
 - `CTRL + X` &nbsp; toggle terminal fullscreen
 - `CTRL + L` &nbsp; clean terminal
