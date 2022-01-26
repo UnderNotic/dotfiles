@@ -107,6 +107,7 @@ choco install gimp -y
 ###############################
 
 choco install fzf -y
+choco install ripgrep -y
 
 ###############################
 #  Monitoring                 #
