@@ -15,19 +15,22 @@
 
 ## Terminal
 
+- `WIN + tilde` &nbsp; Summon Quake mode
 - `CTRL + SHIFT + UP/DOWN` &nbsp; go up/down line
 - `SHIFT + UP/DOWN` &nbsp; go up/down a page
-- `CTRL + SHIFT + W` &nbsp; new terminal tab
 - `CTRL + SHIFT + SPACE` &nbsp; new terminal tab of given type (wsl, powershell, cmd)
-- `CTRL + ALT + +` &nbsp; split vertically
-- `CTRL + ALT + -` &nbsp; split horizontally
+- `CTRL + SHIFT + T` &nbsp; new terminal tab
+- `CTRL + SHIFT + W` &nbsp; exit terminal tab/panel
+- `ALT + SHIFT + +` &nbsp; split vertically
+- `ALT + SHIFT + -` &nbsp; split horizontally
+- `ALT + ARROW`  &nbsp; move focus to panel
 - `CTRL + TAB` &nbsp; switch terminal tab
-- `CTRL + D` &nbsp; exit terminal
-- `CTRL + X` &nbsp; toggle terminal fullscreen
+- `F11` / `ALT + ENTER` &nbsp; toggle terminal fullscreen
 - `CTRL + L` &nbsp; clean terminal
 - `CTRL + W` &nbsp; clean typed backwards
-- `CTRL + K` &nbsp; clean typed forward
-- `CTRL + U` &nbsp; clean typed
+- `CTRL + C` &nbsp; clean typed
+- `CTRL + SHIFT + F` &nbsp; find text
+- `CTRL + SHIFT + P` &nbsp; Open command palette
 
 ## MC
 
@@ -139,20 +142,20 @@
 
 ## WINDOWS
 
-- `windows + ctrl + d` &nbsp; create new workspace
-- `windows + ctrl + F4` &nbsp; delete current workspace
-- `windows + ctrl + right/left` &nbsp; switch workspace
+- `WIN + ctrl + d` &nbsp; create new workspace
+- `WIN + ctrl + F4` &nbsp; delete current workspace
+- `WIN + ctrl + right/left` &nbsp; switch workspace
 - `wt -d .` &nbsp; open terminal from explorer
 - `shift + alt + d` &nbsp; split terminal
-- `windows + e` &nbsp; open explorer
-- `windows + left/right/up/down` &nbsp; move current window
-- `windows + shift + left/right` &nbsp; move current window to another screen
-- `windows + d` &nbsp; show desktop
-- `windows + w` &nbsp; show widget panel (weather etc.)
-- `windows + z` &nbsp; show snap layout
-- `windows + tab` &nbsp; show global alt-tab
-- `windows + ctrl + d` &nbsp; new virtual desktop
-- `windows + ctrl + f4` &nbsp; delete current virtual desktop
-- `windows + ctrl + left/right` &nbsp; switch between virtual desktops
-- `windows + l` &nbsp; lock
+- `WIN + e` &nbsp; open explorer
+- `WIN + left/right/up/down` &nbsp; move current window
+- `WIN + shift + left/right` &nbsp; move current window to another screen
+- `WIN + d` &nbsp; show desktop
+- `WIN + w` &nbsp; show widget panel (weather etc.)
+- `WIN + z` &nbsp; show snap layout
+- `WIN + tab` &nbsp; show global alt-tab
+- `WIN + ctrl + d` &nbsp; new virtual desktop
+- `WIN + ctrl + f4` &nbsp; delete current virtual desktop
+- `WIN + ctrl + left/right` &nbsp; switch between virtual desktops
+- `WIN + l` &nbsp; lock
 - [other](https://techpp.com/2021/08/20/windows-11-keyboard-shortcuts-the-ultimate-list/)

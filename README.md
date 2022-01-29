@@ -111,6 +111,6 @@ sudo tar xzf WebStorm-*.tar.gz -C /opt/
 
 ## Shortcuts
 
-[See here](https://github.com/UnderNotic/dotfiles/blob/windows-wsl/CHEATSHEET.md)
+[See here](https://github.com/UnderNotic/dotfiles/blob/windows-wsl/SHORTCUTS.md)
 
 ### Inspired from https://github.com/jayharris/dotfiles-windows
