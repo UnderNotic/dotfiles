@@ -6,6 +6,7 @@
 choco install dotnet-sdk -y
 choco install nvm -y
 choco install powershell-core -y
+choco install nugetpackageexplorer -y
 
 ###############################
 #  Networking                 #
@@ -14,6 +15,7 @@ choco install powershell-core -y
 choco install mremoteng -y
 choco install winscp -y
 choco install fiddler -y
+choco install insomnia-rest-api-client -y
 choco install postman -y
 choco install k6 -y
 
@@ -48,6 +50,8 @@ choco install qbittorrent -y
 
 choco install git -y
 choco install sourcetree -y
+choco install github-desktop -y
+choco install repoz -y
 
 ###############################
 #  Crypto                     #
@@ -72,7 +76,8 @@ choco install onenote -y
 choco install sharex -y
 choco install ditto -y
 choco install agentransack -y
-choco install powertoys -y
+# choco install ueli -y
+# choco install powertoys -y
 
 ###############################
 #  Media                      #
@@ -101,6 +106,7 @@ choco install windows10-media-creation-tool -y
 choco install 7zip -y
 choco install audacity -y
 choco install gimp -y
+choco install quicklook -y
 
 ###############################
 #  Command line               #
