@@ -108,6 +108,7 @@ choco install audacity -y
 choco install gimp -y
 choco install quicklook -y
 choco install winmerge -y
+choco install eartrumpet -y
 
 ###############################
 #  Command line               #
