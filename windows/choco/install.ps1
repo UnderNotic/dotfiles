@@ -58,6 +58,7 @@ choco install repoz -y
 ###############################
 
 choco install pgptool -y
+choco install gpg4win -y
 choco install mc -y
 
 ###############################
