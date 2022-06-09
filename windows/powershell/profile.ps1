@@ -50,7 +50,7 @@ function ....(){
 }
 
 function ws(){
-    cd mkdir $HOME\workspace
+    cd $HOME\workspace
 }
 
 function xd(){
