@@ -49,6 +49,10 @@ function ....(){
     cd ..
 }
 
+function ws(){
+    cd mkdir $HOME\workspace
+}
+
 function xd(){
     explorer $args
 }
