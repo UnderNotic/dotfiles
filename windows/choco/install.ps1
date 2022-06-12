@@ -125,6 +125,7 @@ choco install ripgrep -y
 
 choco install bluescreenview -y
 choco install procexp -y
+choco install sysinternals -y
 choco install hwmonitor -y
 choco install ccleaner.portable -y
 
