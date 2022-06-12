@@ -107,10 +107,10 @@ choco install windows10-media-creation-tool -y
 choco install 7zip -y
 choco install audacity -y
 choco install gimp -y
-choco install quicklook -y
 choco install winmerge -y
 choco install eartrumpet -y
 choco install telegram.install -y
+choco install dontsleep -y
 
 ###############################
 #  Command line               #
