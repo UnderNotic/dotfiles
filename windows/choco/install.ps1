@@ -111,6 +111,7 @@ choco install winmerge -y
 choco install eartrumpet -y
 choco install telegram.install -y
 choco install dontsleep -y
+choco install devtoys -y
 
 ###############################
 #  Command line               #
