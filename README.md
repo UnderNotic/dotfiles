@@ -4,6 +4,9 @@
 
 ## WSL Setup
 
+Best way is to install wsl via windows store
+
+Alternative solution:
 In windows powershell (admin rights)
 
 ```powershell
@@ -71,6 +74,7 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/undernotic/dotfiles/wind
 ```
 
 Add `"startingDirectory": "."` to each profile in list, for example:
+
 ```json
 {
   "commandline": "powershell.exe",
@@ -80,6 +84,7 @@ Add `"startingDirectory": "."` to each profile in list, for example:
   "name": "Windows PowerShell"
 }
 ```
+
 This way using `wt` in explorer location bar will open terminal in current dir.
 
 ## Optional
