@@ -27,6 +27,7 @@ choco install vscode -y
 choco install jetbrainstoolbox -y
 choco install linqpad -y
 choco install notepadplusplus -y
+choco install lite-xl -y
 
 ###############################
 #  Databases                  #
