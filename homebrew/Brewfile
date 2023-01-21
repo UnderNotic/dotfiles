@@ -157,8 +157,6 @@ cask "alt-tab"
 cask "rectangle"
 cask "raycast"
 cask "hyperkey"
-cask "eqmac"
-cask "phoenix"
 cask "bitwarden"
 
 ###############################
