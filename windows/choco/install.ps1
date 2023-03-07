@@ -27,7 +27,6 @@ choco install vscode -y
 choco install jetbrainstoolbox -y
 choco install linqpad -y
 choco install notepadplusplus -y
-choco install lite-xl -y
 
 ###############################
 #  Databases                  #
@@ -112,7 +111,7 @@ choco install winmerge -y
 # choco install eartrumpet -y
 choco install telegram.install -y
 choco install dontsleep -y
-choco install devtoys -y
+# choco install devtoys -y
 
 ###############################
 #  Command line               #
