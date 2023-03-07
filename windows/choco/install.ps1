@@ -77,7 +77,7 @@ choco install onenote -y
 choco install sharex -y
 choco install ditto -y
 choco install agentransack -y
-# choco install ueli -y
+choco install ueli -y
 # choco install powertoys -y
 
 ###############################
@@ -108,10 +108,8 @@ choco install 7zip -y
 choco install audacity -y
 choco install gimp -y
 choco install winmerge -y
-# choco install eartrumpet -y
 choco install telegram.install -y
 choco install dontsleep -y
-# choco install devtoys -y
 
 ###############################
 #  Command line               #
