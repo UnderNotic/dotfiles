@@ -211,5 +211,4 @@ mas "Disk Speed Test", id: 425264550
 ###############################
 #  Drivers                    #
 ###############################
-
-# cask "homebrew/cask-drivers/logitech-options"
+cask "logi-options-plus"
