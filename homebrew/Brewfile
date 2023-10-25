@@ -179,6 +179,12 @@ cask "obs"
 cask "qnapi"
 
 ###############################
+#  Drivers                    #
+###############################
+
+cask "linearmouse"
+
+###############################
 #  Communication              #
 ###############################
 
@@ -208,7 +214,4 @@ mas "Microsoft OneNote", id: 784801555
 mas "Amphetamine", id: 937984704
 mas "Disk Speed Test", id: 425264550
 
-###############################
-#  Drivers                    #
-###############################
-cask "logi-options-plus"
+
