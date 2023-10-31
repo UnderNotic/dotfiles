@@ -34,7 +34,7 @@ choco install notepadplusplus -y
 
 choco install robo3t -y
 choco install sql-server-management-studio -y
-choco install azure-data-studio -y
+# choco install azure-data-studio -y
 
 ###############################
 #  Browsing                   #
@@ -51,7 +51,7 @@ choco install qbittorrent -y
 choco install git -y
 choco install sourcetree -y
 choco install github-desktop -y
-choco install repoz -y
+# choco install repoz -y
 
 ###############################
 #  Crypto                     #
@@ -66,19 +66,17 @@ choco install mc -y
 ###############################
 
 choco install azure-cli -y
-choco install azure-functions-core-tools-3 -y
+# choco install azure-functions-core-tools-3 -y
 choco install docker-desktop -y
 
 ###############################
 #  Productivity               #
 ###############################
 
-choco install onenote -y
 choco install sharex -y
 choco install ditto -y
 choco install agentransack -y
-choco install ueli -y
-# choco install powertoys -y
+choco install powertoys -y
 
 ###############################
 #  Media                      #
@@ -93,23 +91,21 @@ choco install kindle -y
 choco install slack -y
 choco install obs-studio -y
 choco install qnapi -y
-choco install libreoffice-fresh -y
+# choco install libreoffice-fresh -y
 
 ###############################
 #  Utilities             #
 ###############################
 
 choco install wiztree -y
-choco install partitionwizard -y
+# choco install partitionwizard -y
 choco install etcher -y
 choco install rufus -y
-choco install windows10-media-creation-tool -y
 choco install 7zip -y
 choco install audacity -y
 choco install gimp -y
 choco install winmerge -y
 choco install telegram.install -y
-choco install dontsleep -y
 
 ###############################
 #  Command line               #
@@ -126,7 +122,6 @@ choco install bluescreenview -y
 choco install procexp -y
 choco install sysinternals -y
 choco install hwmonitor -y
-choco install ccleaner.portable -y
 
 ###############################
 #  Drivers                    #

@@ -36,7 +36,7 @@ echo "Now installing k9s..."
 echo ''
 brew install k9s
 
-# k9s install
+# kubectx install
 echo ''
 echo "Now installing kubectx..."
 echo ''
