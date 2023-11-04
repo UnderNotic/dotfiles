@@ -158,7 +158,6 @@ cask "rectangle"
 cask "raycast"
 cask "hyperkey"
 cask "bitwarden"
-cask "mucommander"
 
 ###############################
 #  BROWSING                   #
