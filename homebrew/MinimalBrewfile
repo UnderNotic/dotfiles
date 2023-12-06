@@ -158,3 +158,5 @@ cask "homebrew/cask-fonts/font-inter"
 
 mas "Microsoft OneNote", id: 784801555
 mas "Amphetamine", id: 937984704
+mas "Dropover" 1355679052
+mas "Tailscale" 1475387142  
