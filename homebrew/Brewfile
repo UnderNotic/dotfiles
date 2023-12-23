@@ -75,7 +75,6 @@ cask "gpg-suite"
 brew "awscli"
 brew "aws-shell"
 brew "azure-cli"
-brew "azure/functions/azure-functions-core-tools@3"
 cask "docker"
 brew "lazydocker"
 brew "ctop"
@@ -87,7 +86,6 @@ brew "ctop"
 brew "kubernetes-cli"
 brew "kubectx"
 brew "kubetail"
-brew "openshdefaults write .GlobalPreferences com.apple.mouse.scaling -1-cli"
 brew "k9s"
 brew "minikube"
 brew "helm"
@@ -158,7 +156,6 @@ cask "rectangle"
 cask "raycast"
 cask "hyperkey"
 cask "bitwarden"
-cask "mucommander"
 
 ###############################
 #  BROWSING                   #
@@ -213,7 +210,6 @@ cask "homebrew/cask-fonts/font-inter"
 ###############################
 
 mas "Microsoft OneNote", id: 784801555
-mas "Amphetamine", id: 937984704
 mas "Dropover" 1355679052
 mas "Tailscale" 1475387142  
 mas "Disk Speed Test", id: 425264550
