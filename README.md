@@ -1,17 +1,17 @@
 # Linux
 
-# installation
+# Installation
 
 ``` bash
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/undernotic/dotfiles/master/configure.sh)"
 ```
 
-# shortcuts
+# Shortcuts
 
 [See here](https://github.com/UnderNotic/dotfiles/blob/master/CHEATSHEET.md)
 
 
-# holman does dotfiles
+# Holman does dotfiles
 
 Your dotfiles are how you personalize your system. These are mine.
 
