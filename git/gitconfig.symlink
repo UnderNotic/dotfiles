@@ -23,6 +23,7 @@
 	    autocrlf = input
 	    symlinks = true
     	eol = lf
+	excludesfile = /Users/undernotic/.gitignore_global
 [diff]
     tool = default-difftool
     
