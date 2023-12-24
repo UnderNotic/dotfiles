@@ -18,5 +18,5 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/undernotic/dotfiles/maco
 - set clipboard history in raycast to `alt+§`
 - disable siri
 - set capslock as `hyperkey`
-- change default browser to edge -> system preferences -> general
-- add microsoft account do internet accounts (notes) `piotrszym.ura@outlook.com`
+- change default browser to edge -> system settings -> default browser
+- add microsoft account to internet accounts (to have access to onenote via notes) `piotrszym.ura@outlook.com`
