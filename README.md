@@ -1,12 +1,12 @@
-# Deprecated - sync with windows-wsl/macos branch needed
+# Linux
 
-# Installation
+# installation
 
 ``` bash
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/undernotic/dotfiles/master/configure.sh)"
 ```
 
-# Shortcuts
+# shortcuts
 
 [See here](https://github.com/UnderNotic/dotfiles/blob/master/CHEATSHEET.md)
 
