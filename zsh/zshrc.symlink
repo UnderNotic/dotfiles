@@ -33,11 +33,10 @@ done
 
 unset config_files
 
-plugins=(node httpie fasd zsh-completions zsh-autosuggestions zsh-syntax-highlighting docker kubectl)
+plugins=(node httpie zsh-completions zsh-autosuggestions zsh-syntax-highlighting docker kubectl fzf)
 
 ZSH_THEME="powerlevel10k/powerlevel10k"
 source $ZSH/oh-my-zsh.sh
-alias o='a -e open' # for fasd
 
 source $DOTFILES/system/aliases.sh
 
@@ -46,18 +45,14 @@ export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
 export FZF_CTRL_T_OPTS="--preview 'bat --color \"always\" {}' --height 60%"
 export FZF_ALT_C_COMMAND='fd -t d --hidden --follow --exclude .git'
 export FZF_ALT_C_OPTS="--preview 'tree -L 2 -x --noreport --dirsfirst {}' --height 40%"
-export FZF_DEFAULT_OPTS="--bind='ctrl-e:execute(code {})+abort' --bind='ctrl-o:execute(xdg-open {} 2>&1 > /dev/null)+abort'"
+export FZF_DEFAULT_OPTS="--bind='ctrl-e:execute(code {})+abort' --bind='ctrl-o:execute(open {} 2>&1 > /dev/null)+abort'"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-
-if ps $PPID |grep -q mc; then
-    _fasd_preexec () {
-        fasd --proc "$(fasd --sanitize "$1")"
-    }
-fi
 
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+eval "$(zoxide init zsh)"

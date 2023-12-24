@@ -6,7 +6,6 @@ echo ''
 sudo apt autoremove -y
 sudo apt autoclean -y
 
-
 echo ''
 echo 'Cleaning old snapd packages'
 echo ''

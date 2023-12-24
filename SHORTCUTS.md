@@ -3,13 +3,10 @@
 ## MacOS
 * `CMD + M` &nbsp; minimize 
 * `CTRL + OPTION + ENTER` &nbsp; maximize
-* `CTRL + OPTION + arrows` &nbsp; move window 
+* `CTRL + OPTION + arrows` &nbsp; move window
 * `CTRL + CMD + f` &nbsp; fullscreen
 * `CMD + Q` &nbsp; quit
 * `CMD + W` &nbsp; close tab
-* `CMD + §2` &nbsp; focus on top menu
-* `CMD + O` &nbsp; open in finder
-* `CMD + \`` &nbsp; open terminal
 * `CMD + §` &nbsp; clipboard
 * `CMD + down arrow` &nbsp; open file
 * `CMD + backspace`  &nbsp; delete file
@@ -20,33 +17,28 @@
 * `CMD + T` &nbsp; new tab
 * `CMD + W` &nbsp; close tab
 * `CTRL + TAB` &nbsp; next tab
-
-## Navigating
-* `ALT + C` &nbsp; cd into dir, which is under current dir (show all dirs)
-* `CTRL + T` &nbsp; paste file name into cli, which is under current dir (show all files)
-* `CTRL + G` &nbsp; paste dir into cli from fasd list
-* `CTRL + E` &nbsp; paste file name into cli from fasd list
-* `CTRL + E within fzf list`&nbsp; open file/dir in code from fzf list in code
-* `CTRL + O  within fzf list` &nbsp; open file/dir with xdg-open from fzf list in code
-* `CTRL + R` &nbsp; use command from past
-* `z` &nbsp; navigate using z
-* `e` &nbsp; open file in code using z
-* `o` &nbsp; open file/dir in xdg-open using z
-
-## Terminal
 * `CTRL + SHIFT + UP/DOWN` &nbsp; go up/down line
-* `SHIFT + UP/DOWN` &nbsp; go up/down a page
-* `CTRL + SHIFT + E` &nbsp; split vertically
+* `CMD + UP/DOWN` &nbsp; go up/down line
+* `FN + CTRL + SHIFT + UP/DOWN` &nbsp; go up/down page
+* `FN + CMD + UP/DOWN` &nbsp; go up/down page
 * `CTRL + D` &nbsp; exit terminal
-* `CTRL + X` &nbsp; toggle terminal fullscreen
 * `CTRL + L` &nbsp; clean terminal
 * `CTRL + W` &nbsp; clean typed backwards
 * `CTRL + K` &nbsp; clean typed forward
 * `CTRL + U` &nbsp; clean typed
 
+## Navigating
+* `OPTION + C` &nbsp; cd into dir, which is under current dir (show all dirs)
+* `CTRL + T` &nbsp; paste file name into cli, which is under current dir (show all files)
+* `CTRL + E within fzf list`&nbsp; open file/dir in code from fzf list in code
+* `CTRL + O  within fzf list` &nbsp; open file/dir with open from fzf list in code
+* `CTRL + R` &nbsp; use command from past
+* `z` &nbsp; navigate using z
+* `zi` &nbsp; navigate using z with fzf
+
+
 ## MC
 * https://klimer.eu/2015/05/01/use-midnight-commander-like-a-pro/
-* `Ctrl + f` &nbsp; open/close MC
 * `ALT + S` &nbsp; find by string in current dir
 * `CTRL + T` &nbsp; select item
 * \* &nbsp; reverse selection. If nothing was selected, all files will get selected.
@@ -56,18 +48,6 @@
 * `Alt + ?` &nbsp; shows the full Find dialog.
 * `Ctrl + x s` &nbsp; (that is press Ctrl + x, let it go and then press s) - create a symbolic link (change s to l for a hardlink). I find it very useful and intuitive - the link will, of course, be created in the other panel. You can change it’s destination and name, like with any other file operation.
 * `Alt + Shift + h` &nbsp; show the directory history. Might be easier to navigate than going back one entry at a time.
-
-## LF 
-* `space` &nbsp; toggle select
-* `v` &nbsp; invert select
-* `y` &nbsp; copy selected
-* `d` &nbsp; cut selected
-* `p` &nbsp; paste selected
-* `i` &nbsp; preview
-* `f` &nbsp; fzf go to selected file, which is under current dir
-* `c` &nbsp; fzf go to selected dir, which is under current dir
-* `z` &nbsp; use z
-* `gh` &nbsp; go to home dir
 
 ## GIT
 * `lazygit` &nbsp; git cli gui
@@ -100,10 +80,9 @@
 * `extract` &nbsp; extract all-in-one function
 
 ## Utils tools
-* `xd` &nbsp; open with xdg-open, can open dirs with nemo
+* `open` &nbsp; macos open
 * `fzf` &nbsp; text finder
 * `htop` &nbsp; process util
-* `bmon` &nbsp; network util
 * `fkill` &nbsp; kill processes taking port (ie. :8080)
 * `fpp (fp)` &nbsp; file picker (git status | fp or search {my_string} | fp)
 * `tldr` &nbsp; better man
@@ -112,17 +91,14 @@
 * `regexgen [strings]` &nbsp; generate regex from given strings
 * `nvm` &nbsp; node version manager
 * `http` &nbsp; http (httpie) utils
-* `glances` &nbsp; more advanced process util
 * `df` &nbsp; show free disk space
 * `clean-packages` &nbsp; clean not used, old packages
 * `http-server` &nbsp; static files web server
-* `clibboard (cb)` &nbsp; use cliboard in cli
 * `ncdu` &nbsp; disk space usage tool
 * `jq` &nbsp; json traverser
 * `fd` &nbsp; better find
 * `rg` &nbsp; regex utils
-* `artillery` &nbsp; network performance testing tool
-* `vegeta` &nbsp; network performance testing tool
+* `k6` &nbsp; performance testing tool
 * `ripgrep (rg)` &nbsp; ripgrep recursively searches directories files content
 * `mkcert` &nbsp; generates CA and then certficates signed by it
 

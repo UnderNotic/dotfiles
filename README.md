@@ -8,7 +8,7 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/undernotic/dotfiles/maco
 
 # Shortcuts
 
-[See here](https://github.com/UnderNotic/dotfiles/blob/master/CHEATSHEET.md)
+[See here](https://github.com/UnderNotic/dotfiles/blob/macos/SHORTCUTS.md)
 
 # Manual actions
 
