@@ -243,11 +243,3 @@ git config --global core.excludesfile ~/.gitignore_global
 
 # DANGERZONE: Disable Gatekeeper permanently to allow opening apps from unidentified developers 
 sudo defaults write /Library/Preferences/com.apple.security GKAutoRearm -bool NO
-
-###############################################################################
-# Kill affected applications                                                  #
-###############################################################################
-
-for app in "Address Book" "Calendar" "Contacts" "Dock" "Finder" "Mail" "Safari" "SystemUIServer" "iCal"; do
-  killall "${app}" &> /dev/null
-done
