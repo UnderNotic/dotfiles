@@ -16,6 +16,7 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/undernotic/dotfiles/maco
 - change alttab extension shortcut to alt-tab :)
 - disable spotlight and change raycast to spotlight shortcut
 - set clipboard history in raycast to `alt+§`
+- run rectangle, dropover to start them on startup
 - disable siri
 - change default browser to edge -> system settings -> default browser
 - add microsoft account to internet accounts (to have access to onenote via notes) `piotrszym.ura@outlook.com`
