@@ -10,6 +10,7 @@
 * `CMD + §` &nbsp; clipboard
 * `CMD + down arrow` &nbsp; open file
 * `CMD + backspace`  &nbsp; delete file
+* `CTRL + arrows` &nbsp; move between spaces
 
 ## Kitty shortcuts
 * `CMD + ENTER` &nbsp; new_window

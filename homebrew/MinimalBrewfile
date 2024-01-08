@@ -140,12 +140,19 @@ cask "obs"
 cask "qnapi"
 
 ###############################
+#  Drivers                    #
+###############################
+
+cask "linearmouse"
+
+###############################
 #  Communication              #
 ###############################
 
 cask "whatsapp"
 cask "messenger"
 cask "slack"
+cask "discord"
 
 ###############################
 #  Fonts                      #
