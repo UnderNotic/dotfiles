@@ -155,6 +155,7 @@ cask "rectangle"
 cask "raycast"
 cask "hyperkey"
 cask "bitwarden"
+cask "the-unarchiver"
 
 ###############################
 #  BROWSING                   #
