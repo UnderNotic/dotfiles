@@ -65,8 +65,8 @@ brew "diff-so-fancy"
 ###############################
 
 cask "tor-browser"
-brew "gnupg"
 cask "gpg-suite"
+# brew "algertc/kleopatra4mac/kleopatra"
 
 ###############################
 #  Cloud                      #
@@ -154,7 +154,7 @@ cask "alt-tab"
 cask "rectangle"
 cask "raycast"
 cask "hyperkey"
-cask "bitwarden"
+cask "bitwarden"~
 cask "the-unarchiver"
 
 ###############################
