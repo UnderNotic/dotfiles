@@ -97,6 +97,7 @@ choco install 7zip -y
 choco install gimp -y
 choco install winmerge -y
 choco install telegram -y
+choco install malwarebytes -y
 # choco install partitionwizard -y
 
 ###############################
