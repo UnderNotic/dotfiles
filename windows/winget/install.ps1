@@ -1,4 +1,7 @@
 # possibly move to chocolatey
-winget install "WhatsApp.WhatsApp"
-winget install "Messenger"
-winget install "Microsoft.PowerShell"
+winget install -e --id WhatsApp.WhatsApp
+winget install -e --id Facebook.Messenger
+winget install -e --id Microsoft.PowerShell
+# OneNote
+winget install -e --id XPFFZHVGQWWLHB
+winget install -e --id SomePythonThings.WingetUIStore
