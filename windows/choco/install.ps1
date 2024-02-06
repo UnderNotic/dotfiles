@@ -54,7 +54,6 @@ choco install sourcetree -y
 
 choco install pgptool -y
 choco install gpg4win -y
-choco install mc -y
 
 ###############################
 #  Cloud                      #
@@ -72,8 +71,8 @@ choco install onenote -y
 choco install ditto -y
 choco install agentransack -y
 choco install powertoys -y
+choco install mc -y
 # choco install sharex -y
-
 
 ###############################
 #  Media                      #
@@ -97,7 +96,7 @@ choco install rufus -y
 choco install 7zip -y
 choco install gimp -y
 choco install winmerge -y
-choco install telegram.install -y
+choco install telegram -y
 # choco install partitionwizard -y
 
 ###############################
@@ -121,6 +120,7 @@ choco install hwmonitor -y
 ###############################
 
 choco install logitech-options -y
+choco install jabra-direct -y
 
 ###############################
 #  Fonts                      #
