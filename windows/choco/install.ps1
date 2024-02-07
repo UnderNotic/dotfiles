@@ -85,6 +85,7 @@ choco install discord -y
 choco install adobereader -y
 choco install slack -y
 choco install qnapi -y
+choco install telegram -y
 
 ###############################
 #  Utilities             #
@@ -96,7 +97,6 @@ choco install rufus -y
 choco install 7zip -y
 choco install gimp -y
 choco install winmerge -y
-choco install telegram -y
 # choco install avirafreeantivirus -y
 # choco install partitionwizard -y
 
