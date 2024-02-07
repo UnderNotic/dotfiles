@@ -4,9 +4,6 @@
 
 ## WSL Setup
 
-Best way is to install wsl via windows store
-
-Alternative solution:
 In windows powershell (admin rights)
 
 ```powershell
