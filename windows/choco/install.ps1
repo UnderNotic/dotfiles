@@ -36,7 +36,7 @@ choco install notepadplusplus -y
 ###############################
 
 choco install tor-browser -y
-choco install transmission -y
+choco install qbittorrent -y
 choco install googlechrome -y
 
 ###############################
