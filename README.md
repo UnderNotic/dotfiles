@@ -14,12 +14,16 @@ https://docs.microsoft.com/en-us/windows/wsl/tutorials/gui-apps
 
 ## Chocolatey apps and basic setup
 
-In windows powershell (admin rights)
+Install powershell core from windows store
+
+In windows powershell core (admin rights)
 
 ```powershell
 Set-ExecutionPolicy AllSigned
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
 ```
+
+In windows powershell core (admin rights)
 
 ```powershell
 iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/UnderNotic/dotfiles/windows-wsl/windows/setup.ps1'))
