@@ -122,7 +122,7 @@ choco install hwmonitor -y
 #  Drivers                    #
 ###############################
 
-choco install logitech-options -y
+choco install logioptionsplus -y
 choco install jabra-direct -y
 
 ###############################
