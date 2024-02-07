@@ -127,5 +127,5 @@ choco install jabra-direct -y
 #  Fonts                      #
 ###############################
 
-choco install jetbrainsmononf -y
+choco install nerd-fonts-jetbrainsmono -y
 choco install firacodenf -y
