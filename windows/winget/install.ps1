@@ -8,6 +8,7 @@ winget install -e --id SomePythonThings.WingetUIStore
 #  Command line               #
 ###############################
 
+winget install JanDeDobbeleer.OhMyPosh -s winget
 winget install -e --id lsd-rs.lsd
 
 ###############################

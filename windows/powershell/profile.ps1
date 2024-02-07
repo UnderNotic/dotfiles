@@ -67,7 +67,7 @@ Import-Module PSFzf
 Import-Module posh-git
 Import-Module oh-my-posh
 Import-Module ZLocation;
-Set-PoshPrompt -Theme pure
+oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH\pure.omp.json" | Invoke-Expression
 
 Set-PsFzfOption -PSReadlineChordProvider 'Ctrl+t' -PSReadlineChordReverseHistory 'Ctrl+r'
 Set-PSReadLineKeyHandler -Key Tab -ScriptBlock { Invoke-FzfTabCompletion }

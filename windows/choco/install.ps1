@@ -106,6 +106,7 @@ choco install avirafreeantivirus -y
 
 choco install fzf -y
 choco install ripgrep -y
+choco install poshgit -y
 
 ###############################
 #  Monitoring                 #
