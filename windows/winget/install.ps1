@@ -1,10 +1,4 @@
 ###############################
-#  Utilities             #
-###############################
-
-winget install -e --id SomePythonThings.WingetUIStore
-
-###############################
 #  Command line               #
 ###############################
 
@@ -17,6 +11,12 @@ winget install -e --id lsd-rs.lsd
 
 winget install -e --id WhatsApp.WhatsApp
 winget install -e --id Facebook.Messenger
+
+###############################
+#  Utilities             #
+###############################
+
+winget install -e --id SomePythonThings.WingetUIStore
 
 ###############################
 #  Productivity               #
