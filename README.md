@@ -14,7 +14,11 @@ https://docs.microsoft.com/en-us/windows/wsl/tutorials/gui-apps
 
 ## Chocolatey apps and basic setup
 
-Install powershell core from windows store
+Install powershell core (admin rights)
+
+```powershell
+winget install -e --id Microsoft.PowerShell
+```
 
 In windows powershell core (admin rights)
 
