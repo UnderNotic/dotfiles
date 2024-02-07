@@ -37,7 +37,7 @@ choco install notepadplusplus -y
 
 choco install tor-browser -y
 choco install transmission -y
-# choco install googlechrome -y
+choco install googlechrome -y
 
 ###############################
 #  Git                        #
@@ -86,6 +86,7 @@ choco install adobereader -y
 choco install slack -y
 choco install qnapi -y
 choco install telegram -y
+choco install obs-studio -y
 
 ###############################
 #  Utilities             #
