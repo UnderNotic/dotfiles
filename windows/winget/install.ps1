@@ -5,5 +5,5 @@ winget install -e --id Microsoft.PowerShell
 # OneNote
 winget install -e --id XPFFZHVGQWWLHB
 # OneNote Sticky Notes
-winget install -e --id 9NBLGGH4QGHW
-winget install -e --id SomePythonThings.WingetUIStore
+# winget install -e --id 9NBLGGH4QGHW
+# winget install -e --id SomePythonThings.WingetUIStore
