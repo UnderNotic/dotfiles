@@ -97,7 +97,7 @@ choco install rufus -y
 choco install 7zip -y
 choco install gimp -y
 choco install winmerge -y
-# choco install avirafreeantivirus -y
+choco install avirafreeantivirus -y
 # choco install partitionwizard -y
 
 ###############################
