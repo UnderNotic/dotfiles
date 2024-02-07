@@ -1,3 +1,6 @@
+nvm install node
+nvm use node
+
 npm install tldr -g
 npm install pm2 -g
 npm install create-react-app -g
