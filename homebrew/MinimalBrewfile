@@ -119,6 +119,7 @@ cask "alt-tab"
 cask "rectangle"
 cask "raycast"
 cask "bitwarden"
+cask "gimp"
 
 ###############################
 #  BROWSING                   #
