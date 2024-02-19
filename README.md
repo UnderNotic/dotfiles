@@ -24,6 +24,10 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/undernotic/dotfiles/maco
 - set `use f1,f2 as standard function keys`
 - add microsoft account to internet accounts (to have access to onenote via notes) `piotrszym.ura@outlook.com`
 
+## Finder
+
+- Change finder default view to list https://www.youtube.com/watch?v=grHNMBLWsvo
+
 ## Optional
 
 - set capslock as `hyperkey`
