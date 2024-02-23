@@ -100,6 +100,7 @@ choco install gimp -y
 choco install winmerge -y
 choco install tailscale -y
 choco install avirafreeantivirus -y
+choco install freecommander-xe.install -y
 # choco install partitionwizard -y
 
 ###############################
