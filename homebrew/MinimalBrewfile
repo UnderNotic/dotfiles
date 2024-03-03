@@ -121,6 +121,7 @@ cask "rectangle"
 cask "raycast"
 cask "bitwarden"
 cask "gimp"
+cask "hiddenbar"
 
 ###############################
 #  BROWSING                   #

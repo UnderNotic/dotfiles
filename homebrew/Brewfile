@@ -155,8 +155,10 @@ cask "alt-tab"
 cask "rectangle"
 cask "raycast"
 cask "hyperkey"
-cask "bitwarden"~
+cask "bitwarden"
 cask "the-unarchiver"
+cask "hiddenbar"
+
 
 ###############################
 #  BROWSING                   #
