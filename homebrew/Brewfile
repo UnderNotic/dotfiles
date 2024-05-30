@@ -158,7 +158,7 @@ cask "hyperkey"
 cask "bitwarden"
 cask "the-unarchiver"
 cask "hiddenbar"
-
+cask "hostsx"
 
 ###############################
 #  BROWSING                   #

@@ -122,6 +122,7 @@ cask "raycast"
 cask "bitwarden"
 cask "gimp"
 cask "hiddenbar"
+cask "hostsx"
 
 ###############################
 #  BROWSING                   #
