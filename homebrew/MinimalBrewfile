@@ -123,6 +123,7 @@ cask "bitwarden"
 cask "gimp"
 cask "hiddenbar"
 cask "hostsx"
+cask "omnidisksweeper"
 
 ###############################
 #  BROWSING                   #

@@ -159,6 +159,7 @@ cask "bitwarden"
 cask "the-unarchiver"
 cask "hiddenbar"
 cask "hostsx"
+cask "omnidisksweeper"
 
 ###############################
 #  BROWSING                   #
