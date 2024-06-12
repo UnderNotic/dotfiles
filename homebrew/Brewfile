@@ -185,7 +185,7 @@ cask "qnapi"
 ###############################
 
 cask "linearmouse"
-cask "logitech-options"
+cask "logi-options-plus"
 
 ###############################
 #  Communication              #
