@@ -151,7 +151,8 @@ brew "micro"
 #  System utilities           #
 ###############################
 
-cask "alt-tab"
+# cask "alt-tab"
+cask "contexts"
 cask "rectangle"
 cask "raycast"
 cask "hyperkey"
