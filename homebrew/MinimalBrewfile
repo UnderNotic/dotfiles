@@ -116,8 +116,8 @@ brew "micro"
 #  System utilities           #
 ###############################
 
-# cask "alt-tab"
-cask "contexts"
+cask "alt-tab"
+# cask "contexts"
 cask "rectangle"
 cask "raycast"
 cask "bitwarden"
