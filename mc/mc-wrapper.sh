@@ -1,6 +1,6 @@
 MC_USER=`whoami`
 MC_PWD_FILE="${TMPDIR-/tmp}/mc-$MC_USER/mc.pwd.$$"
-/opt/homebrew/Cellar/midnight-commander/4.8.27/bin/mc -P "$MC_PWD_FILE" "$@"
+/opt/homebrew/Cellar/midnight-commander/4.8.32/bin/mc -P "$MC_PWD_FILE" "$@"
 
 if test -r "$MC_PWD_FILE"; then
 	MC_PWD="`cat "$MC_PWD_FILE"`"

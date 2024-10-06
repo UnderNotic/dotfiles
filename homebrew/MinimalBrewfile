@@ -121,10 +121,12 @@ cask "alt-tab"
 cask "rectangle"
 cask "raycast"
 cask "bitwarden"
+cask "keka"
 cask "gimp"
 cask "hiddenbar"
 cask "hostsx"
 cask "omnidisksweeper"
+cask "marta"
 
 ###############################
 #  BROWSING                   #
@@ -150,7 +152,7 @@ cask "qnapi"
 ###############################
 
 cask "linearmouse"
-cask "logitech-options"
+cask "logitech-options"xq
 
 ###############################
 #  Communication              #

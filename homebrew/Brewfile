@@ -157,10 +157,11 @@ cask "rectangle"
 cask "raycast"
 cask "hyperkey"
 cask "bitwarden"
-cask "the-unarchiver"
+cask "keka"
 cask "hiddenbar"
 cask "hostsx"
 cask "omnidisksweeper"
+cask "marta"
 
 ###############################
 #  BROWSING                   #
