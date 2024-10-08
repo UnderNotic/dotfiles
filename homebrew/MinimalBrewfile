@@ -120,11 +120,13 @@ cask "alt-tab"
 # cask "contexts"
 cask "rectangle"
 cask "raycast"
+caks "shottr"
 cask "bitwarden"
 cask "keka"
 cask "gimp"
 cask "hiddenbar"
 cask "hostsx"
+cask "disk-drill"
 cask "omnidisksweeper"
 cask "marta"
 
@@ -133,6 +135,7 @@ cask "marta"
 ###############################
 
 cask "microsoft-edge"
+cask "google-chrome"
 cask "onedrive"
 cask "transmission"
 
@@ -140,10 +143,9 @@ cask "transmission"
 #  Media                      #
 ###############################
 
-cask "vlc"
+cask "iina"
 cask "spotify"
 cask "pocket-casts"
-cask "adobe-acrobat-reader"
 cask "obs"
 cask "qnapi"
 
@@ -152,7 +154,7 @@ cask "qnapi"
 ###############################
 
 cask "linearmouse"
-cask "logitech-options"xq
+# cask "logi-options+"
 
 ###############################
 #  Communication              #
