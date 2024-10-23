@@ -59,7 +59,7 @@ brew "tree"
 brew "git"
 brew "github-keygen"
 brew "git-quick-stats"
-cask "sourcetree"
+cask "fork"
 brew "diff-so-fancy"
 
 ###############################

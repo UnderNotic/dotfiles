@@ -60,6 +60,7 @@ brew "git"
 brew "github-keygen"
 brew "git-quick-stats"
 brew "diff-so-fancy"
+cask "fork"
 
 ###############################
 #  Cloud                      #
