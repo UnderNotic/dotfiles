@@ -76,9 +76,8 @@ brew "ctop"
 
 cask "dotnet-sdk"
 brew "python3"
-brew "ruby"
-brew "ruby-build"
-
+# brew "ruby"
+# brew "ruby-build"
 
 ###############################
 #  Task monitor               #
@@ -128,7 +127,7 @@ cask "keka"
 cask "gimp"
 cask "hiddenbar"
 cask "hostsx"
-cask "daisydisk"
+cask "disk-drill"
 cask "omnidisksweeper"
 cask "marta"
 

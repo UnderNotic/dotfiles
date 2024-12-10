@@ -98,8 +98,8 @@ brew "helm"
 
 cask "dotnet-sdk"
 brew "python3"
-brew "ruby"
-brew "ruby-build"
+# brew "ruby"
+# brew "ruby-build"
 
 ###############################
 #  Databases                  #
@@ -128,7 +128,6 @@ brew "mtr"
 brew "k6"
 cask "postman"
 cask "nordvpn"
-cask "microsoft-remote-desktop"
 cask "vnc-viewer"
 
 ###############################
@@ -162,7 +161,6 @@ cask "bitwarden"
 cask "keka"
 cask "hiddenbar"
 cask "hostsx"
-cask "daisydisk"
 cask "disk-drill"
 cask "omnidisksweeper"
 cask "marta"
@@ -224,4 +222,4 @@ mas "Microsoft OneNote", id: 784801555
 mas "Dropover", id: 1355679052
 mas "Tailscale", id: 1475387142  
 mas "Disk Speed Test", id: 425264550
-mas "Folder Hub - File browser", id: 2116915533
+# mas "Folder Hub - File browser", id: 2116915533
