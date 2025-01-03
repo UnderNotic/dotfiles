@@ -19,7 +19,6 @@ brew "zsh"
 brew "bash"
 cask "kitty"
 cask "ghostty"
-cask "warp"
 
 ###############################
 #  Power comand line          #
@@ -172,14 +171,15 @@ cask "discord"
 ###############################
 
 # Monospace
-cask "homebrew/cask-fonts/font-jetbrains-mono-nerd-font"
-cask "homebrew/cask-fonts/font-meslo-lg-nerd-font"
-cask "homebrew/cask-fonts/font-fira-code-nerd-font"
+cask "font-jetbrains-mono"
+cask "font-jetbrains-mono-nerd-font"
+cask "font-meslo-lg-nerd-font"
+cask "font-fira-code-nerd-font"
 cask "homebrew/cask-fonts/font-hasklig"
 
 # Sans/Serif
-cask "homebrew/cask-fonts/font-comic-neue"
-cask "homebrew/cask-fonts/font-inter"
+cask "font-comic-neue"
+cask "font-inter"
 
 ###############################
 #  APP STORE                  #
