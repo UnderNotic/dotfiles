@@ -116,7 +116,7 @@ brew "python3"
 ###############################
 
 brew "htop"
-brew "bpytop"
+brew "btop"
 brew "ncdu"
 
 ###############################
