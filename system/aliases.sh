@@ -3,9 +3,8 @@ alias cls='clear'
 
 alias xd='open'
 
-alias l='lsd -A --group-dirs first'
-alias ll='lsd -lA --group-dirs first'
-alias lsa='ls -FGlAhp --group-directories-first' 
+alias l='eza -a --group-directories-first --icons'
+alias ll='eza -la --group-directories-first --icons'
 
 alias ..='cd ../'                           								# Go back 1 directory level
 alias ...='cd ../../'                       								# Go back 2 directory levels
