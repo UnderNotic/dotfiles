@@ -37,6 +37,12 @@
 * `z` &nbsp; navigate using z
 * `zi` &nbsp; navigate using z with fzf
 
+## Yazi
+* `y` &nbsp; open yazi
+* https://yazi-rs.github.io/docs/quick-start/
+* `f` &nbsp; filter
+* `s` &nbsp; search via fd
+* `S` &nbsp; search via rg
 
 ## MC
 * https://klimer.eu/2015/05/01/use-midnight-commander-like-a-pro/
@@ -96,7 +102,6 @@
 * `clean-packages` &nbsp; clean not used, old packages
 * `http-server` &nbsp; static files web server
 * `ncdu` &nbsp; disk space usage tool
-* `jq` &nbsp; json traverser
 * `fd` &nbsp; better find
 * `rg` &nbsp; regex utils
 * `k6` &nbsp; performance testing tool
