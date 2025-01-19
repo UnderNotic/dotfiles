@@ -15,4 +15,4 @@ brew bundle --file=~/.dotfiles/homebrew/MinimalBrewfile
 echo "Updating and upgrading Homebrew..."; echo;
 yes | brew update
 yes | brew upgrade
-yes | brew cu
+yes | brew upgrade --cask

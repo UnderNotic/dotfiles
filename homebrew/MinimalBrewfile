@@ -116,10 +116,9 @@ brew "micro"
 ###############################
 
 cask "alt-tab"
-# cask "contexts"
 cask "rectangle"
 cask "raycast"
-caks "shottr"
+cask "shottr"
 cask "clop"
 cask "hyperkey"
 cask "bitwarden"

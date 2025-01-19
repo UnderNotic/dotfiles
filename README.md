@@ -1,16 +1,20 @@
 # MacOS
 
-# Installation
+## Installation
+
+```bash
+xcode-select -—install
+```
 
 ```bash
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/undernotic/dotfiles/macos/configure.sh)"
 ```
 
-# Shortcuts
+## Shortcuts
 
 [See here](https://github.com/UnderNotic/dotfiles/blob/macos/SHORTCUTS.md)
 
-# Manual actions
+## Manual actions
 
 - sign in with apple id
 - change alttab extension shortcut to alt-tab

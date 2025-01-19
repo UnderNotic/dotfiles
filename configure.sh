@@ -12,11 +12,6 @@ mkdir -p ~/workspace/open_source
 mkdir -p ~/workspace/work
 
 echo ''
-echo "Installing macos command line tools..."
-echo ''
-xcode-select -—install
-
-echo ''
 echo "Installing rosetta..."
 echo ''
 sudo softwareupdate --install-rosetta --agree-to-license
