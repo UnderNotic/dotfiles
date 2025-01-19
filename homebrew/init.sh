@@ -16,3 +16,6 @@ echo "Updating and upgrading Homebrew..."; echo;
 yes | brew update
 yes | brew upgrade
 yes | brew upgrade --cask
+
+echo "Setting PATH to see just installed brew packages"
+export PATH="/opt/homebrew/bin:$PATH"

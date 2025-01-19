@@ -2,9 +2,7 @@ nodemon
 create-react-app
 forever
 pm2
-testcafe
 regexgen
 fkill-cli
 npm
 tldr
-clipboard-cli
