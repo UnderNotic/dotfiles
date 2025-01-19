@@ -57,8 +57,8 @@ brew "tree"
 brew "git"
 brew "github-keygen"
 brew "git-quick-stats"
-brew "diff-so-fancy"
 cask "fork"
+brew "diff-so-fancy"
 
 ###############################
 #  Cloud                      #
@@ -67,6 +67,18 @@ cask "fork"
 cask "docker"
 brew "lazydocker"
 brew "ctop"
+brew "azure-cli"
+
+###############################
+#  Kubernetes                 #
+###############################
+
+brew "kubernetes-cli"
+brew "kubie"
+brew "kubetail"
+brew "k9s"
+brew "minikube"
+brew "helm"
 
 ###############################
 #  Languages                  #
@@ -150,7 +162,6 @@ cask "qnapi"
 ###############################
 
 cask "linearmouse"
-# cask "logi-options+"
 
 ###############################
 #  Communication              #
