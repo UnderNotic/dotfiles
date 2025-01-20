@@ -19,14 +19,29 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/undernotic/dotfiles/maco
 - sign in with apple id
 - change alttab extension shortcut to alt-tab
 - disable spotlight and change raycast to spotlight shortcut
+- hide spotlight from menu bar -> control center -> scroll all the way down -> "Don't show in menu bar"
 - set clipboard history in raycast to `alt+§`
-- run and set rectangle, dropover, linear mouse to start them on startup
+- run and set rectangle, dropover, linear mouse, clop, hiddenbar, onedrive to start them on startup
+- set hyperkey -> `remap physical key to kyper key` and `quick press caps lock to execute`
+- set shottr hotkeys and set ocr to hyperkey + o and activate license
 - disable siri
 - change default browser to edge -> system settings -> default browser
-- disable pointer accelaration and set tracking speed to 0,875 in linear mouse
-- set scrolling by lines in linear mouse
-- set `use f1,f2 as standard function keys`
-- add microsoft account to internet accounts (to have access to onenote via notes) `piotrszym.ura@outlook.com`
+- natural scrolling -> turn off
+- connect mouse
+  - disable pointer accelaration and set tracking speed to 0,875 in linear mouse
+  - set scrolling by lines in linear mouse
+- keyboard shortcuts -> function keys -> set `use f1,f2 as standard function keys`
+- add to finder favourites:
+  - Desktop
+  - Screenshots
+  - Documents
+  - /Users/Undernotic/
+  - /Users/Undernotic/Torrents
+  - /Users/Shared
+  - workspace
+  - tooling (onedrive)
+  - use tags to further organize directories
+- add microsoft account to internet accounts (to have access to onenote via notes) `bambusek7@gmail.com` `piotrszym.ura@outlook.com`
 
 ## Finder
 
