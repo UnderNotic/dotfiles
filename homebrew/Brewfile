@@ -169,7 +169,6 @@ cask "marta"
 
 cask "microsoft-edge"
 cask "google-chrome"
-cask "onedrive"
 cask "transmission"
 
 ###############################
@@ -218,6 +217,7 @@ cask "font-inter"
 ###############################
 
 mas "Microsoft OneNote", id: 784801555
+mas "OneDrive", id: 823766827
 mas "Dropover", id: 1355679052
 mas "Tailscale", id: 1475387142  
 mas "Disk Speed Test", id: 425264550
