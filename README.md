@@ -18,7 +18,7 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/undernotic/dotfiles/maco
 
 - sign in with apple id
 - change alttab extension shortcut to alt-tab
-- disable spotlight and change raycast to spotlight shortcut
+- disable spotlight and change raycast to spotlight shortcut, use rayconfig files to restore configuration
 - hide spotlight from menu bar -> control center -> scroll all the way down -> "Don't show in menu bar"
 - set clipboard history in raycast to `alt+§`
 - run and set rectangle, dropover, linear mouse, clop, hiddenbar, onedrive to start them on startup
