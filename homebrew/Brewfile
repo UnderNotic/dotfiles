@@ -162,6 +162,7 @@ cask "hiddenbar"
 cask "disk-drill"
 cask "omnidisksweeper"
 cask "marta"
+cask "chatgpt"
 
 ###############################
 #  BROWSING                   #
