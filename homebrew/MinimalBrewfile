@@ -157,6 +157,7 @@ cask "spotify"
 cask "pocket-casts"
 cask "obs"
 cask "qnapi"
+cask "ultimate-vocal-remover"
 
 ###############################
 #  Drivers                    #
