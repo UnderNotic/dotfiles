@@ -150,6 +150,7 @@ brew "micro"
 ###############################
 
 cask "alt-tab"
+cask "command-x"
 cask "rectangle"
 cask "raycast"
 cask "shottr"
