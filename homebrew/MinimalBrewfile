@@ -139,6 +139,7 @@ cask "disk-drill"
 cask "omnidisksweeper"
 cask "marta"
 cask "chatgpt"
+cask "localsend"
 
 ###############################
 #  BROWSING                   #
