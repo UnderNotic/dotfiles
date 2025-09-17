@@ -132,7 +132,6 @@ cask "shottr"
 cask "clop"
 cask "hyperkey"
 cask "bitwarden"
-cask "the-unarchiver"
 cask "gimp"
 cask "hiddenbar"
 cask "disk-drill"
@@ -140,6 +139,7 @@ cask "omnidisksweeper"
 cask "marta"
 cask "chatgpt"
 cask "localsend"
+cask "keka"
 
 ###############################
 #  BROWSING                   #
