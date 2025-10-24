@@ -101,6 +101,7 @@ brew "httpie"
 brew "mkcert"
 brew "mtr"
 cask "postman"
+cask "bruno"
 cask "nordvpn"
 
 ###############################

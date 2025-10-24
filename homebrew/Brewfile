@@ -125,6 +125,7 @@ brew "mkcert"
 brew "mtr"
 brew "k6"
 cask "postman"
+cask "bruno"
 cask "nordvpn"
 cask "vnc-viewer"
 
