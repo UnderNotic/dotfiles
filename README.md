@@ -28,7 +28,7 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/undernotic/dotfiles/maco
 - change default browser to edge -> system settings -> default browser
 - natural scrolling -> turn off
 - connect mouse
-  - disable pointer accelaration and set tracking speed to 0,875 in linear mouse
+  - disable pointer accelaration and set tracking speed to 0,875 or 1 in linear mouse
   - set scrolling by lines in linear mouse
 - keyboard shortcuts -> function keys -> set `use f1,f2 as standard function keys`
 - add to finder favourites:
@@ -46,6 +46,13 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/undernotic/dotfiles/maco
 ## Finder
 
 - Change finder default view to list https://www.youtube.com/watch?v=grHNMBLWsvo
+
+## 
+
+- Setup mouse according to
+  - [logi options+ screenshot](https://github.com/UnderNotic/dotfiles/blob/mouse-1.png)
+  - [keyboard shortcuts screenshot](https://github.com/UnderNotic/dotfiles/blob/mouse-2.png)
+  - BetterTouchTool can be used to directly assigning `go to desktop 1` action
 
 ## Optional
 
