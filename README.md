@@ -52,7 +52,7 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/undernotic/dotfiles/maco
 - Setup mouse according to
   - [logi options+ screenshot](https://github.com/UnderNotic/dotfiles/blob/mouse-1.png)
   - [keyboard shortcuts screenshot](https://github.com/UnderNotic/dotfiles/blob/mouse-2.png)
-  - BetterTouchTool can be used to directly assigning `go to desktop 1` action
+  - BetterTouchTool can be used to directly assigning `go to desktop 1` action or in hardmode f13 can used as pass-through key to not sacrifice f6
 
 ## Optional
 
