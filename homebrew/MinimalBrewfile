@@ -166,6 +166,7 @@ cask "ultimate-vocal-remover"
 ###############################
 
 cask "linearmouse"
+cask "logi-options+"
 
 ###############################
 #  Communication              #
