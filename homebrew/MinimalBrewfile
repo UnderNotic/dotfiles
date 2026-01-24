@@ -120,6 +120,7 @@ brew "fpp"
 cask "jetbrains-toolbox"
 cask "visual-studio-code"
 brew "micro"
+cask "zed"
 
 ###############################
 #  System utilities           #
@@ -141,6 +142,7 @@ cask "marta"
 cask "chatgpt"
 cask "localsend"
 cask "keka"
+cask "bloom"
 
 ###############################
 #  BROWSING                   #
