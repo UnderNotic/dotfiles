@@ -168,6 +168,7 @@ cask "chatgpt"
 cask "localsend"
 cask "keka"
 cask "bloom"
+cask "todoist-app"
 
 ###############################
 #  BROWSING                   #
