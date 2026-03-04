@@ -16,6 +16,8 @@ brew "zsh"
 brew "bash"
 cask "kitty"
 cask "ghostty"
+cask "tabby"
+cask "warp"
 
 ###############################
 #  Power comand line          #
@@ -225,8 +227,9 @@ cask "font-inter"
 ###############################
 
 mas "Microsoft OneNote", id: 784801555
+mas "Display My IP", id: 1493408723
 mas "OneDrive", id: 823766827
 mas "Dropover", id: 1355679052
 mas "Tailscale", id: 1475387142  
-mas "Disk Speed Test", id: 425264550
+mas "Blackmagic Disk Speed Test", id: 425264550
 # mas "Folder Hub - File browser", id: 2116915533

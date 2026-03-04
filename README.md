@@ -47,7 +47,7 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/undernotic/dotfiles/maco
 
 - Change finder default view to list https://www.youtube.com/watch?v=grHNMBLWsvo
 
-## 
+## Logi options
 
 - Setup mouse according to
   - [logi options+ screenshot](https://github.com/UnderNotic/dotfiles/blob/macos/mouse-1.png)
