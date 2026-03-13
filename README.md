@@ -45,11 +45,11 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/undernotic/dotfiles/maco
 
 ## Finder
 
-- Change finder default view to list https://www.youtube.com/watch?v=grHNMBLWsvo
+- Change finder default view to list [YouTube tutorial](https://www.youtube.com/watch?v=grHNMBLWsvo)
 
 ## Screenshots
 
-See (SCREENSHOTS.md) for additional mouse and keyboard customization options.
+See [SCREENSHOTS.md](SCREENSHOTS.md) for additional mouse and keyboard customization options.
 
 ## Optional
 
