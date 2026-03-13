@@ -47,13 +47,11 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/undernotic/dotfiles/maco
 
 - Change finder default view to list https://www.youtube.com/watch?v=grHNMBLWsvo
 
-## Logi options
+## Screenshots
 
-- Setup mouse according to
-  - [logi options+ screenshot](https://github.com/UnderNotic/dotfiles/blob/macos/mouse-1.png)
-  - [keyboard shortcuts screenshot](https://github.com/UnderNotic/dotfiles/blob/macos/mouse-2.png)
-  - BetterTouchTool can be used to directly assigning `go to desktop 1` action or in hardmode f13 can used as pass-through key to not sacrifice f6
+See (SCREENSHOTS.md) for additional mouse and keyboard customization options.
 
 ## Optional
 
 - set capslock as `hyperkey`
+- BetterTouchTool can be used to directly assigning `go to desktop 1` action or in hardmode f13 can used as pass-through key to not sacrifice F6
