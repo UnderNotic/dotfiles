@@ -10,8 +10,8 @@
 
 ## Logi options+
 
-[logi options+ screenshot](assets/mx-anywhere-1.png)
+![logi options+ screenshot](assets/mx-anywhere-1.png)
 
 ## Mission control
 
-[Go to desktop 1](assets/citrix-go-to-desktop1.png)
+![Go to desktop 1](assets/citrix-go-to-desktop1.png)
