@@ -1,10 +1,11 @@
 # Screenshots
 
-## Linear mouse scrolling
+## Linear mouse
 
+![linear mouse pointer](assets/linear-mouse-pointer.png)
 ![linear mouse scrolling](assets/linear-mouse-scrolling.png)
 
-## Keychron M4
+## Keychron M4 1200 DPI
 
 ![keychron](assets/keychron.png)
 
